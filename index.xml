@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>精益数字化花园</title>
+      <link>https://shadowfei.github.io/shadowfei-garden</link>
+      <description>Last 10 notes on 精益数字化花园</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>5个为什么（Five Whys）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/5%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/5%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88</guid>
+    <description><![CDATA[ 反复问「为什么」以发现问题的根本原因，而非停留在表面症状 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>A3报告（A3 Report）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/a3%E6%8A%A5%E5%91%8A</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/a3%E6%8A%A5%E5%91%8A</guid>
+    <description><![CDATA[ 丰田开创的标准化方法，将问题、分析、对策和行动计划汇总在一张A3纸上解决问题和进行规划 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Gemba（Gemba）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/gemba</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/gemba</guid>
+    <description><![CDATA[ 现 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>Obeya（War Room）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/obeya</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/obeya</guid>
+    <description><![CDATA[ 作 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>七大浪费（Seven Wastes）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%B8%83%E5%A4%A7%E6%B5%AA%E8%B4%B9</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%B8%83%E5%A4%A7%E6%B5%AA%E8%B4%B9</guid>
+    <description><![CDATA[ 大野耐一对大批量生产中七类典型浪费的归纳 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>价值流经理（Value-Stream Manager）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%BB%B7%E5%80%BC%E6%B5%81%E7%BB%8F%E7%90%86</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%BB%B7%E5%80%BC%E6%B5%81%E7%BB%8F%E7%90%86</guid>
+    <description><![CDATA[ 对某一产品族从原材料到交付客户的完整价值流的绩效与持续改善负责的管理者，通常直接向最高管理层汇报 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>单件流（One-Piece Flow）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8D%95%E4%BB%B6%E6%B5%81</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8D%95%E4%BB%B6%E6%B5%81</guid>
+    <description><![CDATA[ 一次只加工并传递一件产品的生产组织方式，与批量生产相对 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>单元生产（Cell）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8D%95%E5%85%83%E7%94%9F%E4%BA%A7</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8D%95%E5%85%83%E7%94%9F%E4%BA%A7</guid>
+    <description><![CDATA[ 将工序紧邻排列以近乎连续流方式加工的生产布局 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>均衡生产（Heijunka）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%9D%87%E8%A1%A1%E7%94%9F%E4%BA%A7</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%9D%87%E8%A1%A1%E7%94%9F%E4%BA%A7</guid>
+    <description><![CDATA[ 平均分配生产的品种和数量以减少波动的方法 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item><item>
+    <title>安灯（Andon）</title>
+    <link>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%AE%89%E7%81%AF</link>
+    <guid>https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%AE%89%E7%81%AF</guid>
+    <description><![CDATA[ 一种可视化管理工具，能够在出现异常时一目了然地发出信号，显示生产状态或问题 ]]></description>
+    <pubDate>Sun, 05 Jul 2026 16:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
