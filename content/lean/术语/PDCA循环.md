@@ -33,10 +33,36 @@ date: 2026-06-19
 - [[横向展开]]
 
 
-## 📎 配套表单
+## 相关内容
+
+**📖 出自**
+
+《using-hoshin-kanri-to-improve-the-value-stream》　《丰田参与方程式》　《方针管理新书MarkReich双文》　《每日管理三大核心模块》
+
+**📝 综述**
+
+《汽车行业数字化转型案例》
+
+**📰 文章消化**
+
+《PlanetLean-怎样用精益方式落地AI》　《PlanetLean-如何成功部署方针管理》　《PlanetLean-方针管理新书访谈ManagingOnPurpose》　《PlanetLean-方针管理能解决的十个战略规划问题》　《PlanetLean-日常管理与方针管理如何协作》
+
+**🖼 图表**
+
+![[图表/重绘-图03-8步TBP对应PDCA-双语.png]]
+
+*图03 8步TBP对应PDCA · A3 Problem-Solving Process　—　《丰田参与方程式》书 p.86　·　中英双语重绘：费老师*
+
+![[图表/重绘-图02-评估系统汇总-双语.png]]
+
+*图02 评估系统汇总雷达图 · Assessment System Summary（Total / Process Assessment）　—　《欢迎问题收获成功》p.131（物理页 140）　·　中英双语重绘：费老师*
+
+**📎 配套表单**
 
 本词条关联 **FORM-009、FORM-010、FORM-012、FORM-013**，收录于 [[工具/表单库|精益表单库]]。
 
 > 表单为费老师依据经典重制的中文可填写版本，**会员可下载**。
+
+> 🔒 本词条另有 2 篇课件、4 篇案例（含客户现场实录与课件），为**费老师拆书会员**内容。
 
 > 出处：Lean Lexicon, 4th Edition（LEI）· 中文释义由费老师重写
