@@ -1,0 +1,39 @@
+{
+  "name": "@shadowfei/garden-slogan",
+  "version": "1.0.0",
+  "description": "站名下面那行标语，全站显示，文案由 quartz.config.yaml 的 options.text 提供",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    },
+    "./components": {
+      "import": "./dist/components/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "sideEffects": false,
+  "quartz": {
+    "name": "garden-slogan",
+    "displayName": "Garden Slogan",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "text": ""
+    },
+    "components": {
+      "GardenSlogan": {
+        "displayName": "Garden Slogan",
+        "defaultPosition": "beforeBody",
+        "defaultPriority": 4
+      }
+    }
+  }
+}

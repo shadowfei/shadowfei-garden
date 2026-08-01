@@ -1,6 +1,7 @@
 ---
 title: 四个M（Four Ms）
-tags: [精益, 术语, 精益工具, 日常管理, 流程流]
+aliases: ["Four Ms"]
+tags: [日常管理, 流程流]
 description: "人机料法：分析问题和管理变化点的四个基本维度"
 date: 2026-06-19
 ---

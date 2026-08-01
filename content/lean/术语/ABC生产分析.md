@@ -1,6 +1,7 @@
 ---
 title: ABC生产分析（ABC Production Analysis）
-tags: [精益, 术语, 精益工具, 日常管理, 价值流]
+aliases: ["ABC Production Analysis"]
+tags: [日常管理, 价值流]
 description: "按产量把产品分为 ABC 三类，分别采取不同的生产与库存策略"
 date: 2026-06-19
 ---

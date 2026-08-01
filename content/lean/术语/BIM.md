@@ -1,6 +1,7 @@
 ---
 title: BIM（Building Information Modeling）
-tags: [精益, 术语, 数字化, 日常管理, 信息流]
+aliases: ["Building Information Modeling"]
+tags: [日常管理, 信息流]
 description: "建筑全生命周期信息的三维数字模型，与制造业数字孪生同源"
 date: 2026-07-05
 ---

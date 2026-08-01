@@ -1,6 +1,7 @@
 ---
 title: WBS（Work Breakdown Structure）
-tags: [精益, 术语, 数字化, 方针管理, 目标流]
+aliases: ["Work Breakdown Structure"]
+tags: [方针管理, 目标流]
 description: "把项目按可交付成果逐层拆成工作包，粒度逻辑对应标准作业"
 date: 2026-07-06
 ---

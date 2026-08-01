@@ -1,6 +1,7 @@
 ---
 title: LPPD（Lean Product and Process Development）
-tags: [精益, 术语, 精益理念, 方针管理, 价值流]
+aliases: ["Lean Product and Process Development"]
+tags: [方针管理, 价值流]
 description: "精益在产品开发的应用：开发的价值活动是产生知识不是画图"
 date: 2026-07-06
 ---

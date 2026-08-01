@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 精益数字化花园
+  pageTitle: 费老师的精益数字化花园
   pageTitleSuffix: " | shadowfei"
   enableSPA: true
   enablePopovers: true
@@ -13,33 +13,39 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
+    fontOrigin: local
     cdnCaching: true
+    # 注意：v5 起实际字体由 fonts 插件接管（见下方 plugins 段），这里的值只是核心
+    # joinStyles 需要的占位结构，改这里不会生效——改字体请改 fonts 插件的 options。
     typography:
+      title: Noto Sans SC
       header: Noto Sans SC
       body: Noto Sans SC
       code: JetBrains Mono
     colors:
+      # 「莫兰迪花园」：偏绿的灰白纸 + 苔绿主色 + 鼠尾草点缀。
+      # 刻意避开暖奶油底（那是通用做法），底色往绿灰走才有园子的空气感。
+      # gray 用到日期等小字，压到 #6e7669 才够 4.5:1；再浅就不达标了。
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#edefe9" # 纸 · 带绿的灰白
+        lightgray: "#cdd2c7" # 雾绿灰 · 分隔线
+        gray: "#616a5c" # 次要文字（纸面有淡渐变，压到这一档才稳过 4.5:1）
+        darkgray: "#454b44" # 正文
+        dark: "#262b24" # 标题 · 墨绿黑
+        secondary: "#4e6151" # 苔绿 · 链接
+        tertiary: "#93a08a" # 鼠尾草 · hover/图谱
+        highlight: rgba(147, 160, 138, 0.15)
+        textHighlight: "#93a08a55"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1a1d19" # 夜色苔黑
+        lightgray: "#363b34"
+        gray: "#7f877c"
+        darkgray: "#d6dad1"
+        dark: "#ebeee7"
+        secondary: "#a8c0a2" # 夜里的苔绿要提亮才看得清
+        tertiary: "#93a08a"
+        highlight: rgba(147, 160, 138, 0.14)
+        textHighlight: "#93a08a50"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -100,6 +106,14 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
+    options:
+      # 面向国内读者：不走 Google Fonts（墙内加载慢/失败），改用系统中文字体栈。
+      # 中文 webfont 动辄几 MB，系统字体在 Mac/Win/国产手机上都自带且观感原生。
+      useThemeFonts: false
+      fontOrigin: local
+      body: '-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Source Han Sans SC", "Segoe UI", Roboto, sans-serif'
+      header: '-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Source Han Sans SC", "Segoe UI", Roboto, sans-serif'
+      code: 'ui-monospace, "JetBrains Mono", "Cascadia Mono", "Sarasa Mono SC", Consolas, Menlo, monospace'
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -125,21 +139,95 @@ plugins:
     enabled: true
   - source: github:quartz-community/tag-page
     enabled: true
+  # 文件树对访客太重（她的原话：左边的导航栏太复杂）。
+  # 导航改由首页书架 + 顶栏搜索 + 页脚固定链接承担，左栏整个空出来。
   - source: github:quartz-community/explorer
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
+  # 本地手写插件：右栏板块导航（源码在 plugins/garden-nav，
+  # 不能放 .quartz/plugins/ 下——加载器要往那儿建符号链接，会链到自己）
+  - source: ./plugins/garden-nav
+    enabled: true
+    layout:
+      position: right
+      priority: 5
+    options:
+      groups:
+        # 顺序、配色、图标都与首页书架一一对应：
+        # 具体 → 框架 → 图 → 工具 → 案例 → 源头 → 问答
+        - title: 花 园 布 局
+          items:
+            - label: 术语库
+              href: lean/术语/
+              note: 什么时候用 / 怎么落 / 常见坑
+              tint: "#8f9e86"
+              icon: leaf
+            - label: 三柱四流
+              href: 方法/
+              note: 费老师的方法论骨架
+              tint: "#bfa76e"
+              icon: sprouts
+            - label: 模型图
+              href: 图表/
+              note: 原书重绘 · 中英双语
+              tint: "#8d9aa6"
+              icon: fern
+            - label: 表单库
+              href: 工具/
+              note: 可直接填写的表格
+              tint: "#b08d80"
+              icon: wheat
+            - label: 现场案例
+              href: 案例/
+              note: 每则都标了三柱四流位置
+              tint: "#9b8c99"
+              icon: bud
+            - label: 拆书笔记
+              href: 拆书/
+              note: 200 本经典拆书计划
+              tint: "#97996f"
+              icon: leaf
+            - label: 问费老师
+              href: 问答/
+              note: 留言提问 · 免费 · 我一条条回
+              tint: "#8d999c"
+              icon: bud
+        - title: 随 便 逛 逛
+          items:
+            - label: 就从「方针管理」读起
+              href: lean/术语/方针管理
+              note: 年度方针怎么落到班组
+            - label: 加入拆书会
+              href: "#读书会"
+              note: 表单下载 · 直播 · 读书群
+  # 站名下面那行标语，全站显示
+  - source: ./plugins/garden-slogan
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 4
+    options:
+      text: 陪你一起，从听过、看过，变成做过、走过
+  # 花顶棚上盛开的大花朵（遮阳带本身在 custom.scss 的 .page::before）
+  - source: ./plugins/garden-canopy
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 0
+  # 首页没有双链，关系图谱在那儿是个空盒子
   - source: github:quartz-community/graph
     enabled: true
     layout:
       position: right
       priority: 10
+      condition: not-index
   - source: github:quartz-community/search
     enabled: true
     layout:
-      position: left
-      priority: 20
+      position: beforeBody
+      priority: 2
       group: toolbar
       groupOptions:
         grow: true
@@ -148,36 +236,43 @@ plugins:
     layout:
       position: right
       priority: 50
+  # 首页有自己的 hero，再叠一个 H1 + 日期就重复了，只在内页显示
   - source: github:quartz-community/article-title
     enabled: true
     layout:
       position: beforeBody
       priority: 10
+      condition: not-index
+  # 术语页也不显示创建日期——一条术语的价值跟它哪天写的没关系
   - source: github:quartz-community/content-meta
-    enabled: true
-    layout:
-      position: beforeBody
-      priority: 20
-  - source: github:quartz-community/tag-list
     enabled: false
     layout:
       position: beforeBody
-      priority: 30
+      priority: 20
+      condition: not-index
+  # 用干净的标签行代替 note-properties 的 Properties 表格
+  - source: github:quartz-community/tag-list
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 25
+      condition: not-index
+  # 站名 + 搜索 + 主题切换排在 beforeBody 最前面，靠 CSS 拼成一条顶栏
   - source: github:quartz-community/page-title
     enabled: true
     layout:
-      position: left
-      priority: 10
+      position: beforeBody
+      priority: 1
   - source: github:quartz-community/darkmode
     enabled: true
     layout:
-      position: left
-      priority: 30
+      position: beforeBody
+      priority: 3
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: true
+    enabled: false
     layout:
-      position: left
+      position: beforeBody
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
@@ -194,20 +289,25 @@ plugins:
     layout:
       position: afterBody
       priority: 10
+  # 页脚兼作全站固定导航（左栏空了之后，内页靠它 + 面包屑 + 搜索找路）
   - source: github:quartz-community/footer
     enabled: true
     options:
       links:
+        术语库: /lean/术语/
+        表单库: /工具/
+        图解精益: /图表/
         GitHub: https://github.com/shadowfei
         品牌站: https://shadowfei.github.io
+  # 右栏留给板块导航，不放最近笔记（她的原话：不要「最近的笔记」）
   - source: github:quartz-community/recent-notes
-    enabled: true
+    enabled: false
     options:
-      limit: 10
-      showTags: true
+      limit: 6
+      showTags: false
     layout:
-      position: left
-      priority: 55
+      position: right
+      priority: 70
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -220,6 +320,8 @@ plugins:
     enabled: true
     options: {}
     order: 50
+  # 不能整个关掉：它同时是解析 frontmatter 的 transformer，关了标签页会全部消失。
+  # 只把 Properties 表格视图藏起来——那是 Obsidian 的编辑态界面，对读者是噪音。
   - source: github:quartz-community/note-properties
     enabled: true
     options:
@@ -229,7 +331,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
@@ -237,6 +339,7 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+      condition: not-index
   - source: github:quartz-community/unlisted-pages
     enabled: true
     options: {}
@@ -272,15 +375,19 @@ layout:
         left: []
         right: []
     content: {}
+    # 板块页（方法/拆书/案例/问答/图表/术语）都是 folder 类型。
+    # 注意：原来这里把 right 清空过，结果板块导航恰好在最需要它的页面上消失——别再加回来。
+    # 板块页正文自带 H1，再叠一个 article-title 就重复了；日期和 tag 行对板块页也是噪音。
     folder:
       exclude:
         - reader-mode
-      positions:
-        right: []
+        - article-title
+        - content-meta
+        - tag-list
     tag:
       exclude:
         - reader-mode
-      positions:
-        right: []
+        - content-meta
+        - tag-list
     canvas: {}
     bases: {}

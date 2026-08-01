@@ -1,3 +1,9 @@
 node_modules/
 quartz/.plugins/
 public/
+
+# 本地插件的真身在 plugins/garden-nav；.quartz/plugins/garden-nav 只是指向它的
+# 目录联接（junction），换机器要用 Scripts\deploy_garden.ps1 重建，别提交副本。
+.quartz/plugins/garden-nav/
+.quartz/plugins/garden-canopy/
+.quartz/plugins/garden-slogan/

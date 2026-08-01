@@ -1,6 +1,7 @@
 ---
 title: MCP（Model Context Protocol）
-tags: [精益, 术语, 数字化, 日常管理, 信息流]
+aliases: ["Model Context Protocol"]
+tags: [日常管理, 信息流]
 description: "连接大模型与外部工具的开放协议，是铁轨不是火车"
 date: 2026-07-06
 ---

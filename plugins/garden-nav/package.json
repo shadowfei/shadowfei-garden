@@ -1,0 +1,39 @@
+{
+  "name": "@shadowfei/garden-nav",
+  "version": "1.0.0",
+  "description": "花园板块导航：右栏的入口 tab 组，链接由 quartz.config.yaml 的 options.groups 提供",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    },
+    "./components": {
+      "import": "./dist/components/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "sideEffects": false,
+  "quartz": {
+    "name": "garden-nav",
+    "displayName": "Garden Nav",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "groups": []
+    },
+    "components": {
+      "GardenNav": {
+        "displayName": "Garden Nav",
+        "defaultPosition": "right",
+        "defaultPriority": 5
+      }
+    }
+  }
+}

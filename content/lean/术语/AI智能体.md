@@ -1,6 +1,7 @@
 ---
 title: AI智能体（AI Agent）
-tags: [精益, 术语, 数字化, 日常管理, 信息流]
+aliases: ["AI Agent"]
+tags: [日常管理, 信息流]
 description: "能观察-决策-执行-兜底的 AI 系统，头号用途是消灭转椅工作"
 date: 2026-07-06
 ---

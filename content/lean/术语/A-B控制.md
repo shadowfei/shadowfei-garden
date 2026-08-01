@@ -1,6 +1,7 @@
 ---
 title: A-B控制（A-B Control）
-tags: [精益, 术语, 精益工具, 日常管理, 流程流]
+aliases: ["A-B Control"]
+tags: [日常管理, 流程流]
 description: "两台设备与中间库存互相制约的联动控制，防止任一侧过量生产"
 date: 2026-06-19
 ---

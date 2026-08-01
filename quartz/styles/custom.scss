@@ -1,3 +1,847 @@
+@use "sass:map";
+@use "sass:list";
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ============================================================
+// 精益数字化花园 · 莫兰迪花园主题
+//
+// 主色是苔绿，板块用降饱和的莫兰迪色，首页主结构是一排「书脊」——
+// 整座知识库确实是从 200 本书里长出来的，书架不是装饰，是内容的真实形状。
+// ============================================================
+
+// 莫兰迪板块色。五色轮转，每块内容一个色，深浅主题共用
+// （莫兰迪本身是降饱和灰调，在两种底色上都站得住）。
+$morandi: (
+  "sage": #8f9e86,
+  // 鼠尾草 · 术语库
+  "wheat": #bfa76e,
+  // 芥黄 · 三柱四流
+  "mist": #8d9aa6,
+  // 雾蓝 · 模型图
+  "clay": #b08d80,
+  // 陶土 · 表单库
+  "olive": #97996f,
+  // 橄榄 · 拆书笔记
+  "lilac": #9b8c99,
+  // 藕荷 · 现场案例
+  "slate": #8d999c, // 青灰 · 问答区（原 #7e8b8e 压深墨字只有 4.37，差一点不过 AA）
+);
+
+// 标题用中文衬线，有书卷气。Windows 上没有这些字库时直接落回正文黑体，
+// 绝不落到 SimSun——那个在屏幕上糊得厉害。
+$serif: "Songti SC", "Source Han Serif SC", "Noto Serif SC", "STSong", var(--bodyFont);
+
+// ---------- 花顶棚 banner ----------
+// 全站顶上一条莫兰迪花架：七色遮阳带（与七片书脊同色系，顶棚在上、书架在下）
+// + 一排垂下来的藤叶，下沿用 mask 切出扇形花边。
+// 用 mask 而不是拿纸色盖住花边，是为了深浅两个主题都不用改。
+$canopy-vine: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="168" height="60" viewBox="0 0 168 60"><g stroke="%2322261f" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.28"><path d="M0 7h168"/><path d="M28 7v16M84 7v20M140 7v14"/><path d="M28 13c-4 0-7-2-8-5 4-.6 7 1.4 8 5ZM28 19c4 0 7-2 8-5-4-.6-7 1.4-8 5Z"/><path d="M84 14c-4 0-7-2-8-5 4-.6 7 1.4 8 5ZM84 21c4 0 7-2 8-5-4-.6-7 1.4-8 5Z"/><path d="M140 13c4 0 7-2 8-5-4-.6-7 1.4-8 5Z"/></g><g fill="%2322261f" opacity="0.22"><circle cx="28" cy="25" r="2.4"/><circle cx="84" cy="29" r="2.8"/><circle cx="140" cy="16" r="2.2"/></g></svg>';
+$canopy-mask: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="168" height="60" viewBox="0 0 168 60" preserveAspectRatio="none"><path d="M0 0H168V44Q147 62 126 44Q105 62 84 44Q63 62 42 44Q21 62 0 44Z" fill="%23000"/></svg>';
+
+// ---------- 字标两侧的手绘装饰 ----------
+// 左：一支开花的小枝（苔绿叶 + 陶土花）。右：阳光 · 雨露 · 一朵小花。
+// 颜色写死成中明度莫兰迪，深浅两个主题的底色上都看得清。
+$mark-sprig: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 30'%3E%3Cpath d='M12 29V11' stroke='%237e8d76' stroke-width='1.7' stroke-linecap='round' fill='none'/%3E%3Cpath d='M12 25c-3.4 0-6-2.2-6.6-5.6 3.6-.5 6.2 1.8 6.6 5.6Z' fill='%238f9e86'/%3E%3Cpath d='M12 19.5c3.4 0 6-2.2 6.6-5.6-3.6-.5-6.2 1.8-6.6 5.6Z' fill='%23a3b09a'/%3E%3Cg fill='%23b98d72'%3E%3Cellipse cx='12' cy='3.6' rx='2.4' ry='3.9'/%3E%3Cellipse cx='12' cy='3.6' rx='2.4' ry='3.9' transform='rotate(72 12 7.2)'/%3E%3Cellipse cx='12' cy='3.6' rx='2.4' ry='3.9' transform='rotate(144 12 7.2)'/%3E%3Cellipse cx='12' cy='3.6' rx='2.4' ry='3.9' transform='rotate(216 12 7.2)'/%3E%3Cellipse cx='12' cy='3.6' rx='2.4' ry='3.9' transform='rotate(288 12 7.2)'/%3E%3C/g%3E%3Ccircle cx='12' cy='7.2' r='1.8' fill='%23c2a86a'/%3E%3C/svg%3E";
+$mark-sun: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 26'%3E%3Cg stroke='%23bd9257' stroke-width='1.5' stroke-linecap='round' fill='none'%3E%3Ccircle cx='9' cy='10' r='4'/%3E%3Cpath d='M9 2.6v1.9M9 15.5v1.9M1.6 10h1.9M14.5 10h1.9M3.8 4.8l1.3 1.3M12.9 13.9l1.3 1.3M14.2 4.8l-1.3 1.3M5.1 13.9l-1.3 1.3'/%3E%3C/g%3E%3Cpath d='M24 3.5c2.3 3.6 3.9 6 3.9 7.7a3.9 3.9 0 0 1-7.8 0c0-1.7 1.6-4.1 3.9-7.7Z' fill='%237e8fa0'/%3E%3Cg fill='%23917e8f'%3E%3Cellipse cx='34' cy='14.4' rx='1.9' ry='3'/%3E%3Cellipse cx='34' cy='14.4' rx='1.9' ry='3' transform='rotate(72 34 17.4)'/%3E%3Cellipse cx='34' cy='14.4' rx='1.9' ry='3' transform='rotate(144 34 17.4)'/%3E%3Cellipse cx='34' cy='14.4' rx='1.9' ry='3' transform='rotate(216 34 17.4)'/%3E%3Cellipse cx='34' cy='14.4' rx='1.9' ry='3' transform='rotate(288 34 17.4)'/%3E%3C/g%3E%3Ccircle cx='34' cy='17.4' r='1.3' fill='%23c2a86a'/%3E%3C/svg%3E";
+
+// 花朵是绝对定位的（见 plugins/garden-canopy），得有个定位祖先
+.page {
+  position: relative;
+}
+
+.page::before {
+  content: "";
+  display: block;
+  height: 60px;
+  // 花朵垂到带子下方 18px，站名紧跟着排，别在顶棚和字标之间留一大块空
+  margin: 0 0 0.3rem;
+  background:
+    url("#{$canopy-vine}") repeat-x left top / 168px 60px,
+    linear-gradient(
+      90deg,
+      #8f9e86 0%,
+      #97996f 16%,
+      #bfa76e 32%,
+      #b08d80 50%,
+      #9b8c99 68%,
+      #8d9aa6 84%,
+      #7e8b8e 100%
+    );
+  -webkit-mask: url("#{$canopy-mask}") repeat-x left top / 168px 60px;
+  mask: url("#{$canopy-mask}") repeat-x left top / 168px 60px;
+}
+
+// ---------- 全局纸感 ----------
+// 极淡的双层径向渐变，模拟纸面受光不匀。比噪点图省一次请求，也不会在暗色下发脏。
+body {
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% 0%, rgba(147, 160, 138, 0.1), transparent 60%),
+    radial-gradient(ellipse 60% 40% at 90% 15%, rgba(176, 141, 128, 0.07), transparent 55%);
+  background-attachment: fixed;
+}
+
+// ---------- 顶栏 ----------
+// beforeBody 里 page-title / 搜索+主题切换 / 面包屑 / 标题 / 元信息 是并列的兄弟节点。
+// 把 .page-header 变成可换行的 flex：前两个占第一行拼成顶栏，其余整宽换行到下面。
+// Quartz 默认给 .page-header 留了 6rem 顶部留白（$topSpacing）。
+// 现在顶上已经有花顶棚了，再留 96px 就成了一大块空档，收到 1.4rem。
+.page-header {
+  margin-top: 1.4rem;
+}
+
+// 结构是 .page-header > .popover-hint > [page-title, flex-component, breadcrumbs, …]
+.page-header > .popover-hint {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 1rem;
+  row-gap: 0.5rem;
+
+  > * {
+    flex: 1 1 100%;
+    order: 3;
+  }
+
+  // 站名就是这个站的字标：中文衬线放到近 3.4rem，字距拉开，
+  // 再压一层墨绿→苔绿的渐变。渐变前先给 color 兜底，不支持 background-clip 时仍可读。
+  > .page-title {
+    flex: 0 0 auto;
+    order: 1;
+    margin: 0;
+    font-family: $serif;
+    font-size: clamp(1.55rem, 3.1vw, 3.4rem);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    line-height: 1.25;
+    white-space: nowrap;
+
+    a {
+      color: var(--dark);
+      background: linear-gradient(100deg, var(--dark) 12%, var(--secondary) 88%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    // 字标两侧的手绘装饰：左边一支开花的小枝，右边一小簇阳光 · 雨露 · 花。
+    // 用画的不用 emoji——emoji 在 Win / Mac / 安卓上是三种长相。
+    &::before,
+    &::after {
+      content: "";
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      vertical-align: middle;
+    }
+
+    &::before {
+      width: 0.62em;
+      height: 0.95em;
+      margin-right: 0.34em;
+      background-image: url("#{$mark-sprig}");
+    }
+
+    &::after {
+      width: 1.5em;
+      height: 0.82em;
+      margin-left: 0.32em;
+      background-image: url("#{$mark-sun}");
+    }
+  }
+
+  // 搜索 + 主题切换这一组靠右
+  > .quartz-group,
+  > .flex-component {
+    flex: 1 1 auto;
+    order: 2;
+    justify-content: flex-end;
+    max-width: 26rem;
+    margin-left: auto;
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--lightgray);
+  }
+
+  > .page-title {
+    padding-bottom: 0.9rem;
+    border-bottom: 1px solid var(--lightgray);
+  }
+}
+
+// 左栏已清空。注意：.center 没有 grid-area，靠源序自动排布——
+// 把左栏 display:none 会让正文掉进第一条 0 宽轨道，整页宽度归零。
+// 所以左栏要留在 DOM 的网格流里，只是把它压成 0 宽。
+@media all and ($desktop) {
+  .page > #quartz-body {
+    grid-template-columns: 0 auto #{$sidePanelWidth};
+  }
+}
+
+@media all and ($tablet) {
+  .page > #quartz-body {
+    grid-template-columns: 0 auto;
+  }
+}
+
+@media all and (min-width: #{map.get($breakpoints, mobile)}) {
+  .sidebar.left {
+    width: 0;
+    min-width: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+}
+
+// ============================================================
+// 首页
+// ============================================================
+
+// ---------- 书架下面的解说 ----------
+// 标语进了顶栏，首页开门见山就是书架，这两段是书架的解说词。
+.home-intro {
+  margin: 0 0 1rem;
+
+  // 行长放到 54em：原来 32em 太窄，一句话被切成三行
+  .sub {
+    margin: 0;
+    max-width: 54em;
+    font-size: 1.02rem;
+    line-height: 1.9;
+    color: var(--darkgray);
+
+    b {
+      color: var(--dark);
+      font-weight: 600;
+    }
+
+    + .sub {
+      margin-top: 0.85rem;
+    }
+  }
+}
+
+// ---------- 书架（签名元素）----------
+// 五片竖排书脊立在一块搁板上。竖排是中文书脊本来的样子，
+// 也让五个入口在手机上仍能并排站住——横排到 375px 就得换行了。
+.shelf {
+  margin: 0 0 3.5rem;
+}
+
+.shelf-books {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start; // 左对齐，右边空出来的搁板就是「还能再排」的位置
+  gap: 0.55rem;
+  padding: 0 0.3rem;
+}
+
+.spine {
+  position: relative;
+  flex: 0 0 128px; // 窄才像书脊；铺满整列就成了色块
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.1rem 0 1rem;
+  border-radius: 2px 2px 0 0;
+  text-decoration: none !important;
+  // 莫兰迪是中明度灰调，白字压上去只有 2.3–3.2:1；深墨字有 5.6–7:1，
+  // 而且更像布面精装书上的深色烫印
+  color: #22261f;
+  // 书脊侧面的一道高光，让它看起来有厚度
+  box-shadow:
+    inset -3px 0 6px rgba(0, 0, 0, 0.16),
+    inset 3px 0 3px rgba(255, 255, 255, 0.14);
+  transition:
+    transform 0.22s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.22s ease;
+
+  @each $name, $color in $morandi {
+    &.#{$name} {
+      background: $color;
+    }
+  }
+
+  // 高低错落，像真书架上厚薄不一的书
+  $heights: 268px 292px 254px 280px 240px 274px 258px;
+  @for $i from 1 through list.length($heights) {
+    &:nth-child(#{$i}) {
+      height: list.nth($heights, $i);
+    }
+  }
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-14px);
+    box-shadow:
+      inset -3px 0 6px rgba(0, 0, 0, 0.16),
+      inset 3px 0 3px rgba(255, 255, 255, 0.14),
+      0 10px 20px rgba(38, 43, 36, 0.18);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 3px;
+  }
+
+  .botanical {
+    width: 26px;
+    height: 26px;
+    margin-bottom: 0.9rem;
+    opacity: 0.9;
+    flex: none;
+  }
+
+  .label {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: $serif;
+    font-size: 1.12rem;
+    font-weight: 600;
+    letter-spacing: 0.32em;
+    line-height: 1;
+    flex: 1 1 auto;
+  }
+
+  .count {
+    margin-top: 0.7rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    opacity: 0.92;
+    flex: none;
+  }
+}
+
+// 搁板：一条木色横板 + 板下的阴影
+.shelf-board {
+  height: 9px;
+  border-radius: 1px;
+  background: linear-gradient(180deg, #a08d76, #8a7862);
+  box-shadow: 0 5px 12px rgba(38, 43, 36, 0.22);
+}
+
+.shelf-caption {
+  margin: 1.4rem 0 0;
+  font-size: 0.84rem;
+  color: var(--gray);
+}
+
+// ---------- 章节标题 ----------
+.home-section-title {
+  margin: 3.2rem 0 0.4rem;
+  font-family: $serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.home-section-lead {
+  margin: 0 0 1.4rem;
+  font-size: 0.92rem;
+  color: var(--gray);
+}
+
+// ---------- 莫兰迪色块卡片 ----------
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
+  gap: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.home-card {
+  position: relative;
+  display: block;
+  padding: 1.4rem 1.5rem 1.5rem;
+  border-radius: 3px;
+  text-decoration: none !important;
+  // 板块底色由内联 --tint 给（每张卡一个莫兰迪色），统一压到很淡
+  background: color-mix(in srgb, var(--tint) 13%, var(--light));
+  border-left: 3px solid var(--tint);
+  transition:
+    background 0.18s ease,
+    transform 0.18s ease;
+
+  &:hover {
+    background: color-mix(in srgb, var(--tint) 22%, var(--light));
+    transform: translateY(-2px);
+  }
+
+  .botanical {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 0.7rem;
+    // 纯 tint 压在 13% tint 底上只有 2.2:1，太飘；掺进墨色才立得住
+    color: color-mix(in srgb, var(--tint) 65%, var(--dark));
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-family: $serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  // 层级靠字号和字重拉开，不靠把颜色调浅——调浅就掉出 4.5:1 了
+  .pain {
+    margin: 0 0 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--dark);
+  }
+
+  .terms {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.8;
+    color: var(--darkgray);
+  }
+}
+
+// ---------- 核心词 ----------
+.home-terms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0 0 1rem;
+
+  a {
+    padding: 0.28rem 0.72rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    text-decoration: none !important;
+    color: var(--darkgray);
+
+    &:hover {
+      border-color: var(--tertiary);
+      background: var(--highlight);
+      color: var(--secondary);
+    }
+  }
+}
+
+// ---------- 术语库索引（按英文首字母分组）----------
+.term-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 0.35rem 0.7rem;
+  margin: 0 0 2rem;
+
+  a {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45rem;
+    padding: 0.32rem 0.5rem;
+    border-left: 2px solid var(--lightgray);
+    border-radius: 0 2px 2px 0;
+    text-decoration: none !important;
+    transition:
+      background 0.14s ease,
+      border-color 0.14s ease;
+
+    &:hover {
+      border-left-color: var(--tertiary);
+      background: var(--highlight);
+    }
+
+    b {
+      font-weight: 500;
+      color: var(--darkgray);
+      white-space: nowrap;
+    }
+
+    // 英文名是分组依据，得看得见，但不能抢中文名
+    span {
+      flex: 1 1 auto;
+      min-width: 0;
+      font-size: 0.73rem;
+      color: var(--gray);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    &:hover b {
+      color: var(--secondary);
+    }
+  }
+}
+
+// ---------- 历史问答条目 ----------
+.qa-item {
+  margin: 2rem 0 0.6rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--tertiary);
+
+  .qa-q {
+    margin: 0;
+    font-family: $serif;
+    font-size: 1.12rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: var(--dark);
+  }
+
+  .qa-who {
+    margin: 0.25rem 0 0;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    color: var(--gray);
+  }
+}
+
+// ---------- 留言板（问答页）----------
+// 和招募卡同一套骨架，但用浅色苔绿：那是付费入口，这是免费入口，
+// 一深一浅让人一眼分得清哪个要掏钱。
+.msgbox {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  gap: 1.8rem;
+  align-items: center;
+  margin: 0 0 2rem;
+  padding: 1.7rem 1.8rem;
+  border-radius: 4px;
+  border: 1px solid var(--lightgray);
+  border-left: 4px solid var(--tertiary);
+  background: color-mix(in srgb, var(--tertiary) 11%, var(--light));
+
+  .msgbox-eyebrow {
+    display: inline-block;
+    margin-bottom: 0.7rem;
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
+    background: var(--secondary);
+    color: var(--light);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+  }
+
+  h2 {
+    margin: 0 0 0.55rem;
+    font-family: $serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  p {
+    margin: 0 0 0.5rem;
+    font-size: 0.93rem;
+    line-height: 1.8;
+    color: var(--darkgray);
+    b {
+      color: var(--dark);
+    }
+  }
+
+  .msgbox-how {
+    margin: 0;
+    font-size: 0.88rem;
+    color: var(--darkgray);
+  }
+
+  .msgbox-btn {
+    display: inline-block;
+    margin-top: 0.9rem;
+    padding: 0.6rem 1.3rem;
+    border-radius: 2px;
+    background: var(--secondary);
+    color: var(--light);
+    font-size: 0.92rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    &:hover {
+      background: var(--dark);
+    }
+  }
+
+  .msgbox-qr {
+    text-align: center;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 170px;
+      margin: 0 auto 0.5rem;
+      padding: 7px;
+      border-radius: 4px;
+      background: #fff; // 二维码必须压白底才扫得出来
+    }
+
+    .qr-cap {
+      margin: 0;
+      font-size: 0.8rem;
+      color: var(--gray);
+      b {
+        color: var(--secondary);
+      }
+    }
+
+    .qr-fallback {
+      padding: 1.2rem 0.6rem;
+      border: 2px dashed var(--tertiary);
+      border-radius: 4px;
+      span {
+        display: block;
+        font-size: 0.74rem;
+        letter-spacing: 0.08em;
+        color: var(--gray);
+      }
+      strong {
+        display: block;
+        margin-top: 0.3rem;
+        font-family: $serif;
+        font-size: 1.3rem;
+        color: var(--dark);
+      }
+    }
+  }
+}
+
+@media all and ($mobile) {
+  .msgbox {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.2rem;
+    padding: 1.3rem 1.1rem;
+  }
+}
+
+// ---------- 拆书会招募卡 ----------
+// 原来那版是个安静的描边框，读者扫过去不会停。这版给它重量：
+// 深墨底 + 藕荷描边、左边说清能带走什么、右边一个大二维码收口。
+.join {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 210px;
+  gap: 2rem;
+  align-items: center;
+  margin: 3.5rem 0 1rem;
+  padding: 2rem 2.2rem;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #2f3630 0%, #262b24 55%, #33302f 100%);
+  box-shadow: 0 10px 30px rgba(38, 43, 36, 0.22);
+
+  .join-eyebrow {
+    display: inline-block;
+    margin-bottom: 0.9rem;
+    padding: 0.22rem 0.7rem;
+    border-radius: 999px;
+    background: #9b8c99;
+    color: #1c1f1a;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+  }
+
+  h2 {
+    margin: 0 0 0.7rem;
+    font-family: $serif;
+    font-size: 1.65rem;
+    line-height: 1.45;
+    font-weight: 600;
+    color: #f2f0eb;
+  }
+
+  .join-lead {
+    margin: 0 0 1.2rem;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #c9cbc2;
+    b {
+      color: #e9e6df;
+    }
+  }
+
+  .join-perks {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 0.55rem 1.6rem;
+
+    li {
+      position: relative;
+      padding-left: 1.15rem;
+      font-size: 0.87rem;
+      line-height: 1.7;
+      color: #b9bcb2;
+
+      // 每条前面一枚小芽，呼应板块图标那套线条
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.62em;
+        width: 6px;
+        height: 6px;
+        border-radius: 50% 0 50% 50%;
+        background: #93a08a;
+      }
+      b {
+        display: block;
+        color: #f2f0eb;
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .join-qr {
+    text-align: center;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 190px;
+      margin: 0 auto 0.6rem;
+      padding: 8px;
+      border-radius: 4px;
+      background: #fff; // 二维码必须压白底才扫得出来
+    }
+
+    // 还没放二维码图片时的兜底，别露出空洞
+    .qr-fallback {
+      padding: 1.5rem 0.8rem;
+      border: 2px dashed #7d8a76;
+      border-radius: 4px;
+      margin-bottom: 0.6rem;
+      span {
+        display: block;
+        font-size: 0.76rem;
+        letter-spacing: 0.1em;
+        color: #a8aca0;
+      }
+      strong {
+        display: block;
+        margin-top: 0.35rem;
+        font-family: $serif;
+        font-size: 1.5rem;
+        color: #f2f0eb;
+      }
+    }
+
+    .qr-cap {
+      margin: 0 0 0.4rem;
+      font-size: 0.82rem;
+      color: #c9cbc2;
+      b {
+        color: #f2f0eb;
+      }
+    }
+
+    .qr-note {
+      margin: 0;
+      font-size: 0.78rem;
+      line-height: 1.6;
+      color: #a8aca0;
+      b {
+        color: #d8c9d6;
+      }
+    }
+  }
+}
+
+@media all and ($mobile) {
+  .join {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem 1.3rem;
+    h2 {
+      font-size: 1.35rem;
+    }
+  }
+}
+
+// ---------- 会员（旧的安静版，术语页等仍在用）----------
+.home-cta {
+  margin: 3.2rem 0 1rem;
+  padding: 1.7rem 1.8rem;
+  border-radius: 3px;
+  border: 1px solid var(--lightgray);
+  background: color-mix(in srgb, #9b8c99 10%, var(--light));
+
+  .botanical {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 0.6rem;
+    color: #9b8c99;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: $serif;
+    font-size: 1.15rem;
+    color: var(--dark);
+  }
+
+  ul {
+    margin: 0.6rem 0 0.9rem;
+    padding-left: 1.1rem;
+    font-size: 0.9rem;
+    line-height: 1.9;
+    color: var(--darkgray);
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.88rem;
+    color: var(--darkgray);
+  }
+}
+
+// ---------- 移动端 ----------
+@media all and ($mobile) {
+  .home-hero h1 {
+    font-size: 1.95rem;
+  }
+  .home-actions a {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  // 五片书脊在 375px 下仍并排——竖排书脊本来就窄，这是它的便宜
+  .shelf-books {
+    gap: 0.3rem;
+  }
+  .spine {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0.8rem 0 0.7rem;
+    .botanical {
+      width: 18px;
+      height: 18px;
+      margin-bottom: 0.6rem;
+    }
+    .label {
+      font-size: 0.95rem;
+      letter-spacing: 0.2em;
+    }
+    .count {
+      font-size: 0.65rem;
+    }
+    $mh: 214px 232px 202px 222px 192px 218px 206px;
+    @for $i from 1 through list.length($mh) {
+      &:nth-child(#{$i}) {
+        height: list.nth($mh, $i);
+      }
+    }
+  }
+}
+
+// ---------- 无障碍 ----------
+@media (prefers-reduced-motion: reduce) {
+  .spine,
+  .home-card,
+  .home-actions a {
+    transition: none;
+  }
+  .spine:hover,
+  .home-card:hover {
+    transform: none;
+  }
+}

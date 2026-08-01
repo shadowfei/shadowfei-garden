@@ -1,6 +1,7 @@
 ---
 title: PDC（Problem-Data-Countermeasure）
-tags: [精益, 术语, 精益工具, 日常管理, 流程流]
+aliases: ["Problem-Data-Countermeasure"]
+tags: [日常管理, 流程流]
 description: "问题-数据-对策三栏表，日常管理中的轻量问题解决格式"
 date: 2026-07-11
 ---

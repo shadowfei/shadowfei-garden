@@ -1,6 +1,7 @@
 ---
 title: PDCA循环（Plan-Do-Check-Act Cycle）
-tags: [精益, 术语, 精益工具, 日常管理, 流程流]
+aliases: ["Plan-Do-Check-Act Cycle"]
+tags: [日常管理, 流程流]
 description: "计划-执行-检查-处置的改进循环，多数组织只做了 PD 没做 CA"
 date: 2026-06-19
 ---
@@ -59,7 +60,7 @@ date: 2026-06-19
 
 **📎 配套表单**
 
-本词条关联 **FORM-009、FORM-010、FORM-012、FORM-013**，收录于 [[工具/表单库|精益表单库]]。
+本词条关联 **FORM-009、FORM-010、FORM-012、FORM-013**，收录于 [[工具/index|精益表单库]]。
 
 > 表单为费老师依据经典重制的中文可填写版本，**会员可下载**。
 

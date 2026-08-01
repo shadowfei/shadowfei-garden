@@ -1,6 +1,7 @@
 ---
 title: ITBP（IT Business Partner）
-tags: [精益, 术语, 数字化, 组织人才, 信息流]
+aliases: ["IT Business Partner"]
+tags: [组织人才, 信息流]
 description: "派驻业务部门的 IT 伙伴，是全民开发的配套治理机制"
 date: 2026-07-05
 ---

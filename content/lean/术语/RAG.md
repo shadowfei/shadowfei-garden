@@ -1,6 +1,7 @@
 ---
 title: RAG（Retrieval-Augmented Generation）
-tags: [精益, 术语, 数字化, 日常管理, 信息流]
+aliases: ["Retrieval-Augmented Generation"]
+tags: [日常管理, 信息流]
 description: "给大模型挂载领域知识的外挂：检索-增强-生成三步"
 date: 2026-07-06
 ---

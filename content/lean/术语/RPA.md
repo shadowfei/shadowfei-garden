@@ -1,6 +1,7 @@
 ---
 title: RPA（Robotic Process Automation）
-tags: [精益, 术语, 数字化, 日常管理, 信息流]
+aliases: ["Robotic Process Automation"]
+tags: [日常管理, 信息流]
 description: "软件机器人模拟人工的固定电脑操作，干手上活不干脑中活"
 date: 2026-07-05
 ---

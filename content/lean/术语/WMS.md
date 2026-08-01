@@ -1,6 +1,7 @@
 ---
 title: WMS（Warehouse Management System）
-tags: [精益, 术语, 数字化, 日常管理, 价值流]
+aliases: ["Warehouse Management System"]
+tags: [日常管理, 价值流]
 description: "管入库上架拣货盘点出库的软件，中小企业可用零代码搭出够用版"
 date: 2026-07-05
 ---

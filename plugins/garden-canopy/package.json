@@ -1,0 +1,37 @@
+{
+  "name": "@shadowfei/garden-canopy",
+  "version": "1.0.0",
+  "description": "花顶棚上盛开的大花朵：绝对定位覆在 .page::before 的莫兰迪遮阳带上，载入时逐瓣绽开",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    },
+    "./components": {
+      "import": "./dist/components/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "sideEffects": false,
+  "quartz": {
+    "name": "garden-canopy",
+    "displayName": "Garden Canopy",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "GardenCanopy": {
+        "displayName": "Garden Canopy",
+        "defaultPosition": "beforeBody",
+        "defaultPriority": 0
+      }
+    }
+  }
+}
