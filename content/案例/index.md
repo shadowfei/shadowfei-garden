@@ -1,16 +1,31 @@
 ---
 title: 现场案例
-description: "经典案例、行业观察与脱敏客户案例：每则一句话结论，标注三柱四流位置"
+description: "费老师实战案例全文，加上经典案例、行业观察与脱敏客户案例"
 date: 2026-08-02
 ---
 
 # 现场案例
 
-**32 则**案例，每则都标了它落在三柱四流的哪个位置——案例不是故事集，是用来对号入座的。
-
-> 正文含现场细节，属会员内容。下面公开的是**有哪些案例**和**一句话结论**。
+**40 则**案例，每则都标了它落在三柱四流的哪个位置——案例不是故事集，是用来对号入座的。
 
 ---
+
+## 费老师实战案例 · 8 则（全文公开）
+
+费老师自己带的项目，**全文公开**：卡在哪、怎么做的、改善了多少，动作里用到的方法都挂着术语链接，可以点进去看怎么落。
+
+> 均已脱敏，企业名称隐去，仅展示方法论框架与改善效果。
+
+<div class="case-grid">
+<a class="case-card" href="实战-ESD装配线-产能5倍提升"><span class="case-ind">表面处理 / 电镀 · 苹果二级供应商</span><strong>ESD 装配线产能提升 5 倍</strong><p>日产 300 台 → 1500 台，换线 30 分钟 → 1 分钟，交期 60 天 → 25 天</p><span class="case-pos">日常管理 · 流程流</span></a>
+<a class="case-card" href="实战-制药包装-SMED换模改善"><span class="case-ind">制药包装</span><strong>压片机换模从 773 分钟到 355 分钟</strong><p>录像测时 773 分钟基线，分内外部作业后压到 355 分钟，年折算产值 2000 万+</p><span class="case-pos">日常管理 · 流程流</span></a>
+<a class="case-card" href="实战-医疗器械-SIOP产销协同"><span class="case-ind">医疗器械</span><strong>SIOP 产销协同改善</strong><p>销售和运营各背各的目标，库存与缺料并存；统一 KPI 后交期缩短 30%</p><span class="case-pos">方针管理 · 目标流</span></a>
+<a class="case-card" href="实战-压力容器-ETO交付改善"><span class="case-ind">压力容器制造</span><strong>ETO 订单交付改善</strong><p>单件定制交期长、赶工成本高；瓶颈管起来后准交率 +30%、产能 +30%</p><span class="case-pos">日常管理 · 流程流</span></a>
+<a class="case-card" href="实战-工贸一体-出口业务转型"><span class="case-ind">工贸一体</span><strong>出口业务端到端打通</strong><p>想自己做出口却没有贸易流程，标准软件接不上；打通后年增长 30–50%</p><span class="case-pos">方针管理 · 价值流</span></a>
+<a class="case-card" href="实战-新能源-低代码MES平台"><span class="case-ind">新能源</span><strong>低代码 MES 平台建设</strong><p>先理流程再定采集点，一物一码全流程可追溯，不给现场加录入负担</p><span class="case-pos">日常管理 · 信息流</span></a>
+<a class="case-card" href="实战-电器制造-全流程精益数字化"><span class="case-ind">电器制造</span><strong>新厂房全流程精益数字化</strong><p>新厂房从布局就按价值流设计，订单交期压到 1 个月，效率 +30%</p><span class="case-pos">日常管理 · 流程流</span></a>
+<a class="case-card" href="实战-零部件机加工-FLOWSMART精益转型"><span class="case-ind">零部件机加工</span><strong>FLOW SMART 精益转型</strong><p>传统精益只治局部，四个流动一起理，加工周期缩短 30–50%</p><span class="case-pos">方针管理 · 流程流</span></a>
+</div>
 
 ## 客户现场 · 1 则（已脱敏）
 
@@ -19,6 +34,10 @@ date: 2026-08-02
 | 案例 | 一句话结论 | 位置 |
 |---|---|---|
 | 某水泥预制构件企业精益转型需求沟通案例 | 脱敏客户案例：\"二次精益\"需求画像与陪跑方案骨架 | 方针管理 · 目标流 |
+
+---
+
+> 以下几类只公开**有哪些案例**和**一句话结论**，正文含现场细节，属会员内容。
 
 ## 经典案例 · 22 则（出自 200 本拆书）
 

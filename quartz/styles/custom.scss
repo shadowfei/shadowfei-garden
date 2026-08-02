@@ -476,6 +476,64 @@ body {
   }
 }
 
+// ---------- 实战案例卡片 ----------
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+  gap: 0.9rem;
+  margin: 0 0 2rem;
+}
+
+.case-card {
+  display: block;
+  padding: 1.2rem 1.3rem 1.1rem;
+  border: 1px solid var(--lightgray);
+  border-left: 3px solid #9b8c99; // 与「现场案例」那片书脊同色
+  border-radius: 0 3px 3px 0;
+  background: color-mix(in srgb, #9b8c99 8%, var(--light));
+  text-decoration: none !important;
+  transition:
+    background 0.15s ease,
+    transform 0.15s ease;
+
+  &:hover {
+    background: color-mix(in srgb, #9b8c99 15%, var(--light));
+    transform: translateY(-2px);
+  }
+
+  .case-ind {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.73rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--secondary);
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.45rem;
+    font-family: $serif;
+    font-size: 1.06rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--dark);
+  }
+
+  p {
+    margin: 0 0 0.7rem;
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: var(--darkgray);
+  }
+
+  .case-pos {
+    font-size: 0.74rem;
+    letter-spacing: 0.04em;
+    color: var(--gray);
+  }
+}
+
 // ---------- 表单套里的 Sheet 清单 ----------
 .form-sheets {
   display: grid;
