@@ -87,6 +87,12 @@ body {
 // 现在顶上已经有花顶棚了，再留 96px 就成了一大块空档，收到 1.4rem。
 .page-header {
   margin-top: 1.4rem;
+  margin-bottom: 0;
+}
+
+// 顶栏和正文之间 Quartz 也留了一段，首页要贴着书架开始，收掉
+.center > article {
+  margin-top: 0.9rem;
 }
 
 // 结构是 .page-header > .popover-hint > [page-title, flex-component, breadcrumbs, …]
@@ -202,10 +208,10 @@ body {
 .home-intro {
   margin: 0 0 1rem;
 
-  // 行长放到 54em：原来 32em 太窄，一句话被切成三行
+  // 不设行长上限：正文左右边缘与上方的搁板对齐，整块才像一体
   .sub {
     margin: 0;
-    max-width: 54em;
+    max-width: none;
     font-size: 1.02rem;
     line-height: 1.9;
     color: var(--darkgray);
@@ -225,7 +231,7 @@ body {
 // 五片竖排书脊立在一块搁板上。竖排是中文书脊本来的样子，
 // 也让五个入口在手机上仍能并排站住——横排到 375px 就得换行了。
 .shelf {
-  margin: 0 0 3.5rem;
+  margin: 0 0 1.6rem;
 }
 
 .shelf-books {
@@ -467,6 +473,37 @@ body {
     &:hover b {
       color: var(--secondary);
     }
+  }
+}
+
+// ---------- 表单套里的 Sheet 清单 ----------
+.form-sheets {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 0.3rem 0.9rem;
+  margin: 0 0 2rem;
+
+  > div {
+    display: flex;
+    align-items: baseline;
+    gap: 0.55rem;
+    padding: 0.3rem 0.5rem;
+    border-left: 2px solid var(--lightgray);
+    border-radius: 0 2px 2px 0;
+  }
+
+  code {
+    flex: none;
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+    color: var(--gray);
+    background: none;
+    padding: 0;
+  }
+
+  span {
+    font-size: 0.9rem;
+    color: var(--darkgray);
   }
 }
 
