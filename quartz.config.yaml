@@ -186,7 +186,7 @@ plugins:
               icon: bud
             - label: 拆书笔记
               href: 拆书/
-              note: 200 本经典拆书计划
+              note: 百本精益经典拆书计划
               tint: "#97996f"
               icon: leaf
             - label: 问费老师

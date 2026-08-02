@@ -40,7 +40,7 @@ description: 费老师的精益 × 数字化知识花园 — 百本经典、千�
 <div class="join" id="读书会">
 <div class="join-main">
 <span class="join-eyebrow">费老师拆书会 · 招募中</span>
-<h2>把 200 本经典，读成你能直接用的工具箱</h2>
+<h2>把百本精益经典，读成你能直接用的工具箱</h2>
 <p class="join-lead">花园里公开的是<b>术语、清单和图</b>——够你看懂。真正能<b>带回工厂直接用</b>的东西在会里。</p>
 <ul class="join-perks">
 <li><b>表单 Excel 全集</b>空白版 + 填写示例版，下周一晨会就能用上</li>
