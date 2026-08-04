@@ -540,6 +540,113 @@ body {
   }
 }
 
+// ---------- 企业诊断 CTA（案例页尾）----------
+// 深墨底聚光，和拆书会招募卡同重量，但走苔绿系而非藕荷系——
+// 这是「生意入口」（几万到几十万的线索），要比会员招募更沉稳。
+.enterprise-cta {
+  margin: 3rem 0 1rem;
+  padding: 2rem 2.2rem;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #2c322b 0%, #222820 60%, #2e332b 100%);
+  box-shadow: 0 10px 30px rgba(38, 43, 36, 0.22);
+
+  .ent-eyebrow {
+    display: inline-block;
+    margin-bottom: 0.9rem;
+    padding: 0.22rem 0.75rem;
+    border-radius: 999px;
+    background: #93a08a;
+    color: #1c1f1a;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+  }
+
+  h2 {
+    margin: 0 0 0.9rem;
+    font-family: $serif;
+    font-size: 1.7rem;
+    line-height: 1.45;
+    font-weight: 600;
+    color: #f2f0eb;
+    // 内页 article-title 会给 h2 加锚点样式，这里压掉边距差
+    border: none;
+    padding: 0;
+  }
+
+  p {
+    margin: 0 0 0.7rem;
+    font-size: 0.96rem;
+    line-height: 1.85;
+    color: #c9cbc2;
+    b {
+      color: #eef0e8;
+    }
+  }
+
+  .ent-cta-foot {
+    display: grid;
+    grid-template-columns: 148px minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 1.4rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 148px;
+      padding: 7px;
+      border-radius: 4px;
+      background: #fff; // 二维码必须压白底
+    }
+
+    .qr-fallback {
+      padding: 1.1rem 0.6rem;
+      border: 2px dashed #7d8a76;
+      border-radius: 4px;
+      text-align: center;
+      span {
+        display: block;
+        font-size: 0.72rem;
+        letter-spacing: 0.08em;
+        color: #a8aca0;
+      }
+      strong {
+        display: block;
+        margin-top: 0.3rem;
+        font-family: $serif;
+        font-size: 1.35rem;
+        color: #f2f0eb;
+      }
+    }
+
+    .ent-cta-text p {
+      margin: 0;
+      font-size: 0.92rem;
+      b {
+        color: #f2f0eb;
+      }
+    }
+  }
+}
+
+@media all and ($mobile) {
+  .enterprise-cta {
+    padding: 1.5rem 1.3rem;
+    h2 {
+      font-size: 1.4rem;
+    }
+    .ent-cta-foot {
+      grid-template-columns: minmax(0, 1fr);
+      justify-items: center;
+      gap: 1rem;
+      text-align: center;
+    }
+  }
+}
+
 // ---------- 表单套里的 Sheet 清单 ----------
 .form-sheets {
   display: grid;

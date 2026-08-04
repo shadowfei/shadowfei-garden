@@ -1,12 +1,12 @@
 ---
 title: 精益数字化术语库
-description: "174 条中文精益与数字化术语，每条写清什么时候用 / 怎么落 / 常见坑"
-date: 2026-08-02
+description: "181 条中文精益与数字化术语，每条写清什么时候用 / 怎么落 / 常见坑"
+date: 2026-08-04
 ---
 
 # 术语库
 
-**174 条**中文术语。每条都写清三件事：**什么时候用 / 怎么落 / 常见坑**——「常见坑」那段是词典里抄不到的，也是最值得先看的。
+**181 条**中文术语。每条都写清三件事：**什么时候用 / 怎么落 / 常见坑**——「常见坑」那段是词典里抄不到的，也是最值得先看的。
 
 中文名没有天然顺序，所以按**英文名首字母**分组排列；想按方法论找，走 [[方法/index|三柱四流]]。
 
@@ -35,6 +35,7 @@ date: 2026-08-02
 <a href="总工程师"><b>总工程师</b><span>Chief Engineer</span></a>
 <a href="公民开发者"><b>公民开发者</b><span>Citizen Developer</span></a>
 <a href="状态管理"><b>状态管理</b><span>Condition Management</span></a>
+<a href="CONWIP"><b>CONWIP</b><span>Constant Work In Process</span></a>
 <a href="连续流"><b>连续流</b><span>Continuous Flow</span></a>
 <a href="越库配送"><b>越库配送</b><span>Cross-Dock</span></a>
 <a href="跨职能管理"><b>跨职能管理</b><span>Cross-Functional Management</span></a>
@@ -51,6 +52,7 @@ date: 2026-08-02
 <a href="数字孪生"><b>数字孪生</b><span>Digital Twin</span></a>
 <a href="数字价值流"><b>数字价值流</b><span>Digital Value Stream Mapping</span></a>
 <a href="停机时间"><b>停机时间</b><span>Downtime</span></a>
+<a href="鼓缓冲绳"><b>鼓缓冲绳</b><span>Drum-Buffer-Rope (DBR)</span></a>
 <a href="效率"><b>效率</b><span>Efficiency</span></a>
 <a href="每种产品每间隔"><b>每种产品每间隔</b><span>Every Product Every Interval (EPEx)</span></a>
 </div>
@@ -82,6 +84,7 @@ date: 2026-08-02
 <a href="改善"><b>改善</b><span>Kaizen</span></a>
 <a href="改善文化"><b>改善文化</b><span>Kaizen Culture</span></a>
 <a href="看板"><b>看板</b><span>Kanban</span></a>
+<a href="看板卡数计算"><b>看板卡数计算</b><span>Kanban Card Calculation</span></a>
 <a href="卡拉库里"><b>卡拉库里</b><span>Karakuri</span></a>
 <a href="指标树"><b>指标树</b><span>KPI Tree</span></a>
 <a href="劳动力线性化"><b>劳动力线性化</b><span>Labor Linearity</span></a>
@@ -121,6 +124,7 @@ date: 2026-08-02
 <a href="设备综合效率"><b>设备综合效率</b><span>Overall Equipment Effectiveness (OEE)</span></a>
 <a href="过量生产"><b>过量生产</b><span>Overproduction</span></a>
 <a href="节拍取料"><b>节拍取料</b><span>Paced Withdrawal</span></a>
+<a href="POLCA"><b>POLCA</b><span>Paired-cell Overlapping Loops of Cards with Authorization</span></a>
 <a href="节拍批次"><b>节拍批次</b><span>Pitch</span></a>
 <a href="每种零件计划"><b>每种零件计划</b><span>Plan for Every Part (PFEP)</span></a>
 <a href="PDCA循环"><b>PDCA循环</b><span>Plan-Do-Check-Act Cycle</span></a>
@@ -140,6 +144,7 @@ date: 2026-08-02
 <a href="扫码报工"><b>扫码报工</b><span>QR-code Work Reporting</span></a>
 <a href="品管圈"><b>品管圈</b><span>Quality Circle (QCC)</span></a>
 <a href="质量功能展开"><b>质量功能展开</b><span>Quality Function Deployment (QFD)</span></a>
+<a href="再订货点"><b>再订货点</b><span>Reorder Point (ROP)</span></a>
 <a href="驻厂工程师"><b>驻厂工程师</b><span>Resident Engineer</span></a>
 <a href="RAG"><b>RAG</b><span>Retrieval-Augmented Generation</span></a>
 <a href="合适规模设备"><b>合适规模设备</b><span>Right-Sized Tools</span></a>
@@ -184,7 +189,9 @@ date: 2026-08-02
 <a href="全面生产维护"><b>全面生产维护</b><span>Total Productive Maintenance (TPM)</span></a>
 <a href="丰田生产系统"><b>丰田生产系统</b><span>Toyota Production System (TPS)</span></a>
 <a href="权衡曲线"><b>权衡曲线</b><span>Trade-off Curves</span></a>
+<a href="三角看板"><b>三角看板</b><span>Triangle Kanban</span></a>
 <a href="真北"><b>真北</b><span>True North</span></a>
+<a href="两箱看板"><b>两箱看板</b><span>Two-Bin System</span></a>
 <a href="可用知识"><b>可用知识</b><span>Useable Knowledge</span></a>
 <a href="价值"><b>价值</b><span>Value</span></a>
 <a href="价值流图"><b>价值流图</b><span>Value Stream Mapping (VSM)</span></a>
