@@ -1,12 +1,12 @@
 ---
 title: 精益数字化术语库
-description: "181 条中文精益与数字化术语，每条写清什么时候用 / 怎么落 / 常见坑"
+description: "183 条中文精益与数字化术语，每条写清什么时候用 / 怎么落 / 常见坑"
 date: 2026-08-05
 ---
 
 # 术语库
 
-**181 条**中文术语。每条都写清三件事：**什么时候用 / 怎么落 / 常见坑**——「常见坑」那段是词典里抄不到的，也是最值得先看的。
+**183 条**中文术语。每条都写清三件事：**什么时候用 / 怎么落 / 常见坑**——「常见坑」那段是词典里抄不到的，也是最值得先看的。
 
 中文名没有天然顺序，所以按**英文名首字母**分组排列；想按方法论找，走 [[方法/index|三柱四流]]。
 
@@ -70,6 +70,7 @@ date: 2026-08-05
 <a href="未来状态图"><b>未来状态图</b><span>Future-State Map</span></a>
 <a href="现场"><b>现场</b><span>Gemba</span></a>
 <a href="现地现物"><b>现地现物</b><span>Genchi Genbutsu</span></a>
+<a href="绿点红点制"><b>绿点红点制</b><span>Green/Red Dot Coding</span></a>
 <a href="绿地-新工厂"><b>绿地-新工厂</b><span>Greenfield</span></a>
 <a href="组长"><b>组长</b><span>Group Leader / Team Leader</span></a>
 <a href="反省"><b>反省</b><span>Hansei</span></a>
@@ -193,6 +194,7 @@ date: 2026-08-05
 <a href="真北"><b>真北</b><span>True North</span></a>
 <a href="两箱看板"><b>两箱看板</b><span>Two-Bin System</span></a>
 <a href="可用知识"><b>可用知识</b><span>Useable Knowledge</span></a>
+<a href="假期悖论"><b>假期悖论</b><span>Vacation Paradox</span></a>
 <a href="价值"><b>价值</b><span>Value</span></a>
 <a href="价值流图"><b>价值流图</b><span>Value Stream Mapping (VSM)</span></a>
 <a href="价值流经理"><b>价值流经理</b><span>Value-Stream Manager</span></a>

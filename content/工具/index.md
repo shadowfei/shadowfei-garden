@@ -6,7 +6,7 @@ date: 2026-08-05
 
 # 📋 精益表单库
 
-从精益经典原著中提取、重制为**中文可直接填写**的表格。目前 **8 套 · 62 张**，随百本精益经典拆书计划持续增加。
+从精益经典原著中提取、重制为**中文可直接填写**的表格。目前 **9 套 · 68 张**，随百本精益经典拆书计划持续增加。
 
 每套按书成套，含**空白版**和**填写示例版**（同一批表，一个空着让你填，一个填好了给你看）。每张表都挂在对应的术语上——你搜到一个概念，就能顺手拿到落地它的表格。
 
@@ -160,6 +160,23 @@ date: 2026-08-05
 <div><code>FORM-016-05</code><span>沟通进度表</span></div>
 <div><code>FORM-016-06</code><span>GembaWalk检查表</span></div>
 <div><code>FORM-016-07</code><span>DAMI标准状态看板</span></div>
+</div>
+
+## FORM-018 · 《Creating a Lean Culture》
+
+**出处**：《Creating a Lean Culture》3rd ed. 表3.1/图4.1/表12.2/图11.1/表9.1/表12.1
+
+**版本**：空白版（FORM-018）　·　示例版（FORM-019）
+
+**关联术语**：[[领导者标准作业]] · [[可视化管理]] · [[每日管理]] · [[标准作业]] · [[现场]]
+
+<div class="form-sheets">
+<div><code>FORM-018-01</code><span>表3.1 领导者标准作业</span></div>
+<div><code>FORM-018-02</code><span>图4.1 生产节拍跟踪表</span></div>
+<div><code>FORM-018-03</code><span>表12.2 精益管理评估表</span></div>
+<div><code>FORM-018-04</code><span>图11.1 出勤矩阵</span></div>
+<div><code>FORM-018-05</code><span>表9.1 精益领导力维度</span></div>
+<div><code>FORM-018-06</code><span>表12.1 顾问能做与不能做</span></div>
 </div>
 
 ---

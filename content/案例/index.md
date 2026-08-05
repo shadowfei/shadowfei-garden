@@ -28,6 +28,17 @@ date: 2026-08-05
 <a class="case-card" href="实战-零部件机加工-FLOWSMART精益转型"><span class="case-ind">零部件机加工</span><strong>FLOW SMART 精益转型</strong><p>传统精益只治局部，四个流动一起理，加工周期缩短 30–50%</p><span class="case-pos">方针管理 · 流程流</span></a>
 </div>
 
+<div class="enterprise-cta">
+<span class="ent-eyebrow">费老师 · 现场诊断</span>
+<h2>想知道你的厂卡在哪一关？</h2>
+<p>上面这些案例的共同点，是<b>先看清现状，再动手</b>。照搬别人的答案没用——得先知道自己在哪。</p>
+<p>从<b>十条最常见的死法</b>开始自检，五分钟；想再往下走，还有 12 题方针快照和费老师的深度诊断。</p>
+<div class="ent-actions">
+<a class="ent-btn-primary" href="https://shadowfei.github.io/checklist/" target="_blank" rel="noopener">先做免费自检 · 十大死法 →</a>
+<a class="ent-btn-ghost" href="../诊断/">看诊断怎么做</a>
+</div>
+</div>
+
 ---
 
 > 以下几类只公开**有哪些案例**和**一句话结论**，正文含现场细节，属会员内容。
@@ -80,19 +91,6 @@ date: 2026-08-05
 | 富士康刀具寿命预测 | 数据界的 JIT：先定义问题，每周期只采 1 秒 | 日常管理 · 信息流 |
 | 特斯拉过度自动化-人类被低估了 | 焊接喷涂50年前即无人化、总装至今靠人；Musk认错\"humans are underrated\"（AI人机边界判定尺） | 日常管理 · 流程流 |
 | 美的T+3战略聚焦 | 转型第一刀是减法：保留/优化/淘汰 | 方针管理 · 目标流 |
-
----
-
-<div class="enterprise-cta">
-<span class="ent-eyebrow">费老师 · 现场诊断</span>
-<h2>想知道你的厂卡在哪一关？</h2>
-<p>上面这些案例的共同点，是<b>先看清现状，再动手</b>。照搬别人的答案没用——得先知道自己在哪。</p>
-<p>从<b>十条最常见的死法</b>开始自检，五分钟；想再往下走，还有 12 题方针快照和费老师的深度诊断。</p>
-<div class="ent-actions">
-<a class="ent-btn-primary" href="https://shadowfei.github.io/checklist/" target="_blank" rel="noopener">先做免费自检 · 十大死法 →</a>
-<a class="ent-btn-ghost" href="../诊断/">看诊断怎么做</a>
-</div>
-</div>
 
 ---
 

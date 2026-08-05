@@ -242,9 +242,18 @@ body {
   padding: 0 0.3rem;
 }
 
+// 每片书脊外包一层：小鸟书签是独立链接，不能嵌在书脊的 <a> 里
+.spine-wrap {
+  flex: 0 0 104px; // 窄才像书脊，也给右边留出「还能再排」的空位
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+
 .spine {
   position: relative;
-  flex: 0 0 128px; // 窄才像书脊；铺满整列就成了色块
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -268,10 +277,11 @@ body {
     }
   }
 
-  // 高低错落，像真书架上厚薄不一的书
+  // 高低错落，像真书架上厚薄不一的书。
+  // 注意选择器要走 .spine-wrap 的序号——书脊现在被包了一层，自己永远是首个子元素。
   $heights: 268px 292px 254px 280px 240px 274px 258px;
   @for $i from 1 through list.length($heights) {
-    &:nth-child(#{$i}) {
+    .spine-wrap:nth-child(#{$i}) & {
       height: list.nth($heights, $i);
     }
   }
@@ -315,6 +325,118 @@ body {
     letter-spacing: 0.06em;
     opacity: 0.92;
     flex: none;
+  }
+}
+
+// ---------- 停在书脊上的小鸟 + 它叼着的书签 ----------
+// 鸟停在书脊顶上，喙里衔一根丝带垂下来挂着标签。
+// 整块是独立链接：书脊本身通向板块，书签通向转化入口（诊断 / 读书会）。
+.perch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 2px;
+  text-decoration: none !important;
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+
+  .bird {
+    width: 30px;
+    height: auto;
+    fill: #4a5347; // 剪影用深墨绿，浅底深底都看得清
+    // 轻轻上下点头，像真停在那儿
+    animation: bird-bob 3.4s ease-in-out infinite;
+    transform-origin: 50% 100%;
+  }
+
+  .bird .wing {
+    fill: rgba(255, 255, 255, 0.34);
+  }
+  .bird .eye {
+    fill: #edefe9;
+  }
+
+  // 从鸟嘴垂下来的丝带
+  .ribbon {
+    width: 1.5px;
+    height: 10px;
+    background: #4a5347;
+    opacity: 0.55;
+  }
+
+  .perch-tag {
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    color: #22261f; // 与书脊同款深墨字，莫兰迪底上 5-6:1
+    box-shadow: 0 1px 3px rgba(38, 43, 36, 0.22);
+  }
+
+  // 书签底色跟随对应那片书脊的颜色，一眼知道是哪本书上的鸟
+  @each $name, $color in $morandi {
+    &.#{$name} .perch-tag {
+      background: $color;
+    }
+    &.#{$name} .ribbon {
+      background: color-mix(in srgb, $color 40%, #4a5347);
+    }
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    .bird {
+      animation-play-state: paused;
+    }
+    .perch-tag {
+      box-shadow: 0 3px 8px rgba(38, 43, 36, 0.3);
+    }
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--dark);
+    outline-offset: 3px;
+  }
+}
+
+@keyframes bird-bob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  45% {
+    transform: translateY(-2.5px) rotate(-3deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .perch .bird {
+    animation: none;
+  }
+  .perch:hover {
+    transform: none;
+  }
+}
+
+@media all and ($mobile) {
+  .perch {
+    .bird {
+      width: 21px;
+    }
+    .ribbon {
+      height: 6px;
+    }
+    // 窄屏书脊只有 50-60px，书签横排放不下——竖过来贴着书脊挂
+    .perch-tag {
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      padding: 0.3rem 0.14rem;
+      font-size: 0.6rem;
+      letter-spacing: 0.02em;
+    }
   }
 }
 
@@ -1144,9 +1266,13 @@ body {
   .shelf-books {
     gap: 0.3rem;
   }
-  .spine {
+  // 窄屏放不下 7 × 104px，让外层 wrap 等分收缩（宽度在 wrap 上，不在 spine 上）
+  .spine-wrap {
     flex: 1 1 0;
     min-width: 0;
+  }
+
+  .spine {
     padding: 0.8rem 0 0.7rem;
     .botanical {
       width: 18px;
@@ -1162,7 +1288,7 @@ body {
     }
     $mh: 214px 232px 202px 222px 192px 218px 206px;
     @for $i from 1 through list.length($mh) {
-      &:nth-child(#{$i}) {
+      .spine-wrap:nth-child(#{$i}) & {
         height: list.nth($mh, $i);
       }
     }
