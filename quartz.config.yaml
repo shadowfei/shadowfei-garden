@@ -202,6 +202,15 @@ plugins:
             - label: 加入拆书会
               href: "#读书会"
               note: 表单下载 · 直播 · 读书群
+        # 企业线入口。不做成第 8 片书脊——书架右边那块留白是「还能再排」的表达，
+        # 而且诊断是「产品」不是「知识板块」，混进书架会串味。
+        - title: 给 工 厂 的
+          items:
+            - label: 现场诊断
+              href: 诊断/
+              note: 四步 · 前两步免费
+              tint: "#4e6151"
+              icon: sprouts
   # 站名下面那行标语，全站显示
   - source: ./plugins/garden-slogan
     enabled: true

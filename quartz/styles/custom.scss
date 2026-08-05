@@ -584,6 +584,43 @@ body {
     }
   }
 
+  // 两个按钮：主行动是免费自检（BP 定的：先给免费钩子，别一上来推 ¥9,800）
+  .ent-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-top: 1.4rem;
+
+    a {
+      display: inline-block;
+      padding: 0.68rem 1.35rem;
+      border-radius: 3px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none !important;
+      transition:
+        background 0.15s ease,
+        border-color 0.15s ease;
+    }
+  }
+
+  .ent-btn-primary {
+    background: #93a08a;
+    color: #1c1f1a;
+    &:hover {
+      background: #a9b69f;
+    }
+  }
+
+  .ent-btn-ghost {
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    color: #dfe2d9;
+    &:hover {
+      border-color: #93a08a;
+      color: #f2f0eb;
+    }
+  }
+
   .ent-cta-foot {
     display: grid;
     grid-template-columns: 148px minmax(0, 1fr);
@@ -643,6 +680,97 @@ body {
       justify-items: center;
       gap: 1rem;
       text-align: center;
+    }
+  }
+}
+
+// ---------- 诊断四步曲 ----------
+// 左边一列大号步骤编号，右边内容。前两步免费、后两步付费，
+// 靠 diag-tag 的颜色区分，不额外加分组标题——四步是一条线，不是两组。
+.diag-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin: 0 0 2rem;
+}
+
+.diag-step {
+  display: grid;
+  grid-template-columns: 3.2rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1.2rem 1.3rem;
+  border: 1px solid var(--lightgray);
+  border-left: 3px solid var(--tertiary);
+  border-radius: 0 3px 3px 0;
+  background: color-mix(in srgb, var(--tertiary) 7%, var(--light));
+
+  // 后两步是付费段，换陶土色，一眼能看出这里是分水岭
+  &:nth-child(n + 3) {
+    border-left-color: #b08d80;
+    background: color-mix(in srgb, #b08d80 8%, var(--light));
+  }
+
+  .diag-n {
+    font-family: $serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--tertiary);
+  }
+
+  &:nth-child(n + 3) .diag-n {
+    color: #b08d80;
+  }
+
+  .diag-tag {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    padding: 0.16rem 0.6rem;
+    border-radius: 999px;
+    background: var(--secondary);
+    color: var(--light);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.45rem;
+    font-family: $serif;
+    font-size: 1.14rem;
+    font-weight: 600;
+    color: var(--dark);
+  }
+
+  p {
+    margin: 0 0 0.5rem;
+    font-size: 0.92rem;
+    line-height: 1.8;
+    color: var(--darkgray);
+  }
+
+  .diag-out {
+    margin: 0;
+    font-size: 0.82rem;
+    color: var(--gray);
+  }
+
+  .diag-link {
+    display: inline-block;
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--secondary);
+  }
+}
+
+@media all and ($mobile) {
+  .diag-step {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.3rem;
+    .diag-n {
+      font-size: 1.5rem;
     }
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: 现场案例
 description: "费老师实战案例全文，加上经典案例、行业观察与脱敏客户案例"
-date: 2026-08-04
+date: 2026-08-05
 ---
 
 # 现场案例
@@ -85,12 +85,12 @@ date: 2026-08-04
 
 <div class="enterprise-cta">
 <span class="ent-eyebrow">费老师 · 现场诊断</span>
-<h2>想让费老师来你厂里看看？</h2>
-<p>你的厂正卡在哪，未必要照搬别人的答案。上面这些案例的共同点，是<b>先看清现状，再动手</b>——而看清现状,得到现场去。</p>
-<p>费老师提供<b>一天的现场诊断</b>：看你的价值流、你的现场、你的数据，给一份能落地的改善路线图。是<b>陪跑辅导的第一步</b>，也可以只做这一步。</p>
-<div class="ent-cta-foot">
-<img src="../图片/公众号.jpg" alt="公众号「百费待兴」二维码" loading="lazy">
-<div class="ent-cta-text"><p>扫码关注<b>「百费待兴」</b>，后台回复<b>「诊断」</b>，说一句你是哪个行业、卡在哪，我来对接。</p></div>
+<h2>想知道你的厂卡在哪一关？</h2>
+<p>上面这些案例的共同点，是<b>先看清现状，再动手</b>。照搬别人的答案没用——得先知道自己在哪。</p>
+<p>从<b>十条最常见的死法</b>开始自检，五分钟；想再往下走，还有 12 题方针快照和费老师的深度诊断。</p>
+<div class="ent-actions">
+<a class="ent-btn-primary" href="https://shadowfei.github.io/checklist/" target="_blank" rel="noopener">先做免费自检 · 十大死法 →</a>
+<a class="ent-btn-ghost" href="../诊断/">看诊断怎么做</a>
 </div>
 </div>
 
