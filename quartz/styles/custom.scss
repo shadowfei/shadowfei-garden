@@ -367,6 +367,9 @@ $letter-flap: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' view
   .bird .eye {
     fill: #edefe9;
   }
+  .bird .pupil {
+    fill: #22261f;
+  }
   .bird .tail {
     fill: #2e332f;
   }
@@ -374,7 +377,7 @@ $letter-flap: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' view
   // 长尾巴是认出喜鹊的关键，也是它最有辨识度的动作：不停地上下甩
   .bird .tail-g {
     transform-box: view-box;
-    transform-origin: 15px 19.5px; // 尾根与身体的接点
+    transform-origin: 14.5px 21px; // 尾根与身体的接点（身体加厚后往下挪了）
     animation: magpie-tail 2.1s ease-in-out infinite;
   }
 

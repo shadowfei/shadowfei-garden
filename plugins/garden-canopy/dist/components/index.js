@@ -11,7 +11,11 @@
 //      手机端就缩不下来；而摇曳动画占着 transform，也不能用 scale 缩。
 import { h } from "preact"
 
-// 莫兰迪：花瓣浅一档、花心深一档，同一支花才有立体感
+// 莫兰迪：花瓣浅一档、花心深一档，同一支花才有立体感。
+// after = 额外等多少秒才开：前六朵进页面就陆续开，后四朵每隔一分钟再开一朵，
+// 页面开着不动也会继续长——花园是活的。
+// 靠 animation-fill-mode:both 实现：动画开始前保持 from 态（scale .06 / opacity 0），
+// 所以延迟期间它们就是不可见的花苞，不需要任何 JS 定时器。
 const BLOOMS = [
   { left: "6%", size: 62, petal: "#c6a9a0", core: "#9c7568", petals: 8 },
   { left: "22%", size: 44, petal: "#a8b49f", core: "#7c8b74", petals: 6 },
@@ -19,6 +23,11 @@ const BLOOMS = [
   { left: "54%", size: 48, petal: "#b3a5b1", core: "#847382", petals: 6 },
   { left: "69%", size: 64, petal: "#a6b2bd", core: "#75838f", petals: 8 },
   { left: "86%", size: 50, petal: "#c0b391", core: "#8e8158", petals: 6 },
+  // —— 以下四朵按分钟陆续开 ——
+  { left: "14%", size: 40, petal: "#bfae9a", core: "#8d7b66", petals: 6, after: 60 },
+  { left: "46%", size: 54, petal: "#adb9a4", core: "#7f8d76", petals: 8, after: 120 },
+  { left: "78%", size: 44, petal: "#c3aab0", core: "#93737d", petals: 6, after: 180 },
+  { left: "30%", size: 38, petal: "#b0bcc4", core: "#7d8d96", petals: 6, after: 240 },
 ]
 
 // 绽开节奏：整体慢下来，一朵一朵开，一瓣一瓣推
@@ -27,6 +36,7 @@ const PETAL_STEP = 0.18 // 同一朵里相邻花瓣的间隔
 const BLOOM_STEP = 0.55 // 相邻两朵花的间隔
 
 function bloom(b, i) {
+  const base = (b.after || 0) + i * BLOOM_STEP
   const petals = []
   for (let k = 0; k < b.petals; k++) {
     petals.push(
@@ -40,11 +50,11 @@ function bloom(b, i) {
         fill: b.petal,
         style:
           `--a:${((360 / b.petals) * k).toFixed(1)}deg;` +
-          `animation-delay:${(i * BLOOM_STEP + k * PETAL_STEP).toFixed(2)}s`,
+          `animation-delay:${(base + k * PETAL_STEP).toFixed(2)}s`,
       }),
     )
   }
-  const coreDelay = i * BLOOM_STEP + b.petals * PETAL_STEP + 0.2
+  const coreDelay = base + b.petals * PETAL_STEP + 0.2
   return h(
     "span",
     {
@@ -121,10 +131,24 @@ const CSS = `
 }
 `
 
+// 书架上的书脊和喜鹊不要悬浮预览——那是给正文里的术语链接用的，
+// 悬在一本书上弹出整页预览只会挡住书架本身。
+//
+// Quartz 的 popover 直接把 mouseenter 监听器绑在每个 a.internal 上，没有 opt-out 类；
+// 所以在 document 上做捕获阶段拦截：mouseenter 不冒泡，但捕获阶段仍会经过 document，
+// 在这里 stopPropagation 就到不了目标元素自己的监听器。
+const NO_POPOVER = `
+document.addEventListener("mouseenter", (e) => {
+  const t = e.target
+  if (t && t.closest && t.closest(".spine, .perch")) e.stopPropagation()
+}, true)
+`
+
 export const GardenCanopy = () => {
   const Component = () =>
     h("div", { class: "canopy-blooms", "aria-hidden": "true" }, BLOOMS.map(bloom))
   Component.css = CSS
+  Component.afterDOMLoaded = NO_POPOVER
   Component.displayName = "GardenCanopy"
   return Component
 }
