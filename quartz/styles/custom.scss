@@ -328,9 +328,11 @@ body {
   }
 }
 
-// ---------- 停在书脊上的小鸟 + 它叼着的书签 ----------
-// 鸟停在书脊顶上，喙里衔一根丝带垂下来挂着标签。
-// 整块是独立链接：书脊本身通向板块，书签通向转化入口（诊断 / 读书会）。
+// ---------- 喜鹊报喜：站在书脊上，衔着一封飞来的信 ----------
+// 整块是独立链接：书脊通向板块，这封信通向转化入口（诊断 / 读书会）。
+// 信封口的 V 用一张极小的 SVG 画，比拿渐变拼准得多。
+$letter-flap: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 20' preserveAspectRatio='none'%3E%3Cpath d='M2 1 50 17 98 1' fill='none' stroke='%23262b24' stroke-opacity='0.28' stroke-width='2.4'/%3E%3C/svg%3E";
+
 .perch {
   display: flex;
   flex-direction: column;
@@ -338,61 +340,104 @@ body {
   width: 100%;
   padding-bottom: 2px;
   text-decoration: none !important;
-  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
 
   .bird {
-    width: 30px;
+    width: 40px;
     height: auto;
-    fill: #4a5347; // 剪影用深墨绿，浅底深底都看得清
-    // 轻轻上下点头，像真停在那儿
-    animation: bird-bob 3.4s ease-in-out infinite;
-    transform-origin: 50% 100%;
+    overflow: visible;
+    // 整只轻轻起伏，像随时要飞
+    animation: magpie-bob 3.6s ease-in-out infinite;
+    transform-origin: 62% 100%; // 支点在脚下（身体偏右），不是图形中心
   }
 
-  .bird .wing {
-    fill: rgba(255, 255, 255, 0.34);
+  // 喜鹊是黑白鸟，翅羽尾羽泛蓝绿金属光——正好落在莫兰迪雾蓝上
+  .bird .body {
+    fill: #343a35;
+  }
+  .bird .belly {
+    fill: #edefe9;
+  }
+  .bird .sheen {
+    fill: #6f8189;
+  }
+  .bird .beak {
+    fill: #c2a86a;
   }
   .bird .eye {
     fill: #edefe9;
   }
-
-  // 从鸟嘴垂下来的丝带
-  .ribbon {
-    width: 1.5px;
-    height: 10px;
-    background: #4a5347;
-    opacity: 0.55;
+  .bird .tail {
+    fill: #2e332f;
   }
 
-  .perch-tag {
-    padding: 0.2rem 0.5rem;
+  // 长尾巴是认出喜鹊的关键，也是它最有辨识度的动作：不停地上下甩
+  .bird .tail-g {
+    transform-box: view-box;
+    transform-origin: 15px 19.5px; // 尾根与身体的接点
+    animation: magpie-tail 2.1s ease-in-out infinite;
+  }
+
+  // 从喙里衔下来的那根线
+  .ribbon {
+    width: 1.4px;
+    height: 11px;
+    background: #4a5347;
+    opacity: 0.5;
+    transform-origin: 50% 0;
+    animation: letter-swing 3.8s ease-in-out infinite;
+  }
+
+  // 一封信：米白信纸 + 顶上的封口 V + 一枚火漆印
+  .letter {
+    position: relative;
+    padding: 0.34rem 0.55rem 0.28rem;
+    border: 1px solid rgba(38, 43, 36, 0.22);
     border-radius: 2px;
+    background:
+      url("#{$letter-flap}") no-repeat top center / 100% 9px,
+      linear-gradient(160deg, #fcfaf4 0%, #f3efe4 100%);
     font-size: 0.7rem;
     font-weight: 600;
     line-height: 1.3;
     letter-spacing: 0.02em;
     white-space: nowrap;
-    color: #22261f; // 与书脊同款深墨字，莫兰迪底上 5-6:1
-    box-shadow: 0 1px 3px rgba(38, 43, 36, 0.22);
+    color: #22261f;
+    box-shadow: 0 2px 6px rgba(38, 43, 36, 0.22);
+    transform-origin: 50% -11px; // 挂在线的顶端摆动
+    animation: letter-swing 3.8s ease-in-out infinite;
   }
 
-  // 书签底色跟随对应那片书脊的颜色，一眼知道是哪本书上的鸟
+  // 火漆印：颜色取对应那片书脊的莫兰迪色——信是从哪本书上飞来的，一眼看出
+  .seal {
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    width: 7px;
+    height: 7px;
+    margin-left: -3.5px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(38, 43, 36, 0.3);
+  }
+
   @each $name, $color in $morandi {
-    &.#{$name} .perch-tag {
+    &.#{$name} .seal {
       background: $color;
     }
-    &.#{$name} .ribbon {
-      background: color-mix(in srgb, $color 40%, #4a5347);
-    }
   }
 
-  &:hover {
-    transform: translateY(-3px);
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-4px);
     .bird {
-      animation-play-state: paused;
+      animation-duration: 1.1s; // 报喜了，兴奋起来
     }
-    .perch-tag {
-      box-shadow: 0 3px 8px rgba(38, 43, 36, 0.3);
+    .bird .tail-g {
+      animation-duration: 0.7s;
+    }
+    .letter {
+      animation-duration: 1.4s;
+      box-shadow: 0 4px 10px rgba(38, 43, 36, 0.3);
     }
   }
 
@@ -402,18 +447,49 @@ body {
   }
 }
 
-@keyframes bird-bob {
+@keyframes magpie-bob {
   0%,
   100% {
     transform: translateY(0) rotate(0deg);
   }
-  45% {
-    transform: translateY(-2.5px) rotate(-3deg);
+  40% {
+    transform: translateY(-2.5px) rotate(-2.5deg);
+  }
+  70% {
+    transform: translateY(-0.8px) rotate(1deg);
+  }
+}
+
+// 喜鹊翘尾：快抬、慢落
+@keyframes magpie-tail {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  18% {
+    transform: rotate(-13deg);
+  }
+  60% {
+    transform: rotate(3deg);
+  }
+}
+
+// 信在风里飘
+@keyframes letter-swing {
+  0%,
+  100% {
+    transform: rotate(-3.5deg);
+  }
+  50% {
+    transform: rotate(3.5deg);
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .perch .bird {
+  .perch .bird,
+  .perch .bird .tail-g,
+  .perch .ribbon,
+  .perch .letter {
     animation: none;
   }
   .perch:hover {
@@ -424,18 +500,27 @@ body {
 @media all and ($mobile) {
   .perch {
     .bird {
-      width: 21px;
+      width: 27px;
     }
     .ribbon {
-      height: 6px;
+      height: 7px;
     }
-    // 窄屏书脊只有 50-60px，书签横排放不下——竖过来贴着书脊挂
-    .perch-tag {
+    // 窄屏书脊只有 50-60px，信横着放不下——竖过来挂，仍是一封信
+    .letter {
       writing-mode: vertical-rl;
       text-orientation: upright;
-      padding: 0.3rem 0.14rem;
+      padding: 0.5rem 0.16rem 0.3rem;
       font-size: 0.6rem;
       letter-spacing: 0.02em;
+      background:
+        url("#{$letter-flap}") no-repeat top center / 100% 7px,
+        linear-gradient(160deg, #fcfaf4 0%, #f3efe4 100%);
+    }
+    .seal {
+      width: 5px;
+      height: 5px;
+      margin-left: -2.5px;
+      top: -2px;
     }
   }
 }
