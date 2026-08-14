@@ -1,12 +1,12 @@
 ---
 title: 精益数字化术语库
-description: "183 条中文精益与数字化术语，每条写清什么时候用 / 怎么落 / 常见坑"
-date: 2026-08-09
+description: "209 条中文精益与数字化术语，每条写清什么时候用 / 怎么落 / 常见坑"
+date: 2026-08-14
 ---
 
 # 术语库
 
-**183 条**中文术语。每条都写清三件事：**什么时候用 / 怎么落 / 常见坑**——「常见坑」那段是词典里抄不到的，也是最值得先看的。
+**209 条**中文术语。每条都写清三件事：**什么时候用 / 怎么落 / 常见坑**——「常见坑」那段是词典里抄不到的，也是最值得先看的。
 
 中文名没有天然顺序，所以按**英文名首字母**分组排列；想按方法论找，走 [[方法/index|三柱四流]]。
 
@@ -18,6 +18,7 @@ date: 2026-08-09
 <a href="ABC生产分析"><b>ABC生产分析</b><span>ABC Production Analysis</span></a>
 <a href="AI智能体"><b>AI智能体</b><span>AI Agent</span></a>
 <a href="安灯"><b>安灯</b><span>Andon</span></a>
+<a href="晨会"><b>晨会</b><span>Asaichi</span></a>
 <a href="自动停线"><b>自动停线</b><span>Automatic Line Stop</span></a>
 <a href="批量与排队"><b>批量与排队</b><span>Batch-and-Queue</span></a>
 <a href="棕地"><b>棕地</b><span>Brownfield</span></a>
@@ -28,6 +29,7 @@ date: 2026-08-09
 <a href="资本线性化"><b>资本线性化</b><span>Capital Linearity</span></a>
 <a href="Catchball"><b>Catchball</b><span>Catchball</span></a>
 <a href="单元生产"><b>单元生产</b><span>Cellular Manufacturing</span></a>
+<a href="援助链"><b>援助链</b><span>Chain of Help</span></a>
 <a href="逐件装载"><b>逐件装载</b><span>Chaku-Chaku</span></a>
 <a href="变革推动者"><b>变革推动者</b><span>Change Agent</span></a>
 <a href="变化点管理"><b>变化点管理</b><span>Change Point Management</span></a>
@@ -37,11 +39,17 @@ date: 2026-08-09
 <a href="状态管理"><b>状态管理</b><span>Condition Management</span></a>
 <a href="CONWIP"><b>CONWIP</b><span>Constant Work In Process</span></a>
 <a href="连续流"><b>连续流</b><span>Continuous Flow</span></a>
+<a href="持续改善"><b>持续改善</b><span>Continuous Improvement</span></a>
+<a href="管控变量"><b>管控变量</b><span>Control Variables</span></a>
 <a href="越库配送"><b>越库配送</b><span>Cross-Dock</span></a>
 <a href="跨职能管理"><b>跨职能管理</b><span>Cross-Functional Management</span></a>
 <a href="现状图"><b>现状图</b><span>Current-State Map</span></a>
 <a href="周期时间"><b>周期时间</b><span>Cycle Time</span></a>
+<a href="复杂性框架"><b>复杂性框架</b><span>Cynefin Framework</span></a>
+<a href="每日问责流程"><b>每日问责流程</b><span>Daily Accountability Process</span></a>
+<a href="日常管理"><b>日常管理</b><span>Daily Management</span></a>
 <a href="每日管理"><b>每日管理</b><span>Daily Management</span></a>
+<a href="断突质量"><b>断突质量</b><span>Dantotsu Quality</span></a>
 <a href="黑暗工厂"><b>黑暗工厂</b><span>Dark Factory</span></a>
 <a href="仪表盘"><b>仪表盘</b><span>Dashboard</span></a>
 <a href="数据孤岛"><b>数据孤岛</b><span>Data Silo</span></a>
@@ -53,6 +61,7 @@ date: 2026-08-09
 <a href="数字价值流"><b>数字价值流</b><span>Digital Value Stream Mapping</span></a>
 <a href="停机时间"><b>停机时间</b><span>Downtime</span></a>
 <a href="鼓缓冲绳"><b>鼓缓冲绳</b><span>Drum-Buffer-Rope (DBR)</span></a>
+<a href="双轨PDCA"><b>双轨PDCA</b><span>Dual-Track PDCA</span></a>
 <a href="效率"><b>效率</b><span>Efficiency</span></a>
 <a href="每种产品每间隔"><b>每种产品每间隔</b><span>Every Product Every Interval (EPEx)</span></a>
 </div>
@@ -77,16 +86,22 @@ date: 2026-08-09
 <a href="均衡生产"><b>均衡生产</b><span>Heijunka</span></a>
 <a href="均衡生产箱"><b>均衡生产箱</b><span>Heijunka Box</span></a>
 <a href="方针管理"><b>方针管理</b><span>Hoshin Kanri</span></a>
+<a href="改善套路"><b>改善套路</b><span>Improvement Kata</span></a>
 <a href="检验"><b>检验</b><span>Inspection</span></a>
 <a href="库存"><b>库存</b><span>Inventory</span></a>
 <a href="ITBP"><b>ITBP</b><span>IT Business Partner</span></a>
 <a href="自働化"><b>自働化</b><span>Jidoka</span></a>
+<a href="工作分解表"><b>工作分解表</b><span>Job Breakdown Sheet</span></a>
+<a href="工作指导"><b>工作指导</b><span>Job Instruction</span></a>
+<a href="工作方法"><b>工作方法</b><span>Job Methods</span></a>
+<a href="工作关系"><b>工作关系</b><span>Job Relations</span></a>
 <a href="准时化"><b>准时化</b><span>Just-In-Time (JIT)</span></a>
 <a href="改善"><b>改善</b><span>Kaizen</span></a>
 <a href="改善文化"><b>改善文化</b><span>Kaizen Culture</span></a>
 <a href="看板"><b>看板</b><span>Kanban</span></a>
 <a href="看板卡数计算"><b>看板卡数计算</b><span>Kanban Card Calculation</span></a>
 <a href="卡拉库里"><b>卡拉库里</b><span>Karakuri</span></a>
+<a href="关键行为指标"><b>关键行为指标</b><span>Key Behavior Indicator</span></a>
 <a href="指标树"><b>指标树</b><span>KPI Tree</span></a>
 <a href="劳动力线性化"><b>劳动力线性化</b><span>Labor Linearity</span></a>
 <a href="推论阶梯"><b>推论阶梯</b><span>Ladder of Inference</span></a>
@@ -108,6 +123,7 @@ date: 2026-08-09
 <div class="term-index">
 <a href="待工"><b>待工</b><span>Machi</span></a>
 <a href="管理驾驶舱"><b>管理驾驶舱</b><span>Management Cockpit</span></a>
+<a href="管理系统"><b>管理系统</b><span>Management System</span></a>
 <a href="大批量生产"><b>大批量生产</b><span>Mass Production</span></a>
 <a href="物料员"><b>物料员</b><span>Material Handler</span></a>
 <a href="导师指导"><b>导师指导</b><span>Mentoring</span></a>
@@ -122,6 +138,7 @@ date: 2026-08-09
 <a href="Obeya"><b>Obeya</b><span>Obeya / War Room</span></a>
 <a href="单件流"><b>单件流</b><span>One-Piece Flow</span></a>
 <a href="操作员平衡图"><b>操作员平衡图</b><span>Operator Balance Chart</span></a>
+<a href="组织熵增"><b>组织熵增</b><span>Organizational Entropy</span></a>
 <a href="设备综合效率"><b>设备综合效率</b><span>Overall Equipment Effectiveness (OEE)</span></a>
 <a href="过量生产"><b>过量生产</b><span>Overproduction</span></a>
 <a href="节拍取料"><b>节拍取料</b><span>Paced Withdrawal</span></a>
@@ -137,6 +154,7 @@ date: 2026-08-09
 <a href="问题解决"><b>问题解决</b><span>Problem Solving</span></a>
 <a href="PDC"><b>PDC</b><span>Problem-Data-Countermeasure</span></a>
 <a href="流程"><b>流程</b><span>Process</span></a>
+<a href="生产稳定化"><b>生产稳定化</b><span>Production Line Stabilization</span></a>
 <a href="生产准备流程"><b>生产准备流程</b><span>Production Preparation Process (3P)</span></a>
 <a href="生产透明化"><b>生产透明化</b><span>Production Transparency</span></a>
 <a href="心理安全感"><b>心理安全感</b><span>Psychological Safety</span></a>
@@ -145,6 +163,7 @@ date: 2026-08-09
 <a href="扫码报工"><b>扫码报工</b><span>QR-code Work Reporting</span></a>
 <a href="品管圈"><b>品管圈</b><span>Quality Circle (QCC)</span></a>
 <a href="质量功能展开"><b>质量功能展开</b><span>Quality Function Deployment (QFD)</span></a>
+<a href="质量管理板"><b>质量管理板</b><span>Quality Management Board</span></a>
 <a href="再订货点"><b>再订货点</b><span>Reorder Point (ROP)</span></a>
 <a href="驻厂工程师"><b>驻厂工程师</b><span>Resident Engineer</span></a>
 <a href="RAG"><b>RAG</b><span>Retrieval-Augmented Generation</span></a>
@@ -174,13 +193,18 @@ date: 2026-08-09
 <a href="面条图"><b>面条图</b><span>Spaghetti Chart</span></a>
 <a href="标准库存"><b>标准库存</b><span>Standard Inventory</span></a>
 <a href="标准作业"><b>标准作业</b><span>Standardized Work</span></a>
+<a href="状态A3"><b>状态A3</b><span>Status A3</span></a>
 <a href="停线"><b>停线</b><span>Stop-the-Line</span></a>
 <a href="战略一致性"><b>战略一致性</b><span>Strategic Alignment</span></a>
+<a href="战略展开A3"><b>战略展开A3</b><span>Strategic Deployment A3</span></a>
 <a href="提案制度"><b>提案制度</b><span>Suggestion System</span></a>
 <a href="超市"><b>超市</b><span>Supermarket</span></a>
 <a href="转椅工作"><b>转椅工作</b><span>Swivel-chair Work</span></a>
+<a href="系统思维"><b>系统思维</b><span>Systems Thinking</span></a>
 <a href="战术计划"><b>战术计划</b><span>Tactical Plan</span></a>
 <a href="节拍时间"><b>节拍时间</b><span>Takt Time</span></a>
+<a href="目标状态"><b>目标状态</b><span>Target Condition</span></a>
+<a href="任务小组"><b>任务小组</b><span>Task Force Team</span></a>
 <a href="事找人"><b>事找人</b><span>Task-Finds-Person</span></a>
 <a href="团队领导"><b>团队领导</b><span>Team Leader</span></a>
 <a href="TeiM"><b>TeiM</b><span>TeiM Model</span></a>
@@ -190,6 +214,7 @@ date: 2026-08-09
 <a href="全面生产维护"><b>全面生产维护</b><span>Total Productive Maintenance (TPM)</span></a>
 <a href="丰田生产系统"><b>丰田生产系统</b><span>Toyota Production System (TPS)</span></a>
 <a href="权衡曲线"><b>权衡曲线</b><span>Trade-off Curves</span></a>
+<a href="培训时间表"><b>培训时间表</b><span>Training Timetable</span></a>
 <a href="三角看板"><b>三角看板</b><span>Triangle Kanban</span></a>
 <a href="真北"><b>真北</b><span>True North</span></a>
 <a href="两箱看板"><b>两箱看板</b><span>Two-Bin System</span></a>
@@ -202,6 +227,7 @@ date: 2026-08-09
 <a href="价值流图图标"><b>价值流图图标</b><span>VSM Icons</span></a>
 <a href="WMS"><b>WMS</b><span>Warehouse Management System</span></a>
 <a href="水蜘蛛"><b>水蜘蛛</b><span>Water Spider</span></a>
+<a href="弱点管理"><b>弱点管理</b><span>Weak-Point Management</span></a>
 <a href="作业"><b>作业</b><span>Work</span></a>
 <a href="WBS"><b>WBS</b><span>Work Breakdown Structure</span></a>
 <a href="在制品"><b>在制品</b><span>Work-In-Process (WIP)</span></a>

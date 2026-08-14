@@ -36,7 +36,7 @@ date: 2026-07-06
 
 **📖 出自**
 
-《using-hoshin-kanri-to-improve-the-value-stream》　《丰田参与方程式》　《工具只是脚手架-李兆华》　《方针管理十问（Picchi·PlanetLean）》　《方针管理新书MarkReich双文》　《欢迎问题收获成功》
+《using-hoshin-kanri-to-improve-the-value-stream》　《丰田参与方程式》　《创建有效管理体系》　《工具只是脚手架-李兆华》　《方针管理十问（Picchi·PlanetLean）》　《方针管理新书MarkReich双文》　等 7 篇
 
 **📰 文章消化**
 
@@ -46,8 +46,8 @@ date: 2026-07-06
 
 ![[图表/重绘-图01-方针管理展开图-双语.png]]
 
-*图01 方针管理展开图 · Hoshin Management System　—　《欢迎问题收获成功》p.85（物理页 94）　·　中英双语重绘：费老师*
+*图01 方针管理展开图 · Hoshin Management System　—　《001-欢迎问题收获成功》p.85（物理页 94）　·　中英双语重绘：费老师*
 
-> 🔒 本词条另有 3 篇课件、4 篇案例、1 篇其他（含客户现场实录与课件），为**费老师拆书会员**内容。
+> 🔒 本词条另有 4 篇课件、5 篇案例、1 篇其他（含客户现场实录与课件），为**费老师拆书会员**内容。
 
 > 出处：《Welcome Problems, Find Success》；PlanetLean 方针管理系列

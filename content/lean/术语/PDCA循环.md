@@ -38,7 +38,7 @@ date: 2026-06-19
 
 **📖 出自**
 
-《using-hoshin-kanri-to-improve-the-value-stream》　《丰田参与方程式》　《方针管理新书MarkReich双文》　《每日管理三大核心模块》
+《using-hoshin-kanri-to-improve-the-value-stream》　《丰田参与方程式》　《丰田持续改善之道-战略与运营卓越的连接》　《方针管理新书MarkReich双文》
 
 **📝 综述**
 
@@ -50,13 +50,13 @@ date: 2026-06-19
 
 **🖼 图表**
 
-![[图表/重绘-图03-8步TBP对应PDCA-双语.png]]
-
-*图03 8步TBP对应PDCA · A3 Problem-Solving Process　—　《丰田参与方程式》书 p.86　·　中英双语重绘：费老师*
-
 ![[图表/重绘-图02-评估系统汇总-双语.png]]
 
-*图02 评估系统汇总雷达图 · Assessment System Summary（Total / Process Assessment）　—　《欢迎问题收获成功》p.131（物理页 140）　·　中英双语重绘：费老师*
+*图02 评估系统汇总雷达图 · Assessment System Summary（Total / Process Assessment）　—　《001-欢迎问题收获成功》p.131（物理页 140）　·　中英双语重绘：费老师*
+
+![[图表/重绘-图03-8步TBP对应PDCA-双语.png]]
+
+*图03 8步TBP对应PDCA · A3 Problem-Solving Process　—　《002-丰田参与方程式》书 p.86　·　中英双语重绘：费老师*
 
 **📎 配套表单**
 
@@ -64,6 +64,6 @@ date: 2026-06-19
 
 > 表单为费老师依据经典重制的中文可填写版本，**会员可下载**。
 
-> 🔒 本词条另有 2 篇课件、4 篇案例（含客户现场实录与课件），为**费老师拆书会员**内容。
+> 🔒 本词条另有 3 篇课件、4 篇案例（含客户现场实录与课件），为**费老师拆书会员**内容。
 
 > 出处：Lean Lexicon, 4th Edition（LEI）· 中文释义由费老师重写
