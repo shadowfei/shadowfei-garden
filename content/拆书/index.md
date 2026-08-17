@@ -17,7 +17,7 @@ date: 2026-08-16
 <div class="book-line book-heading">
 <span class="book-id">第001本</span>
 <h2>欢迎问题，收获成功</h2>
-<span class="book-author">Nate Furuta（古田贞昭），丰田任职37年，参与NUMMI与Georgetown建厂，曾任丰田欧洲制造集团董事长。</span>
+<p class="book-author"><b>作者</b>Nate Furuta（古田贞昭），丰田37年老将，参与NUMMI建厂，曾任丰田欧洲制造集团董事长。</p>
 </div>
 <p class="book-line book-core">从“欢迎问题”出发，讲清丰田如何用方针管理、问题暴露、互信和人才发展，把找问题变成组织习惯。</p>
 <div class="book-line asset-rail">
@@ -58,7 +58,7 @@ date: 2026-08-16
 <div class="book-line book-heading">
 <span class="book-id">第002本</span>
 <h2>丰田参与方程式</h2>
-<span class="book-author">Tracey与Ernie Richardson，丰田肯塔基工厂创厂成员，从一线成长为管理者与认证讲师，后创办Teaching Lean。</span>
+<p class="book-author"><b>作者</b>Tracey与Ernie Richardson，丰田肯塔基创厂成员，后创办Teaching Lean。</p>
 </div>
 <p class="book-line book-core">把丰田持续改善思维压缩为GTS6＋E3＝DNA：六种思考习惯，加上人人每天参与，形成纪律与担当。</p>
 <div class="book-line asset-rail">
@@ -99,7 +99,7 @@ date: 2026-08-16
 <div class="book-line book-heading">
 <span class="book-id">第003本</span>
 <h2>创建精益文化</h2>
-<span class="book-author">David Mann，《创建精益文化》作者；长期聚焦精益转型为何退化，以及领导者如何用日常管理系统维持成果。</span>
+<p class="book-author"><b>作者</b>David Mann，《创建精益文化》作者；长期聚焦精益转型为何退化，以及领导者如何用日常管理系统维持成果。</p>
 </div>
 <p class="book-line book-core">提出精益管理系统四要素：领导者标准作业、可视化管理、日常问责和纪律，解决“工具做完又退回去”。</p>
 <div class="book-line asset-rail">
@@ -140,7 +140,7 @@ date: 2026-08-16
 <div class="book-line book-heading">
 <span class="book-id">第004本</span>
 <h2>日常管理：执行战略——每天解决问题、培养人</h2>
-<span class="book-author">José Roberto Ferro（巴西精益研究院创始人）与Robson Gouveia合著，John Shook作序。</span>
+<p class="book-author"><b>作者</b>José Roberto Ferro（巴西精益研究院创始人）与Robson Gouveia合著，John Shook作序。</p>
 </div>
 <p class="book-line book-core">用日常管理把战略接到每天：保持业务结果、暴露并解决偏差，同时在问题解决中持续培养人。</p>
 <div class="book-line asset-rail">
@@ -181,7 +181,7 @@ date: 2026-08-16
 <div class="book-line book-heading">
 <span class="book-id">第005本</span>
 <h2>丰田式Dantotsu质量改善</h2>
-<span class="book-author">Sadao Nomura（野村贞夫），在丰田工作40余年，历经制造、质量保证、供应商支援与全球运营。</span>
+<p class="book-author"><b>作者</b>Sadao Nomura（野村贞夫），在丰田工作40余年，历经制造、质量保证、供应商支援与全球运营。</p>
 </div>
 <p class="book-line book-core">给出Dantotsu质量改善推进顺序：目标设坡度、缺陷可视化、标准与人才打底，再攻弱点、变化点和源流预防。</p>
 <div class="book-line asset-rail">
@@ -222,7 +222,7 @@ date: 2026-08-16
 <div class="book-line book-heading">
 <span class="book-id">第006本</span>
 <h2>丰田持续改善之道：战略与运营卓越的连接</h2>
-<span class="book-author">Jeffrey K. Liker（《丰田模式》作者）与James K. Franz合著，结合丰田研究和长期模型线辅导实践。</span>
+<p class="book-author"><b>作者</b>Jeffrey K. Liker（《丰田模式》作者）与James K. Franz合著，结合丰田研究和长期模型线辅导实践。</p>
 </div>
 <p class="book-line book-core">把战略目的、现场改善与人才成长接成长期学习系统；每个改善项目同时承担业务目的和人才发展目的。</p>
 <div class="book-line asset-rail">
@@ -263,7 +263,7 @@ date: 2026-08-16
 <div class="book-line book-heading">
 <span class="book-id">第007本</span>
 <h2>创建有效管理体系</h2>
-<span class="book-author">Patrick Graupp、Skip Steward、Brad Parsons，分别代表TWI传承、绩效改善系统和医院经营责任。</span>
+<p class="book-author"><b>作者</b>Patrick Graupp、Skip Steward、Brad Parsons，分别代表TWI传承、绩效改善系统和医院经营责任。</p>
 </div>
 <p class="book-line book-core">把方针展开、改善套路和TWI组合成一套管理系统，让目的、人员与流程相互咬合并持续产生结果。</p>
 <div class="book-line asset-rail">
@@ -300,18 +300,19 @@ date: 2026-08-16
 </div>
 </details>
 </section>
+<section class="public-portals">
+<header><p class="eyebrow">OPEN LIBRARY · 公开内容</p><h2>已经能公开拿到的</h2><p>不看数量，直接进入内容。每个入口都通往已发布的独立页面。</p></header>
+<div class="public-portal-grid">
+<article class="public-portal is-pending"><span class="portal-kind">NOTE</span><h3>读书笔记</h3><p>公众号发布并完成脱敏后，同步到每本书卡片。</p><span class="portal-state">等待首篇公开</span></article>
+<a class="public-portal" href="../图表/"><span class="portal-kind">MODEL</span><h3>模型图</h3><p>中英双语重绘，把书中的关键结构一眼看懂。</p><span class="portal-action">马上看 <i>→</i></span></a>
+<a class="public-portal" href="../工具/"><span class="portal-kind">TOOL</span><h3>工具与表单</h3><p>按编号查看表单名称、用途、关联术语与出处。</p><span class="portal-action">马上看 <i>→</i></span></a>
+<a class="public-portal" href="../案例/"><span class="portal-kind">CASE</span><h3>费老师实操案例</h3><p>从真实现场出发，看方法怎样落到具体问题。</p><span class="portal-action">马上看 <i>→</i></span></a>
+<a class="public-portal" href="../lean/术语/"><span class="portal-kind">TERM</span><h3>精益术语库</h3><p>沿着概念进入定义、出处和彼此之间的关联。</p><span class="portal-action">马上看 <i>→</i></span></a>
+</div></section>
 </div>
 
 
-读书笔记只有在公众号发布、完成脱敏检查并同步到网站后才显示链接；未发布时保持空白。
-
 ---
-
-## 已经能公开拿到的
-
-- 🖼 [模型图 10 张](../图表/)　中英双语重绘，可直接进课件
-- 📋 [表单清单 15 套 · 0 张](../工具/)　编号、表名、关联术语、出处全公开
-- 📖 [术语库 209 条](../lean/术语/)　每条都标了出自哪本书
 
 ## 还在会员里的
 
