@@ -1,7 +1,7 @@
 ---
 title: 费老师拆书
 description: "费老师读厚拆薄百本经典精益与数字化管理书籍，结算成可直接使用的知识资产"
-date: 2026-08-16
+date: 2026-08-17
 ---
 
 <div class="book-ledger">
@@ -303,11 +303,11 @@ date: 2026-08-16
 <section class="public-portals">
 <header><p class="eyebrow">OPEN LIBRARY · 公开内容</p><h2>已经能公开拿到的</h2><p>不看数量，直接进入内容。每个入口都通往已发布的独立页面。</p></header>
 <div class="public-portal-grid">
-<article class="public-portal is-pending"><span class="portal-kind">NOTE</span><h3>读书笔记</h3><p>公众号发布并完成脱敏后，同步到每本书卡片。</p><span class="portal-state">等待首篇公开</span></article>
-<a class="public-portal" href="../图表/"><span class="portal-kind">MODEL</span><h3>模型图</h3><p>中英双语重绘，把书中的关键结构一眼看懂。</p><span class="portal-action">马上看 <i>→</i></span></a>
-<a class="public-portal" href="../工具/"><span class="portal-kind">TOOL</span><h3>工具与表单</h3><p>按编号查看表单名称、用途、关联术语与出处。</p><span class="portal-action">马上看 <i>→</i></span></a>
-<a class="public-portal" href="../案例/"><span class="portal-kind">CASE</span><h3>费老师实操案例</h3><p>从真实现场出发，看方法怎样落到具体问题。</p><span class="portal-action">马上看 <i>→</i></span></a>
-<a class="public-portal" href="../lean/术语/"><span class="portal-kind">TERM</span><h3>精益术语库</h3><p>沿着概念进入定义、出处和彼此之间的关联。</p><span class="portal-action">马上看 <i>→</i></span></a>
+<div class="public-portal is-pending"><span class="portal-kind">NOTE</span><strong class="portal-title">读书笔记</strong><span class="portal-copy">公众号发布并完成脱敏后，同步到每本书卡片。</span><span class="portal-state">等待首篇公开</span></div>
+<a class="public-portal" href="../图表/"><span class="portal-kind">MODEL</span><strong class="portal-title">模型图</strong><span class="portal-copy">中英双语重绘，把书中的关键结构一眼看懂。</span><span class="portal-action">马上看 <i>→</i></span></a>
+<a class="public-portal" href="../工具/"><span class="portal-kind">TOOL</span><strong class="portal-title">工具与表单</strong><span class="portal-copy">按编号查看表单名称、用途、关联术语与出处。</span><span class="portal-action">马上看 <i>→</i></span></a>
+<a class="public-portal" href="../案例/"><span class="portal-kind">CASE</span><strong class="portal-title">费老师实操案例</strong><span class="portal-copy">从真实现场出发，看方法怎样落到具体问题。</span><span class="portal-action">马上看 <i>→</i></span></a>
+<a class="public-portal" href="../lean/术语/"><span class="portal-kind">TERM</span><strong class="portal-title">精益术语库</strong><span class="portal-copy">沿着概念进入定义、出处和彼此之间的关联。</span><span class="portal-action">马上看 <i>→</i></span></a>
 </div></section>
 </div>
 
