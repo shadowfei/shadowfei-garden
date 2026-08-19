@@ -1,124 +1,253 @@
 ---
-title: 现场案例
-description: "费老师实战案例全文，加上经典案例、行业观察与脱敏客户案例"
-date: 2026-08-14
+title: 精益案例库
+description: "正式七本拆书中提炼的管理案例总表，含背景、亮点、关联术语与来源书"
+date: 2026-08-19
 ---
 
-# 现场案例
-
-**67 则**案例，每则都标了它落在三柱四流的哪个位置——案例不是故事集，是用来对号入座的。
-
----
-
-## 费老师实战案例 · 9 则（全文公开）
-
-费老师自己带的项目，**全文公开**：卡在哪、怎么做的、改善了多少，动作里用到的方法都挂着术语链接，可以点进去看怎么落。
-
-> 均已脱敏，企业名称隐去，仅展示方法论框架与改善效果。
-
-<div class="case-grid">
-<a class="case-card" href="实战-ESD装配线-产能5倍提升"><span class="case-ind">表面处理 / 电镀 · 苹果二级供应商</span><strong>ESD 装配线产能提升 5 倍</strong><p>日产 300 台 → 1500 台，换线 30 分钟 → 1 分钟，交期 60 天 → 25 天</p><span class="case-pos">日常管理 · 流程流</span></a>
-<a class="case-card" href="实战-制药包装-SMED换模改善"><span class="case-ind">制药包装</span><strong>压片机换模从 773 分钟到 355 分钟</strong><p>录像测时 773 分钟基线，分内外部作业后压到 355 分钟，年折算产值 2000 万+</p><span class="case-pos">日常管理 · 流程流</span></a>
-<a class="case-card" href="实战-医疗器械-SIOP产销协同"><span class="case-ind">医疗器械</span><strong>SIOP 产销协同改善</strong><p>销售和运营各背各的目标，库存与缺料并存；统一 KPI 后交期缩短 30%</p><span class="case-pos">方针管理 · 目标流</span></a>
-<a class="case-card" href="实战-压力容器-ETO交付改善"><span class="case-ind">压力容器制造</span><strong>ETO 订单交付改善</strong><p>单件定制交期长、赶工成本高；瓶颈管起来后准交率 +30%、产能 +30%</p><span class="case-pos">日常管理 · 流程流</span></a>
-<a class="case-card" href="实战-工贸一体-出口业务转型"><span class="case-ind">工贸一体</span><strong>出口业务端到端打通</strong><p>想自己做出口却没有贸易流程，标准软件接不上；打通后年增长 30–50%</p><span class="case-pos">方针管理 · 价值流</span></a>
-<a class="case-card" href="实战-建材预制构件-二次精益陪跑"><span class="case-ind">水泥预制构件制造</span><strong>「二次精益」多基地陪跑</strong><p>做过两轮精益却全部回潮；这一次不做项目，做造血机制</p><span class="case-pos">方针管理 · 目标流</span></a>
-<a class="case-card" href="实战-新能源-低代码MES平台"><span class="case-ind">新能源</span><strong>低代码 MES 平台建设</strong><p>先理流程再定采集点，一物一码全流程可追溯，不给现场加录入负担</p><span class="case-pos">日常管理 · 信息流</span></a>
-<a class="case-card" href="实战-电器制造-全流程精益数字化"><span class="case-ind">电器制造</span><strong>新厂房全流程精益数字化</strong><p>新厂房从布局就按价值流设计，订单交期压到 1 个月，效率 +30%</p><span class="case-pos">日常管理 · 流程流</span></a>
-<a class="case-card" href="实战-零部件机加工-FLOWSMART精益转型"><span class="case-ind">零部件机加工</span><strong>FLOW SMART 精益转型</strong><p>传统精益只治局部，四个流动一起理，加工周期缩短 30–50%</p><span class="case-pos">方针管理 · 流程流</span></a>
+<div class="asset-catalog-page case-catalog-page">
+<header class="catalog-hero">
+<p class="eyebrow">CASE LIBRARY · 从现场回看方法</p>
+<h1>精益案例库</h1>
+<p>把正式七本拆书里的 <b>38</b> 个案例放进一张总表。先看发生了什么、哪里值得借鉴，再沿术语和来源书继续追下去。</p>
+</header>
+<div class="catalog-table-wrap">
+<table class="asset-catalog">
+<thead><tr>
+<th>案例（编号 + 名称）</th><th>背景与亮点</th>
+<th>关联术语（编号 + 名称）</th><th>来源书（编号 + 名称）</th>
+</tr></thead><tbody>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000001</code><strong>25 万美元的培训，买回来什么？</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第003本《创建精益文化》</p><p class="catalog-highlight"><span>亮点</span>执行副总拒绝走现场，25万美元培训只买到活动不是改善；正字计数图从没离开过格子间</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%B2%BE%E7%9B%8A%E9%A2%86%E5%AF%BC%E5%8A%9B"><code>TERM-000170</code><span>精益领导力</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%BA"><code>TERM-000157</code><span>现场</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%AF%BC%E5%B8%88"><code>TERM-000088</code><span>导师</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000007</code><strong>索赔晨会：Company F把“不可能”做成93%</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第005本《丰田式Dantotsu质量改善》</p><p class="catalog-highlight"><span>亮点</span>Company F通过索赔晨会把市场索赔费用下降93%并推动全集团下降65%</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%99%A8%E4%BC%9A"><code>TERM-000129</code><span>晨会</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%96%AD%E7%AA%81%E8%B4%A8%E9%87%8F"><code>TERM-000125</code><span>断突质量</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第005本</code><span>丰田式Dantotsu质量改善</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000010</code><strong>案例四｜Henry Ford 医疗实验室：质量不是专家项目</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第006本《丰田持续改善之道：战略与运营卓越的连接》</p><p class="catalog-highlight"><span>亮点</span>医疗实验室把五人质量团队嵌入部门，流程35步降到24步并大幅降低误识别</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%B2%BE%E7%9B%8A%E9%A2%86%E5%AF%BC%E5%8A%9B"><code>TERM-000170</code><span>精益领导力</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第006本</code><span>丰田持续改善之道：战略与运营卓越的连接</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000011</code><strong>案例五｜NAAS 产品开发：六万美元白板撬动五十亿美元企业</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第006本《丰田持续改善之道：战略与运营卓越的连接》</p><p class="catalog-highlight"><span>亮点</span>北美汽车供应商把知识工作可视化并用目标成本法实现约30%总成本下降</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%BB%B7%E5%80%BC%E6%B5%81%E5%9B%BE"><code>TERM-000044</code><span>价值流图</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><code>TERM-000195</code><span>问题解决</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第006本</code><span>丰田持续改善之道：战略与运营卓越的连接</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000012</code><strong>NUMMI：同一批工人，不同的结果</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第001本《欢迎问题，收获成功》</p><p class="catalog-highlight"><span>亮点</span>同一批工人换管理系统即逆转：4000起申诉的弗里蒙特→通用史上最高质量评级，对照组AAI证明唯一变量是管理</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%BA%92%E4%BF%A1"><code>TERM-000040</code><span>互信</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E6%96%87%E5%8C%96"><code>TERM-000116</code><span>改善文化</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第001本</code><span>欢迎问题，收获成功</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000013</code><strong>Raymond：同一面积里把出货做成 5.5 倍</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第005本《丰田式Dantotsu质量改善》</p><p class="catalog-highlight"><span>亮点</span>Raymond用Nomura方法把每台缺陷降至0.0036并在同一面积内把出货从4000台提至22000台</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%96%AD%E7%AA%81%E8%B4%A8%E9%87%8F"><code>TERM-000125</code><span>断突质量</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E8%87%AA%E5%83%8D%E5%8C%96"><code>TERM-000178</code><span>自働化</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%8C%81%E7%BB%AD%E6%94%B9%E5%96%84"><code>TERM-000106</code><span>持续改善</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第005本</code><span>丰田式Dantotsu质量改善</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000015</code><strong>TMMK-一秒等于每班8台凯美瑞</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第002本《丰田参与方程式》</p><p class="catalog-highlight"><span>亮点</span>翻页板算账：人均省1秒=每班8台；节拍60→53秒</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%B8%83%E5%A4%A7%E6%B5%AA%E8%B4%B9"><code>TERM-000033</code><span>七大浪费</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E6%96%87%E5%8C%96"><code>TERM-000116</code><span>改善文化</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第002本</code><span>丰田参与方程式</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000016</code><strong>Georgetown 从零建厂：10 万人应聘 2000 岗位</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第001本《欢迎问题，收获成功》</p><p class="catalog-highlight"><span>亮点</span>10万人应聘2000岗：招态度不招经验，5%工时培训+无裁员改善，文化可复制的人事地基</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84"><code>TERM-000115</code><span>改善</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E8%80%85"><code>TERM-000196</code><span>问题解决者</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E6%96%87%E5%8C%96"><code>TERM-000116</code><span>改善文化</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第001本</code><span>欢迎问题，收获成功</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000017</code><strong>TMMK-全厂停线社长步行致谢</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第002本《丰田参与方程式》</p><p class="catalog-highlight"><span>亮点</span>500人停线一小时，Cho步行一英里只说&quot;谢谢你把工厂停下来&quot;</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E8%87%AA%E5%83%8D%E5%8C%96"><code>TERM-000178</code><span>自働化</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%AE%89%E7%81%AF"><code>TERM-000087</code><span>安灯</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%BA%92%E4%BF%A1"><code>TERM-000040</code><span>互信</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E6%96%87%E5%8C%96"><code>TERM-000116</code><span>改善文化</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第002本</code><span>丰田参与方程式</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000018</code><strong>TMMK-十个人的活九个人干</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第002本《丰田参与方程式》</p><p class="catalog-highlight"><span>亮点</span>created gap 标准示范：KPI全绿即抬杠，3个月10→9人不裁员</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%9D%87%E8%A1%A1%E7%94%9F%E4%BA%A7"><code>TERM-000078</code><span>均衡生产</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%BB%86%E4%BA%BA%E5%BC%8F%E9%A2%86%E5%AF%BC"><code>TERM-000041</code><span>仆人式领导</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E6%96%87%E5%8C%96"><code>TERM-000116</code><span>改善文化</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第002本</code><span>丰田参与方程式</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000019</code><strong>TMMK-押车抓出间歇性划痕</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第002本《丰田参与方程式》</p><p class="catalog-highlight"><span>亮点</span>点位刁钻到&quot;35mph×路口凹陷×堆位底层&quot;；主管押车数日抓真凶</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%82%B9%E4%BD%8Dpoo"><code>TERM-000152</code><span>点位POO</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/5%E4%B8%AA%E4%B8%BA%E4%BB%80%E4%B9%88"><code>TERM-000012</code><span>5个为什么</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%AE%89%E7%81%AF"><code>TERM-000087</code><span>安灯</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%9C%9F%E5%8C%97"><code>TERM-000165</code><span>真北</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第002本</code><span>丰田参与方程式</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000020</code><strong>两周解决十二年的老问题</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第003本《创建精益文化》</p><p class="catalog-highlight"><span>亮点</span>36秒节拍把12年顽疾逼出来，价值流会议指派后两周永久解决</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E8%8A%82%E6%8B%8D%E6%97%B6%E9%97%B4"><code>TERM-000182</code><span>节拍时间</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><code>TERM-000195</code><span>问题解决</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%BB%BF%E7%82%B9%E7%BA%A2%E7%82%B9%E5%88%B6"><code>TERM-000176</code><span>绿点红点制</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000026</code><strong>为了 95%，把丢了 2 台的节拍涂成绿色</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第003本《创建精益文化》</p><p class="catalog-highlight"><span>亮点</span>95%达成率死命令→班组长把少2台的节拍涂绿、原因栏留空，真问题在数据里消失</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%B2%BE%E7%9B%8A%E9%A2%86%E5%AF%BC%E5%8A%9B"><code>TERM-000170</code><span>精益领导力</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%96%B9%E9%92%88%E7%AE%A1%E7%90%86"><code>TERM-000126</code><span>方针管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%BB%BF%E7%82%B9%E7%BA%A2%E7%82%B9%E5%88%B6"><code>TERM-000176</code><span>绿点红点制</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000027</code><strong>乔治敦的隐性危机：成功之后的自满</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第001本《欢迎问题，收获成功》</p><p class="catalog-highlight"><span>亮点</span>成功之后的自满是改善文化头号敌人：用KPI体系主动制造问题，听到100%运转率立刻查造假</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%8C%87%E6%A0%87%E6%A0%91"><code>TERM-000107</code><span>指标树</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%B0%E7%8E%B0%E7%89%A9"><code>TERM-000156</code><span>现地现物</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E6%96%87%E5%8C%96"><code>TERM-000116</code><span>改善文化</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第001本</code><span>欢迎问题，收获成功</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000028</code><strong>休假归来：救火两天，不如守标准作业一天</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第003本《创建精益文化》</p><p class="catalog-highlight"><span>亮点</span>35人区域救火2天毫无进展→回到标准作业1天恢复平静</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%81%87%E6%9C%9F%E6%82%96%E8%AE%BA"><code>TERM-000050</code><span>假期悖论</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000030</code><strong>包装企业每日管理扭亏为盈</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第004本《日常管理：执行战略——每天解决问题、培养人》</p><p class="catalog-highlight"><span>亮点</span>家族包装企业以每日管理恢复交付与跨部门协作，准时交付接近100%，净收入增长超过90%</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%97%A5%E5%B8%B8%E7%AE%A1%E7%90%86"><code>TERM-000128</code><span>日常管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%AE%A1%E6%8E%A7%E5%8F%98%E9%87%8F"><code>TERM-000166</code><span>管控变量</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><code>TERM-000195</code><span>问题解决</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第004本</code><span>日常管理：执行战略——每天解决问题、培养人</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000032</code><strong>卫星金矿-4000万美元投资翻盘</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第002本《丰田参与方程式》</p><p class="catalog-highlight"><span>亮点</span>GTS6出车间照样管用：黏土混合策略救活$40M卫星矿</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%9C%9F%E5%8C%97"><code>TERM-000165</code><span>真北</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%85%88%E6%8C%87%E6%A0%87%E4%B8%8E%E6%BB%9E%E5%90%8E%E6%8C%87%E6%A0%87"><code>TERM-000202</code><span>领先指标与滞后指标</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E6%96%87%E5%8C%96"><code>TERM-000116</code><span>改善文化</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第002本</code><span>丰田参与方程式</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000033</code><strong>堤工厂-2秒提案被团队加倍成4秒</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第002本《丰田参与方程式》</p><p class="catalog-highlight"><span>亮点</span>丰田训练法MOP→小改善→当众提案；团队共创让提案翻倍</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%8F%90%E6%A1%88%E5%88%B6%E5%BA%A6"><code>TERM-000112</code><span>提案制度</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E6%96%87%E5%8C%96"><code>TERM-000116</code><span>改善文化</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/catchball"><code>TERM-000020</code><span>Catchball</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第002本</code><span>丰田参与方程式</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000034</code><strong>壳体线：五周把可动率推到98%</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第005本《丰田式Dantotsu质量改善》</p><p class="catalog-highlight"><span>亮点</span>壳体线通过停机可视化和任务小组在第五周达到每班停机10分钟与98%可动率</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%94%9F%E4%BA%A7%E7%A8%B3%E5%AE%9A%E5%8C%96"><code>TERM-000160</code><span>生产稳定化</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%BB%BB%E5%8A%A1%E5%B0%8F%E7%BB%84"><code>TERM-000047</code><span>任务小组</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第005本</code><span>丰田式Dantotsu质量改善</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000035</code><strong>案例二｜复杂设备企业：五年学会用提前期暴露问题</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第006本《丰田持续改善之道：战略与运营卓越的连接》</p><p class="catalog-highlight"><span>亮点</span>澳大利亚丰田教练用12个月模型线和50%提前期挑战改变日本复杂设备企业</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8D%95%E4%BB%B6%E6%B5%81"><code>TERM-000062</code><span>单件流</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%9C%8B%E6%9D%BF"><code>TERM-000163</code><span>看板</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><code>TERM-000195</code><span>问题解决</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第006本</code><span>丰田持续改善之道：战略与运营卓越的连接</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000046</code><strong>案例一｜小船厂球阀区：深学很慢，但结果很硬</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第006本《丰田持续改善之道：战略与运营卓越的连接》</p><p class="catalog-highlight"><span>亮点</span>美国海军维修船厂用模型区深耕，把175天球阀维修提前期压缩60%</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E4%BB%B7%E5%80%BC%E6%B5%81%E5%9B%BE"><code>TERM-000044</code><span>价值流图</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%B0%E7%8E%B0%E7%89%A9"><code>TERM-000156</code><span>现地现物</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%8C%81%E7%BB%AD%E6%94%B9%E5%96%84"><code>TERM-000106</code><span>持续改善</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第006本</code><span>丰田持续改善之道：战略与运营卓越的连接</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000047</code><strong>心脏导管室：六周消除 50 多处延迟源</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第003本《创建精益文化》</p><p class="catalog-highlight"><span>亮点</span>单台2-12小时无法按时跟踪→改逐台跟踪+红绿点，6周消除50+延迟源</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%BB%BF%E7%82%B9%E7%BA%A2%E7%82%B9%E5%88%B6"><code>TERM-000176</code><span>绿点红点制</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><code>TERM-000195</code><span>问题解决</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000049</code><strong>案例六｜核燃料西海岸工厂：七年把强监管变成高标准</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第006本《丰田持续改善之道：战略与运营卓越的连接》</p><p class="catalog-highlight"><span>亮点</span>650人核燃料工厂以模型线、拉动和标准作业审核实现63%提前期下降</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%8C%81%E7%BB%AD%E6%94%B9%E5%96%84"><code>TERM-000106</code><span>持续改善</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%8B%89%E5%8A%A8%E7%94%9F%E4%BA%A7"><code>TERM-000105</code><span>拉动生产</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第006本</code><span>丰田持续改善之道：战略与运营卓越的连接</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000052</code><strong>玉米农场收割每日管理</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第004本《日常管理：执行战略——每天解决问题、培养人》</p><p class="catalog-highlight"><span>亮点</span>玉米农场每天实测收割损耗，将平均损耗降至0.8袋/公顷并达到创纪录收成目标</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%97%A5%E5%B8%B8%E7%AE%A1%E7%90%86"><code>TERM-000128</code><span>日常管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%AE%A1%E6%8E%A7%E5%8F%98%E9%87%8F"><code>TERM-000166</code><span>管控变量</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第004本</code><span>日常管理：执行战略——每天解决问题、培养人</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000054</code><strong>精益急诊科：两年建成，两年清零</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第003本《创建精益文化》</p><p class="catalog-highlight"><span>亮点</span>门到出院压到2h出头→两年后改善几乎无存（没文件、没监督、全靠人）</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E6%96%87%E5%8C%96"><code>TERM-000116</code><span>改善文化</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000055</code><strong>结构化现场巡走，破了高管的冰</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第003本《创建精益文化》</p><p class="catalog-highlight"><span>亮点</span>讲了一年精益课+参观式巡厂全无效→改成两两配对带工作表打分辩护，高管真参与了</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%BA"><code>TERM-000157</code><span>现场</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%B2%BE%E7%9B%8A%E9%A2%86%E5%AF%BC%E5%8A%9B"><code>TERM-000170</code><span>精益领导力</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%AF%BC%E5%B8%88"><code>TERM-000088</code><span>导师</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%96%B9%E9%92%88%E7%AE%A1%E7%90%86"><code>TERM-000126</code><span>方针管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000057</code><strong>肿瘤诊所化疗中心每日管理</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第004本《日常管理：执行战略——每天解决问题、培养人》</p><p class="catalog-highlight"><span>亮点</span>肿瘤诊所用每日管理控制化疗中心的产能、变异与患者等待</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%97%A5%E5%B8%B8%E7%AE%A1%E7%90%86"><code>TERM-000128</code><span>日常管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%AE%A1%E6%8E%A7%E5%8F%98%E9%87%8F"><code>TERM-000166</code><span>管控变量</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%BF%83%E7%90%86%E5%AE%89%E5%85%A8%E6%84%9F"><code>TERM-000098</code><span>心理安全感</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第004本</code><span>日常管理：执行战略——每天解决问题、培养人</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000058</code><strong>案例三｜西澳铁矿：两年纪录之后，为何仍会衰退</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第006本《丰田持续改善之道：战略与运营卓越的连接》</p><p class="catalog-highlight"><span>亮点</span>矿山模型线创造两年产量纪录，却因总部未进入学习循环而逐步弱化</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%B0%E7%8E%B0%E7%89%A9"><code>TERM-000156</code><span>现地现物</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%96%B9%E9%92%88%E7%AE%A1%E7%90%86"><code>TERM-000126</code><span>方针管理</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第006本</code><span>丰田持续改善之道：战略与运营卓越的连接</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000059</code><strong>把观察间隔砍一半，达成率掉了 20 个点</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第003本《创建精益文化》</p><p class="catalog-highlight"><span>亮点</span>1小时→半小时观察，达成率掉20个点：不是变差，是问题露出来了</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%BA"><code>TERM-000157</code><span>现场</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E8%8A%82%E6%8B%8D%E6%97%B6%E9%97%B4"><code>TERM-000182</code><span>节拍时间</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000060</code><strong>跪在成品区补装配的主管</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第003本《创建精益文化》</p><p class="catalog-highlight"><span>亮点</span>产量陡增5倍下绕过响应系统，实情是照流程走本可早1天交货、代价仅半小时加班</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><code>TERM-000195</code><span>问题解决</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000061</code><strong>银行软件缺陷每日管理治理</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第004本《日常管理：执行战略——每天解决问题、培养人》</p><p class="catalog-highlight"><span>亮点</span>银行软件团队用每日管理治理缺陷流入、积压与跨职能问题解决</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%97%A5%E5%B8%B8%E7%AE%A1%E7%90%86"><code>TERM-000128</code><span>日常管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%AE%A1%E6%8E%A7%E5%8F%98%E9%87%8F"><code>TERM-000166</code><span>管控变量</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><code>TERM-000195</code><span>问题解决</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第004本</code><span>日常管理：执行战略——每天解决问题、培养人</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000062</code><strong>飞行汽车预研Obeya每日管理</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第004本《日常管理：执行战略——每天解决问题、培养人》</p><p class="catalog-highlight"><span>亮点</span>飞行汽车预研团队以Obeya和每日短周期协作管理跨职能知识生成与项目风险</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%97%A5%E5%B8%B8%E7%AE%A1%E7%90%86"><code>TERM-000128</code><span>日常管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%AE%A1%E6%8E%A7%E5%8F%98%E9%87%8F"><code>TERM-000166</code><span>管控变量</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><code>TERM-000195</code><span>问题解决</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第004本</code><span>日常管理：执行战略——每天解决问题、培养人</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000063</code><strong>高校学籍流程每日管理优化</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第004本《日常管理：执行战略——每天解决问题、培养人》</p><p class="catalog-highlight"><span>亮点</span>高校学籍行政流程用每日管理暴露等待、返工与跨部门交接问题</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%97%A5%E5%B8%B8%E7%AE%A1%E7%90%86"><code>TERM-000128</code><span>日常管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3"><code>TERM-000195</code><span>问题解决</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%AE%A1%E6%8E%A7%E5%8F%98%E9%87%8F"><code>TERM-000166</code><span>管控变量</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第004本</code><span>日常管理：执行战略——每天解决问题、培养人</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000064</code><strong>高滨工厂与六家海外工厂：连续减半如何累积成98%</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第005本《丰田式Dantotsu质量改善》</p><p class="catalog-highlight"><span>亮点</span>高滨工厂把每年减半连续六年并实现成车检验缺陷下降98%</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%96%AD%E7%AA%81%E8%B4%A8%E9%87%8F"><code>TERM-000125</code><span>断突质量</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%96%B9%E9%92%88%E7%AE%A1%E7%90%86"><code>TERM-000126</code><span>方针管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E8%B4%A8%E9%87%8F%E7%AE%A1%E7%90%86%E6%9D%BF"><code>TERM-000185</code><span>质量管理板</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第005本</code><span>丰田式Dantotsu质量改善</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000066</code><strong>围术期抽血：12步和500英尺如何暴露部门断点</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第007本《创建有效管理体系》</p><p class="catalog-highlight"><span>亮点</span>12步和500英尺如何暴露部门断点；关键数字：12步、500英尺、7步、20英尺</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%B3%95"><code>TERM-000223</code><span>工作方法</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E5%88%86%E8%A7%A3%E8%A1%A8"><code>TERM-000228</code><span>工作分解表</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/catchball"><code>TERM-000020</code><span>Catchball</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第007本</code><span>创建有效管理体系</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000067</code><strong>模拟制造线：五轮实验才找到真正障碍</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>模拟实验，来自第007本《创建有效管理体系》</p><p class="catalog-highlight"><span>亮点</span>五轮实验才找到真正障碍；关键数字：50%、95%、45秒、5轮</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E5%A5%97%E8%B7%AF"><code>TERM-000220</code><span>改善套路</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E6%8C%87%E5%AF%BC"><code>TERM-000221</code><span>工作指导</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E5%85%B3%E7%B3%BB"><code>TERM-000222</code><span>工作关系</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%B3%95"><code>TERM-000223</code><span>工作方法</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第007本</code><span>创建有效管理体系</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000068</code><strong>大型医院急诊：从172.75分钟到141分钟</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第007本《创建有效管理体系》</p><p class="catalog-highlight"><span>亮点</span>从172.75分钟到141分钟；关键数字：172.75分钟、141分钟、24%、1.19%</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%94%B9%E5%96%84%E5%A5%97%E8%B7%AF"><code>TERM-000220</code><span>改善套路</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E6%8C%87%E5%AF%BC"><code>TERM-000221</code><span>工作指导</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E5%85%B3%E7%B3%BB"><code>TERM-000222</code><span>工作关系</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E6%96%B9%E6%B3%95"><code>TERM-000223</code><span>工作方法</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第007本</code><span>创建有效管理体系</span></span></div></td>
+</tr>
+<tr>
+<td data-label="案例（编号 + 名称）"><div class="catalog-object"><code>CASE-000069</code><strong>定制窗制造商：培训从160小时缩到60小时以内</strong></div></td>
+<td data-label="背景与亮点"><p class="catalog-intro"><span>背景</span>真实场景，来自第007本《创建有效管理体系》</p><p class="catalog-highlight"><span>亮点</span>培训从160小时缩到60小时以内；关键数字：160小时、60小时以内、100%、75%</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E6%8C%87%E5%AF%BC"><code>TERM-000221</code><span>工作指导</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%9F%B9%E8%AE%AD%E6%97%B6%E9%97%B4%E8%A1%A8"><code>TERM-000224</code><span>培训时间表</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第007本</code><span>创建有效管理体系</span></span></div></td>
+</tr>
+</tbody></table>
 </div>
-
-<div class="enterprise-cta">
-<span class="ent-eyebrow">费老师 · 现场诊断</span>
-<h2>想知道你的厂卡在哪一关？</h2>
-<p>上面这些案例的共同点，是<b>先看清现状，再动手</b>。照搬别人的答案没用——得先知道自己在哪。</p>
-<p>从<b>十条最常见的死法</b>开始自检，五分钟；想再往下走，还有 12 题方针快照和费老师的深度诊断。</p>
-<div class="ent-actions">
-<a class="ent-btn-primary" href="https://shadowfei.github.io/checklist/" target="_blank" rel="noopener">先做免费自检 · 十大死法 →</a>
-<a class="ent-btn-ghost" href="../诊断/">看诊断怎么做</a>
+<footer class="catalog-footnote">
+<strong>公开边界</strong>
+<p>这里展示案例编号、名称、背景与关系摘要；涉及客户细节或会员内容的正文不在公开页展开。</p>
+</footer>
 </div>
-</div>
-
----
-
-> 以下几类只公开**有哪些案例**和**一句话结论**，正文含现场细节，属会员内容。
-
-## 经典案例 · 49 则（出自百本精益经典拆书）
-
-丰田、NUMMI、丹纳赫……逐本读出来的，标了出处可回查原书。
-
-| 案例 | 一句话结论 | 出自 | 位置 |
-|---|---|---|---|
-| 25万美元培训买回来什么 | 执行副总拒绝走现场，25万美元培训只买到活动不是改善；正字计数图从没离开过格子间 | 《创建精益文化》 | 组织人才 · 信息流 |
-| 3R电动自行车单元转型 | 动作级时间研究→平衡率84%→4天改善周（100%脱产） | 《单元制造实战手册》 | 日常管理 · 流程流 |
-| CONWIP干船坞案例 | 造船干船坞：空位即卡的天然 CONWIP——很多工厂已在用 CONWIP 而不知道 | 《All About Pull Production》 | 日常管理 · 价值流 |
-| Carjo-Plant2磨床换模改善案例 | SMED 三阶段实战：3.5h→终极目标 3.5min，螺栓是敌人、调整占 50%、内外分离降 30-50% | 《Using Hoshin Kanri to Improve the Value Stream》 | 日常管理 · 流程流 |
-| Carjo-Plant3齿轮箱总装瓶颈改善案例 | 节拍超标 173-272% 的系统瓶颈识别，工序间 Cycle Time 差异 13s→249s 的节拍平衡问题 | 《Using Hoshin Kanri to Improve the Value Stream》 | 日常管理 · 流程流 |
-| Carjo制造公司方针管理导入案例 | 方针管理从领导层闭门会到三级文档体系的全流程导入，Carjo 虚构案例展示战略目标分解与月度回顾 | 《Using Hoshin Kanri to Improve the Value Stream》 | 方针管理 · 目标流 |
-| Carjo衬套孔六西格玛降缺陷案例 | Hoshin Action Plan 完整实例：56,704 PPM→目标 28,154 PPM，月度 PPM 追踪+颜色编码异常 | 《Using Hoshin Kanri to Improve the Value Stream》 | 方针管理 · 目标流 |
-| Company-F索赔晨会 | Company F通过索赔晨会把市场索赔费用下降93%并推动全集团下降65% | 《丰田式Dantotsu质量改善》 | 日常管理 · 信息流 |
-| Henry-Ford医疗实验室-质量不是专家项目 | 医疗实验室把五人质量团队嵌入部门，流程35步降到24步并大幅降低误识别 | 《丰田持续改善之道》 | 日常管理 · 信息流 |
-| NAAS产品开发-六万美元白板撬动五十亿美元企业 | 北美汽车供应商把知识工作可视化并用目标成本法实现约30%总成本下降 | 《丰田持续改善之道》 | 组织人才 · 价值流 |
-| NUMMI-同一批工人的逆转 | 同一批工人换管理系统即逆转：4000起申诉的弗里蒙特→通用史上最高质量评级，对照组AAI证明唯一变量是管理 | 《欢迎问题收获成功》 | 组织人才 · 信息流 |
-| Raymond断突质量改善 | Raymond用Nomura方法把每台缺陷降至0.0036并在同一面积内把出货从4000台提至22000台 | 《丰田式Dantotsu质量改善》 | 日常管理 · 流程流 |
-| TMMK-一秒等于每班8台凯美瑞 | 翻页板算账：人均省1秒=每班8台；节拍60→53秒 | 《丰田参与方程式》 | 日常管理 · 流程流 |
-| TMMK-从零建厂 | 10万人应聘2000岗：招态度不招经验，5%工时培训+无裁员改善，文化可复制的人事地基 | 《欢迎问题收获成功》 | 组织人才 · 信息流 |
-| TMMK-全厂停线社长步行致谢 | 500人停线一小时，Cho步行一英里只说\"谢谢你把工厂停下来\ | 《丰田参与方程式》 | 组织人才 · 信息流 |
-| TMMK-十个人的活九个人干 | created gap 标准示范：KPI全绿即抬杠，3个月10→9人不裁员 | 《丰田参与方程式》 | 方针管理 · 目标流 |
-| TMMK-押车抓出间歇性划痕 | 点位刁钻到\"35mph×路口凹陷×堆位底层\"；主管押车数日抓真凶 | 《丰田参与方程式》 | 日常管理 · 流程流 |
-| 两周解决十二年的抽屉与锁具顽疾 | 36秒节拍把12年顽疾逼出来，价值流会议指派后两周永久解决 | 《创建精益文化》 | 日常管理 · 流程流 |
-| 丰田OMCD供应商TPS推广 | 咨询业祖师爷案例：17家试点，教材+现场指导，1973手册因此成文 | 《丰田生产系统手册1973》 | 组织人才 · 流程流 |
-| 丰田运输看板案例 | JTEKT→丰田高冈工厂：一张 QR 码运输看板撑起 3 小时车程的跨厂补货 | 《All About Pull Production》 | 日常管理 · 信息流 |
-| 为了95%把丢2台的节拍涂成绿色 | 95%达成率死命令→班组长把少2台的节拍涂绿、原因栏留空，真问题在数据里消失 | 《创建精益文化》 | 方针管理 · 信息流 |
-| 乔治敦-隐性危机 | 成功之后的自满是改善文化头号敌人：用KPI体系主动制造问题，听到100%运转率立刻查造假 | 《欢迎问题收获成功》 | 组织人才 · 目标流 |
-| 休假归来救火两天不如守标准作业一天 | 35人区域救火2天毫无进展→回到标准作业1天恢复平静 | 《创建精益文化》 | 日常管理 · 流程流 |
-| 包装企业每日管理扭亏为盈 | 家族包装企业以每日管理恢复交付与跨部门协作，准时交付接近100%，净收入增长超过90% | 《每日管理三大核心模块》 | 日常管理 · 流程流 |
-| 医院两箱看板案例 | 西班牙医院双卡药柜：前箱空白卡、二箱空红卡；医疗拉动安全边际偏向可用性 | 《All About Pull Production》 | 日常管理 · 流程流 |
-| 卫星金矿-4000万美元投资翻盘 | GTS6出车间照样管用：黏土混合策略救活$40M卫星矿 | 《丰田参与方程式》 | 日常管理 · 流程流 |
-| 围术期抽血-12步和500英尺暴露部门断点 | 12步和500英尺如何暴露部门断点 | 《创建有效管理体系》 | 日常管理 · 流程流 |
-| 堤工厂-2秒提案被团队加倍成4秒 | 丰田训练法MOP→小改善→当众提案；团队共创让提案翻倍 | 《丰田参与方程式》 | 组织人才 · 流程流 |
-| 壳体线五周稳定化 | 壳体线通过停机可视化和任务小组在第五周达到每班停机10分钟与98%可动率 | 《丰田式Dantotsu质量改善》 | 日常管理 · 流程流 |
-| 复杂设备企业-五年学会用提前期暴露问题 | 澳大利亚丰田教练用12个月模型线和50%提前期挑战改变日本复杂设备企业 | 《丰田持续改善之道》 | 组织人才 · 流程流 |
-| 大型医院急诊-17275分钟降到141分钟 | 从172.75分钟到141分钟 | 《创建有效管理体系》 | 日常管理 · 价值流 |
-| 定制窗制造商-培训160小时缩到60小时以内 | 培训从160小时缩到60小时以内 | 《创建有效管理体系》 | 组织人才 · 流程流 |
-| 小船厂球阀区-深学很慢但结果很硬 | 美国海军维修船厂用模型区深耕，把175天球阀维修提前期压缩60% | 《丰田持续改善之道》 | 组织人才 · 流程流 |
-| 心脏导管室六周消除50处延迟 | 单台2-12小时无法按时跟踪→改逐台跟踪+红绿点，6周消除50+延迟源 | 《创建精益文化》 | 日常管理 · 信息流 |
-| 核燃料西海岸工厂-七年把强监管变成高标准 | 650人核燃料工厂以模型线、拉动和标准作业审核实现63%提前期下降 | 《丰田持续改善之道》 | 日常管理 · 流程流 |
-| 模拟制造线-五轮实验才找到真正障碍 | 五轮实验才找到真正障碍 | 《创建有效管理体系》 | 组织人才 · 流程流 |
-| 流水线转U型单元教学推演 | 五步算术题：节拍8.6分/件→2人U型→平衡率95.9%（可直接当课件练习） | 《Cellular Manufacturing One-Piece Flow》 | 日常管理 · 流程流 |
-| 玉米农场收割每日管理 | 玉米农场每天实测收割损耗，将平均损耗降至0.8袋/公顷并达到创纪录收成目标 | 《每日管理三大核心模块》 | 日常管理 · 流程流 |
-| 玩具车看板卡数计算案例 | 红/蓝/黄玩具车 38.3→40、27.8→30、19.8→22 卡：看板必须逐零件号按最坏值算 | 《All About Pull Production》 | 日常管理 · 流程流 |
-| 精益急诊科两年后退回原样 | 门到出院压到2h出头→两年后改善几乎无存（没文件、没监督、全靠人） | 《创建精益文化》 | 日常管理 · 流程流 |
-| 结构化现场巡走破了高管的冰 | 讲了一年精益课+参观式巡厂全无效→改成两两配对带工作表打分辩护，高管真参与了 | 《创建精益文化》 | 组织人才 · 目标流 |
-| 肿瘤诊所化疗中心每日管理 | 肿瘤诊所用每日管理控制化疗中心的产能、变异与患者等待 | 《每日管理三大核心模块》 | 日常管理 · 流程流 |
-| 西澳铁矿-两年纪录之后为何仍会衰退 | 矿山模型线创造两年产量纪录，却因总部未进入学习循环而逐步弱化 | 《丰田持续改善之道》 | 方针管理 · 信息流 |
-| 观察间隔砍一半达成率掉20个点 | 1小时→半小时观察，达成率掉20个点：不是变差，是问题露出来了 | 《创建精益文化》 | 日常管理 · 信息流 |
-| 跪在成品区补装配的主管 | 产量陡增5倍下绕过响应系统，实情是照流程走本可早1天交货、代价仅半小时加班 | 《创建精益文化》 | 日常管理 · 流程流 |
-| 银行软件缺陷每日管理治理 | 银行软件团队用每日管理治理缺陷流入、积压与跨职能问题解决 | 《每日管理三大核心模块》 | 日常管理 · 信息流 |
-| 飞行汽车预研Obeya每日管理 | 飞行汽车预研团队以Obeya和每日短周期协作管理跨职能知识生成与项目风险 | 《每日管理三大核心模块》 | 日常管理 · 信息流 |
-| 高校学籍流程每日管理优化 | 高校学籍行政流程用每日管理暴露等待、返工与跨部门交接问题 | 《每日管理三大核心模块》 | 日常管理 · 流程流 |
-| 高滨工厂连续减半质量改善 | 高滨工厂把每年减半连续六年并实现成车检验缺陷下降98% | 《丰田式Dantotsu质量改善》 | 方针管理 · 目标流 |
-
-## 行业观察 · 9 则（出自公开报道）
-
-特斯拉、美的、优衣库、富士康……从公开报道和行业文章里拆出来的，不是我的项目，但同样能对号入座。
-
-| 案例 | 一句话结论 | 位置 |
-|---|---|---|
-| Halfway生产中心参观 | 贴在墙上没人看见的目的；看板是第六版（陪跑论证） | 组织人才 · 信息流 |
-| SINTEF数字改善-数字看板从改善引擎变哑屏 | 同一批系统连上日常问题解决则创造价值，领导注意力一撤即退化成哑屏（数字化可逆性实证） | 日常管理 · 信息流 |
-| 丰田北美能力稀释与自立 | 赢了二十年被撤脚手架；\"没有问题才是最大的问题\ | 组织人才 · 信息流 |
-| 丰田织城三层学习架构 | 模型→数字孪生→真实生活，kaizen 放大到一座城 | 日常管理 · 信息流 |
-| 丹纳赫DBS战略一致性 | 战略定力做成预算制度，不靠老板意志力 | 方针管理 · 目标流 |
-| 优衣库面料研发刚性预算 | 库存承压砍什么的排序题 | 方针管理 · 目标流 |
-| 富士康刀具寿命预测 | 数据界的 JIT：先定义问题，每周期只采 1 秒 | 日常管理 · 信息流 |
-| 特斯拉过度自动化-人类被低估了 | 焊接喷涂50年前即无人化、总装至今靠人；Musk认错\"humans are underrated\"（AI人机边界判定尺） | 日常管理 · 流程流 |
-| 美的T+3战略聚焦 | 转型第一刀是减法：保留/优化/淘汰 | 方针管理 · 目标流 |
-
----
-
-## 只想要完整案例？
-
-每则实战案例的**现场背景、当时的真实数据、动作顺序、踩过的坑、可复用的表单**，以及经典案例与行业观察的全文，都在拆书会里。
-
-为**费老师拆书会**内容。关注公众号「百费待兴」，后台回复「拆书会」。

@@ -1673,8 +1673,253 @@ $letter-flap: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' view
   }
 }
 
+// ---------- TOOL / CASE 单表目录 ----------
+// 桌面端是一张可扫读的资产台账；移动端保留同一张表的数据结构，逐行重排成卡片。
+.asset-catalog-page {
+  --catalog-accent: #657b6a;
+  --catalog-wash: color-mix(in srgb, var(--catalog-accent) 9%, var(--light));
+
+  &.case-catalog-page {
+    --catalog-accent: #8b7489;
+  }
+
+  .catalog-hero {
+    margin: 0 0 1.8rem;
+    padding: 0.5rem 0 1.35rem;
+    border-bottom: 2px solid var(--catalog-accent);
+
+    .eyebrow {
+      margin: 0 0 0.55rem;
+      color: var(--catalog-accent);
+      font-family: var(--codeFont);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: $serif;
+      font-size: clamp(2rem, 4vw, 3.35rem);
+      letter-spacing: -0.035em;
+    }
+
+    > p:last-child {
+      max-width: 52rem;
+      margin: 0.75rem 0 0;
+      color: var(--darkgray);
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+  }
+
+  .catalog-table-wrap {
+    width: 100%;
+    overflow: visible;
+  }
+
+  .asset-catalog {
+    width: 100%;
+    margin: 0;
+    table-layout: fixed;
+    border-collapse: collapse;
+
+    th,
+    td {
+      border: 0;
+      border-bottom: 1px solid var(--lightgray);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      padding: 0.7rem 0.75rem;
+      background: var(--catalog-wash);
+      color: var(--dark);
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      line-height: 1.45;
+    }
+
+    td {
+      padding: 1rem 0.75rem;
+      color: var(--darkgray);
+      font-size: 0.82rem;
+      line-height: 1.65;
+      overflow-wrap: anywhere;
+    }
+
+    th:nth-child(1) { width: 21%; }
+    th:nth-child(2) { width: 34%; }
+    th:nth-child(3) { width: 27%; }
+    th:nth-child(4) { width: 18%; }
+
+    tbody tr:hover {
+      background: color-mix(in srgb, var(--catalog-accent) 4%, transparent);
+    }
+  }
+
+  .catalog-object {
+    display: grid;
+    gap: 0.35rem;
+
+    code {
+      width: fit-content;
+      padding: 0.08rem 0.3rem;
+      border: 1px solid color-mix(in srgb, var(--catalog-accent) 38%, transparent);
+      border-radius: 2px;
+      background: transparent;
+      color: var(--catalog-accent);
+      font-size: 0.68rem;
+      font-weight: 700;
+    }
+
+    strong {
+      color: var(--dark);
+      font-family: $serif;
+      font-size: 1rem;
+      line-height: 1.45;
+    }
+  }
+
+  .catalog-intro,
+  .catalog-highlight {
+    margin: 0;
+
+    span {
+      display: inline-block;
+      min-width: 2.35rem;
+      margin-right: 0.35rem;
+      color: var(--catalog-accent);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+  }
+
+  .catalog-highlight {
+    margin-top: 0.35rem;
+    color: var(--dark);
+  }
+
+  .catalog-chips,
+  .catalog-books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.32rem;
+  }
+
+  .catalog-chips .term-chip,
+  .catalog-book {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.25rem;
+    padding: 0.22rem 0.38rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 2px;
+    background: var(--light);
+    color: var(--darkgray);
+    font-size: 0.7rem;
+    line-height: 1.4;
+    text-decoration: none;
+  }
+
+  .catalog-chips .term-chip:hover {
+    border-color: var(--catalog-accent);
+    color: var(--catalog-accent);
+  }
+
+  .catalog-chips code,
+  .catalog-book code {
+    padding: 0;
+    background: transparent;
+    color: var(--catalog-accent);
+    font-size: 0.64rem;
+    white-space: nowrap;
+  }
+
+  .catalog-footnote {
+    margin-top: 1.5rem;
+    padding: 1rem 1.15rem;
+    border-left: 3px solid var(--catalog-accent);
+    background: var(--catalog-wash);
+
+    strong {
+      color: var(--dark);
+      font-family: $serif;
+    }
+
+    p {
+      margin: 0.25rem 0 0;
+      color: var(--darkgray);
+      font-size: 0.86rem;
+      line-height: 1.7;
+    }
+  }
+}
+
 // ---------- 移动端 ----------
 @media all and ($mobile) {
+  .asset-catalog-page {
+    .catalog-hero {
+      margin-bottom: 1rem;
+    }
+
+    .asset-catalog,
+    .asset-catalog tbody,
+    .asset-catalog tr,
+    .asset-catalog td {
+      display: block;
+      width: 100%;
+    }
+
+    .asset-catalog thead {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+    }
+
+    .asset-catalog tr {
+      margin-bottom: 0.85rem;
+      padding: 0.85rem 0.9rem;
+      border: 1px solid var(--lightgray);
+      border-top: 3px solid var(--catalog-accent);
+      border-radius: 3px;
+      background: var(--light);
+    }
+
+    .asset-catalog td {
+      padding: 0.65rem 0;
+      border-bottom: 1px dashed var(--lightgray);
+    }
+
+    .asset-catalog td:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    .asset-catalog td::before {
+      display: block;
+      margin-bottom: 0.35rem;
+      color: var(--catalog-accent);
+      content: attr(data-label);
+      font-size: 0.64rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+    }
+
+    .asset-catalog td:first-child {
+      padding-top: 0;
+    }
+
+    .asset-catalog td:first-child::before {
+      display: none;
+    }
+  }
+
   .home-hero h1 {
     font-size: 1.95rem;
   }
@@ -1726,5 +1971,21 @@ $letter-flap: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' view
   .spine:hover,
   .home-card:hover {
     transform: none;
+  }
+}
+
+// Quartz 默认给所有表格加 1rem 外边距；资产总表自行管理间距，避免手机端右溢出。
+.asset-catalog-page .table-container > .asset-catalog {
+  margin: 0;
+  padding: 0;
+}
+
+@media all and ($mobile) {
+  .asset-catalog-page .table-container { overflow: visible; }
+  .asset-catalog-page .asset-catalog,
+  .asset-catalog-page .asset-catalog tr,
+  .asset-catalog-page .asset-catalog td {
+    box-sizing: border-box;
+    min-width: 0;
   }
 }
