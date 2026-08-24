@@ -1,14 +1,14 @@
 ---
 title: 精益工具库
 description: "正式七本拆书中提炼的精益工具总表，含作用、亮点、关联术语与来源书"
-date: 2026-08-19
+date: 2026-08-24
 ---
 
 <div class="asset-catalog-page tool-catalog-page">
 <header class="catalog-hero">
 <p class="eyebrow">TOOL LIBRARY · 把方法拿到现场</p>
 <h1>精益工具库</h1>
-<p>把正式七本拆书里的 <b>48</b> 个工具放进一张总表。先看它能解决什么问题、亮点在哪里，再沿术语和来源书继续追下去。</p>
+<p>把正式七本拆书里的 <b>55</b> 个工具放进一张总表。先看它能解决什么问题、亮点在哪里，再沿术语和来源书继续追下去。</p>
 </header>
 <div class="catalog-table-wrap">
 <table class="asset-catalog">
@@ -303,6 +303,48 @@ date: 2026-08-19
 <td data-label="作用与亮点"><p class="catalog-intro"><span>作用</span>依据《创建有效管理体系》Ch.6制作的培训时间表，用于把原书方法转成可填写动作</p><p class="catalog-highlight"><span>亮点</span>结构清楚，可直接填写、对比并用于复盘</p></td>
 <td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%9F%B9%E8%AE%AD%E6%97%B6%E9%97%B4%E8%A1%A8"><code>TERM-000224</code><span>培训时间表</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%B7%A5%E4%BD%9C%E6%8C%87%E5%AF%BC"><code>TERM-000221</code><span>工作指导</span></a></div></td>
 <td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第007本</code><span>创建有效管理体系</span></span></div></td>
+</tr>
+<tr>
+<td data-label="工具（编号 + 名称）"><div class="catalog-object"><code>TOOL-000079</code><strong>Gemba巡走诊断表</strong></div></td>
+<td data-label="作用与亮点"><p class="catalog-intro"><span>作用</span>把“Gemba巡走诊断表”转成可记录、可讨论、可复盘的现场工具</p><p class="catalog-highlight"><span>亮点</span>检查路径短，适合快速自检和现场确认</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%BA"><code>TERM-000157</code><span>现场</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="工具（编号 + 名称）"><div class="catalog-object"><code>TOOL-000080</code><strong>改善活动选择表</strong></div></td>
+<td data-label="作用与亮点"><p class="catalog-intro"><span>作用</span>把“改善活动选择表”转成可记录、可讨论、可复盘的现场工具</p><p class="catalog-highlight"><span>亮点</span>把抽象方法变成一张可以马上使用的工作表</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%BA"><code>TERM-000157</code><span>现场</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="工具（编号 + 名称）"><div class="catalog-object"><code>TOOL-000081</code><strong>A3项目计划表</strong></div></td>
+<td data-label="作用与亮点"><p class="catalog-intro"><span>作用</span>把“A3项目计划表”转成可记录、可讨论、可复盘的现场工具</p><p class="catalog-highlight"><span>亮点</span>结构清楚，可直接填写、对比并用于复盘</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%BA"><code>TERM-000157</code><span>现场</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="工具（编号 + 名称）"><div class="catalog-object"><code>TOOL-000082</code><strong>劳动力轮岗计划</strong></div></td>
+<td data-label="作用与亮点"><p class="catalog-intro"><span>作用</span>把“劳动力轮岗计划”转成可记录、可讨论、可复盘的现场工具</p><p class="catalog-highlight"><span>亮点</span>结构清楚，可直接填写、对比并用于复盘</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%BA"><code>TERM-000157</code><span>现场</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="工具（编号 + 名称）"><div class="catalog-object"><code>TOOL-000083</code><strong>技能矩阵</strong></div></td>
+<td data-label="作用与亮点"><p class="catalog-intro"><span>作用</span>把“技能矩阵”转成可记录、可讨论、可复盘的现场工具</p><p class="catalog-highlight"><span>亮点</span>把讨论过程可视化，适合团队共创和对齐</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%AF%E8%A7%86%E5%8C%96%E7%AE%A1%E7%90%86"><code>TERM-000070</code><span>可视化管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%AF%8F%E6%97%A5%E7%AE%A1%E7%90%86"><code>TERM-000142</code><span>每日管理</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%8E%B0%E5%9C%BA"><code>TERM-000157</code><span>现场</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E9%A2%86%E5%AF%BC%E8%80%85%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000203</code><span>领导者标准作业</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第003本</code><span>创建精益文化</span></span></div></td>
+</tr>
+<tr>
+<td data-label="工具（编号 + 名称）"><div class="catalog-object"><code>TOOL-000084</code><strong>精益部署方式对照表</strong></div></td>
+<td data-label="作用与亮点"><p class="catalog-intro"><span>作用</span>把“精益部署方式对照表”转成可记录、可讨论、可复盘的现场工具</p><p class="catalog-highlight"><span>亮点</span>把抽象方法变成一张可以马上使用的工作表</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/pdca%E5%BE%AA%E7%8E%AF"><code>TERM-000026</code><span>PDCA循环</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%8C%E8%BD%A8pdca"><code>TERM-000065</code><span>双轨PDCA</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%9B%AE%E6%A0%87%E7%8A%B6%E6%80%81"><code>TERM-000162</code><span>目标状态</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%BB%84%E7%BB%87%E7%86%B5%E5%A2%9E"><code>TERM-000173</code><span>组织熵增</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第006本</code><span>丰田持续改善之道：战略与运营卓越的连接</span></span></div></td>
+</tr>
+<tr>
+<td data-label="工具（编号 + 名称）"><div class="catalog-object"><code>TOOL-000085</code><strong>审核与过程检查对照表</strong></div></td>
+<td data-label="作用与亮点"><p class="catalog-intro"><span>作用</span>把“审核与过程检查对照表”转成可记录、可讨论、可复盘的现场工具</p><p class="catalog-highlight"><span>亮点</span>检查路径短，适合快速自检和现场确认</p></td>
+<td data-label="关联术语"><div class="catalog-chips"><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/pdca%E5%BE%AA%E7%8E%AF"><code>TERM-000026</code><span>PDCA循环</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E5%8F%8C%E8%BD%A8pdca"><code>TERM-000065</code><span>双轨PDCA</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E6%A0%87%E5%87%86%E4%BD%9C%E4%B8%9A"><code>TERM-000134</code><span>标准作业</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%9B%AE%E6%A0%87%E7%8A%B6%E6%80%81"><code>TERM-000162</code><span>目标状态</span></a><a class="term-chip" href="https://shadowfei.github.io/shadowfei-garden/lean/%E6%9C%AF%E8%AF%AD/%E7%BB%84%E7%BB%87%E7%86%B5%E5%A2%9E"><code>TERM-000173</code><span>组织熵增</span></a></div></td>
+<td data-label="来源书"><div class="catalog-books"><span class="catalog-book"><code>第006本</code><span>丰田持续改善之道：战略与运营卓越的连接</span></span></div></td>
 </tr>
 </tbody></table>
 </div>

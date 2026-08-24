@@ -1,7 +1,7 @@
 ---
 title: 精益案例库
 description: "正式七本拆书中提炼的管理案例总表，含背景、亮点、关联术语与来源书"
-date: 2026-08-19
+date: 2026-08-24
 ---
 
 <div class="asset-catalog-page case-catalog-page">

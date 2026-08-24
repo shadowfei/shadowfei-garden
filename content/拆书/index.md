@@ -1,7 +1,7 @@
 ---
 title: 费老师拆书
 description: "费老师读厚拆薄百本经典精益与数字化管理书籍，结算成可直接使用的知识资产"
-date: 2026-08-17
+date: 2026-08-24
 ---
 
 <div class="book-ledger">
@@ -32,7 +32,7 @@ date: 2026-08-17
 </summary>
 <div class="book-detail">
 <section class="asset-block models">
-<h3><span>MODEL</span>模型图 · 3</h3><ul><li>方针管理展开图</li><li>评估系统汇总</li><li>ROA价值树</li></ul>
+<h3><span>MODEL</span>模型图 · 3</h3><ul><li>方针管理展开图｜原书模型忠实重绘</li><li>评估系统汇总｜原书模型忠实重绘</li><li>ROA价值树｜原书模型忠实重绘</li></ul>
 </section>
 <section class="asset-block tools">
 <h3><span>TOOL</span>表单与工具 · 7</h3><ul class="id-list"><li><code>TOOL-000001</code><span>KPI树分层指标表</span></li><li><code>TOOL-000002</code><span>NUMMI互信互责清单</span></li><li><code>TOOL-000003</code><span>互信九行动自评</span></li><li><code>TOOL-000004</code><span>年度方针子陈述表</span></li><li><code>TOOL-000005</code><span>提案制度登记跟踪</span></li><li><code>TOOL-000006</code><span>管理能力要求评估</span></li><li><code>TOOL-000007</code><span>精益之旅排序矩阵</span></li></ul>
@@ -49,7 +49,7 @@ date: 2026-08-17
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000013</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000001</code> 《欢迎问题，收获成功》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span>
+<span class="product-label">单书产品</span><span><code>PACK-000001</code> 《欢迎问题，收获成功》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/001-%E6%AC%A2%E8%BF%8E%E9%97%AE%E9%A2%98%E6%94%B6%E8%8E%B7%E6%88%90%E5%8A%9F/">读书笔记 ↗</a>
 </footer>
 </div>
 </details>
@@ -73,7 +73,7 @@ date: 2026-08-17
 </summary>
 <div class="book-detail">
 <section class="asset-block models">
-<h3><span>MODEL</span>模型图 · 6</h3><ul><li>参与方程式GTS6E3DNA</li><li>文化链</li><li>8步TBP对应PDCA</li><li>多层级差距分解</li><li>读A3倒推</li><li>两种差距</li></ul>
+<h3><span>MODEL</span>模型图 · 6</h3><ul><li>参与方程式GTS6E3DNA｜费老师整合图</li><li>文化链｜原书模型忠实重绘</li><li>8步TBP对应PDCA｜原书模型忠实重绘</li><li>多层级差距分解｜原书模型忠实重绘</li><li>读A3倒推｜原书模型忠实重绘</li><li>两种差距｜费老师整合图</li></ul>
 </section>
 <section class="asset-block tools">
 <h3><span>TOOL</span>表单与工具 · 7</h3><ul class="id-list"><li><code>TOOL-000008</code><span>DAMI标准状态看板</span></li><li><code>TOOL-000009</code><span>GembaWalk检查表</span></li><li><code>TOOL-000010</code><span>多能工训练表</span></li><li><code>TOOL-000011</code><span>实施计划四W</span></li><li><code>TOOL-000012</code><span>沟通进度表</span></li><li><code>TOOL-000071</code><span>A3问题解决模板</span></li><li><code>TOOL-000072</code><span>五问法根因分析</span></li></ul>
@@ -90,7 +90,7 @@ date: 2026-08-17
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000014</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000002</code> 《丰田参与方程式》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span>
+<span class="product-label">单书产品</span><span><code>PACK-000002</code> 《丰田参与方程式》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/001-%E6%AC%A2%E8%BF%8E%E9%97%AE%E9%A2%98%E6%94%B6%E8%8E%B7%E6%88%90%E5%8A%9F/">读书笔记 ↗</a>
 </footer>
 </div>
 </details>
@@ -103,8 +103,8 @@ date: 2026-08-17
 </div>
 <p class="book-line book-core">提出精益管理系统四要素：领导者标准作业、可视化管理、日常问责和纪律，解决“工具做完又退回去”。</p>
 <div class="book-line asset-rail">
-<span><b>2</b> 模型图</span>
-<span><b>6</b> 工具</span>
+<span><b>4</b> 模型图</span>
+<span><b>11</b> 工具</span>
 <span><b>9</b> 案例</span>
 <span><b>13</b> 书源术语</span>
 <span><b>13</b> 资产术语</span>
@@ -114,10 +114,10 @@ date: 2026-08-17
 </summary>
 <div class="book-detail">
 <section class="asset-block models">
-<h3><span>MODEL</span>模型图 · 2</h3><ul><li>精益管理四要素汽车隐喻</li><li>精益管理闭环</li></ul>
+<h3><span>MODEL</span>模型图 · 4</h3><ul><li>精益管理四要素汽车隐喻｜原书模型忠实重绘</li><li>精益管理闭环｜原书模型忠实重绘</li><li>稳定与改善循环｜原书模型忠实重绘</li><li>领导者标准作业跨层重叠｜原书模型忠实重绘</li></ul>
 </section>
 <section class="asset-block tools">
-<h3><span>TOOL</span>表单与工具 · 6</h3><ul class="id-list"><li><code>TOOL-000013</code><span>出勤矩阵</span></li><li><code>TOOL-000014</code><span>生产节拍跟踪表</span></li><li><code>TOOL-000015</code><span>精益管理评估表</span></li><li><code>TOOL-000016</code><span>精益领导力维度评估</span></li><li><code>TOOL-000017</code><span>顾问边界对照表</span></li><li><code>TOOL-000018</code><span>领导者标准作业表</span></li></ul>
+<h3><span>TOOL</span>表单与工具 · 11</h3><ul class="id-list"><li><code>TOOL-000013</code><span>出勤矩阵</span></li><li><code>TOOL-000014</code><span>生产节拍跟踪表</span></li><li><code>TOOL-000015</code><span>精益管理评估表</span></li><li><code>TOOL-000016</code><span>精益领导力维度评估</span></li><li><code>TOOL-000017</code><span>顾问边界对照表</span></li><li><code>TOOL-000018</code><span>领导者标准作业表</span></li><li><code>TOOL-000079</code><span>Gemba巡走诊断表</span></li><li><code>TOOL-000080</code><span>改善活动选择表</span></li><li><code>TOOL-000081</code><span>A3项目计划表</span></li><li><code>TOOL-000082</code><span>劳动力轮岗计划</span></li><li><code>TOOL-000083</code><span>技能矩阵</span></li></ul>
 </section>
 <section class="asset-block cases">
 <h3><span>CASE</span>案例 · 9</h3><ul class="id-list"><li><code>CASE-000001</code><span>25 万美元的培训，买回来什么？</span></li><li><code>CASE-000020</code><span>两周解决十二年的老问题</span></li><li><code>CASE-000026</code><span>为了 95%，把丢了 2 台的节拍涂成绿色</span></li><li><code>CASE-000028</code><span>休假归来：救火两天，不如守标准作业一天</span></li><li><code>CASE-000047</code><span>心脏导管室：六周消除 50 多处延迟源</span></li><li><code>CASE-000054</code><span>精益急诊科：两年建成，两年清零</span></li><li><code>CASE-000055</code><span>结构化现场巡走，破了高管的冰</span></li><li><code>CASE-000059</code><span>把观察间隔砍一半，达成率掉了 20 个点</span></li><li><code>CASE-000060</code><span>跪在成品区补装配的主管</span></li></ul>
@@ -131,7 +131,7 @@ date: 2026-08-17
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000015</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000003</code> 《创建精益文化》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span>
+<span class="product-label">单书产品</span><span><code>PACK-000003</code> 《创建精益文化》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/001-%E6%AC%A2%E8%BF%8E%E9%97%AE%E9%A2%98%E6%94%B6%E8%8E%B7%E6%88%90%E5%8A%9F/">读书笔记 ↗</a>
 </footer>
 </div>
 </details>
@@ -155,7 +155,7 @@ date: 2026-08-17
 </summary>
 <div class="book-detail">
 <section class="asset-block models">
-<h3><span>MODEL</span>模型图 · 2</h3><ul><li>三大要素块</li><li>援助链时限机制</li></ul>
+<h3><span>MODEL</span>模型图 · 2</h3><ul><li>三大要素块｜费老师整合图</li><li>援助链时限机制｜费老师整合图</li></ul>
 </section>
 <section class="asset-block tools">
 <h3><span>TOOL</span>表单与工具 · 15</h3><ul class="id-list"><li><code>TOOL-000019</code><span>PDC问题数据对策</span></li><li><code>TOOL-000020</code><span>会议纪律检查表</span></li><li><code>TOOL-000021</code><span>健康度自检</span></li><li><code>TOOL-000022</code><span>健康度自检清单</span></li><li><code>TOOL-000023</code><span>四类问题分类练习</span></li><li><code>TOOL-000024</code><span>援助链设计</span></li><li><code>TOOL-000025</code><span>日常管理看板设计</span></li><li><code>TOOL-000026</code><span>晨会标准流程</span></li><li><code>TOOL-000027</code><span>目标承诺表</span></li><li><code>TOOL-000028</code><span>目标汇总</span></li><li><code>TOOL-000029</code><span>管控指标看板</span></li><li><code>TOOL-000030</code><span>责任行动表</span></li><li><code>TOOL-000031</code><span>问题四象限</span></li><li><code>TOOL-000071</code><span>A3问题解决模板</span></li><li><code>TOOL-000072</code><span>五问法根因分析</span></li></ul>
@@ -196,7 +196,7 @@ date: 2026-08-17
 </summary>
 <div class="book-detail">
 <section class="asset-block models">
-<h3><span>MODEL</span>模型图 · 1</h3><ul><li>Dantotsu质量改善路径</li></ul>
+<h3><span>MODEL</span>模型图 · 1</h3><ul><li>Dantotsu质量改善路径｜费老师整合图</li></ul>
 </section>
 <section class="asset-block tools">
 <h3><span>TOOL</span>表单与工具 · 4</h3><ul class="id-list"><li><code>TOOL-000032</code><span>4M变化点管理表</span></li><li><code>TOOL-000033</code><span>8步复发防止表</span></li><li><code>TOOL-000034</code><span>索赔晨会表</span></li><li><code>TOOL-000035</code><span>质量管理板</span></li></ul>
@@ -213,7 +213,7 @@ date: 2026-08-17
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000017</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000005</code> 《丰田式Dantotsu质量改善》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span>
+<span class="product-label">单书产品</span><span><code>PACK-000005</code> 《丰田式Dantotsu质量改善》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/004-%E6%97%A5%E5%B8%B8%E7%AE%A1%E7%90%86-%E6%89%A7%E8%A1%8C%E6%88%98%E7%95%A5/">读书笔记 ↗</a>
 </footer>
 </div>
 </details>
@@ -227,7 +227,7 @@ date: 2026-08-17
 <p class="book-line book-core">把战略目的、现场改善与人才成长接成长期学习系统；每个改善项目同时承担业务目的和人才发展目的。</p>
 <div class="book-line asset-rail">
 <span><b>4</b> 模型图</span>
-<span><b>5</b> 工具</span>
+<span><b>7</b> 工具</span>
 <span><b>6</b> 案例</span>
 <span><b>16</b> 书源术语</span>
 <span><b>15</b> 资产术语</span>
@@ -237,10 +237,10 @@ date: 2026-08-17
 </summary>
 <div class="book-detail">
 <section class="asset-block models">
-<h3><span>MODEL</span>模型图 · 4</h3><ul><li>丰田模式4P</li><li>PDCA流程与人才双轨</li><li>真北与目标状态阶梯</li><li>对抗组织熵增</li></ul>
+<h3><span>MODEL</span>模型图 · 4</h3><ul><li>丰田模式4P｜原书模型忠实重绘</li><li>PDCA流程与人才双轨｜原书模型忠实重绘</li><li>真北与目标状态阶梯｜原书模型忠实重绘</li><li>对抗组织熵增｜原书模型忠实重绘</li></ul>
 </section>
 <section class="asset-block tools">
-<h3><span>TOOL</span>表单与工具 · 5</h3><ul class="id-list"><li><code>TOOL-000036</code><span>PDCA学习对照表</span></li><li><code>TOOL-000037</code><span>危机与健康期判断表</span></li><li><code>TOOL-000038</code><span>情境与改变方式选择表</span></li><li><code>TOOL-000039</code><span>标准作业审核卡</span></li><li><code>TOOL-000040</code><span>部署方式选择表</span></li></ul>
+<h3><span>TOOL</span>表单与工具 · 7</h3><ul class="id-list"><li><code>TOOL-000036</code><span>PDCA学习对照表</span></li><li><code>TOOL-000037</code><span>危机与健康期判断表</span></li><li><code>TOOL-000038</code><span>情境与改变方式选择表</span></li><li><code>TOOL-000039</code><span>标准作业审核卡</span></li><li><code>TOOL-000040</code><span>部署方式选择表</span></li><li><code>TOOL-000084</code><span>精益部署方式对照表</span></li><li><code>TOOL-000085</code><span>审核与过程检查对照表</span></li></ul>
 </section>
 <section class="asset-block cases">
 <h3><span>CASE</span>案例 · 6</h3><ul class="id-list"><li><code>CASE-000010</code><span>案例四｜Henry Ford 医疗实验室：质量不是专家项目</span></li><li><code>CASE-000011</code><span>案例五｜NAAS 产品开发：六万美元白板撬动五十亿美元企业</span></li><li><code>CASE-000035</code><span>案例二｜复杂设备企业：五年学会用提前期暴露问题</span></li><li><code>CASE-000046</code><span>案例一｜小船厂球阀区：深学很慢，但结果很硬</span></li><li><code>CASE-000049</code><span>案例六｜核燃料西海岸工厂：七年把强监管变成高标准</span></li><li><code>CASE-000058</code><span>案例三｜西澳铁矿：两年纪录之后，为何仍会衰退</span></li></ul>
@@ -295,7 +295,7 @@ date: 2026-08-17
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000026</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000013</code> 《创建有效管理体系》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span>
+<span class="product-label">单书产品</span><span><code>PACK-000013</code> 《创建有效管理体系》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/006-%E4%B8%B0%E7%94%B0%E6%8C%81%E7%BB%AD%E6%94%B9%E5%96%84%E4%B9%8B%E9%81%93/">读书笔记 ↗</a>
 </footer>
 </div>
 </details>

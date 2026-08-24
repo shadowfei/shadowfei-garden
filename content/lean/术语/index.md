@@ -1,12 +1,12 @@
 ---
 title: 精益数字化术语库
-description: "209 条中文精益与数字化术语，每条写清什么时候用 / 怎么落 / 常见坑"
-date: 2026-08-14
+description: "211 条中文精益与数字化术语，每条写清什么时候用 / 怎么落 / 常见坑"
+date: 2026-08-24
 ---
 
 # 术语库
 
-**209 条**中文术语。每条都写清三件事：**什么时候用 / 怎么落 / 常见坑**——「常见坑」那段是词典里抄不到的，也是最值得先看的。
+**211 条**中文术语。每条都写清三件事：**什么时候用 / 怎么落 / 常见坑**——「常见坑」那段是词典里抄不到的，也是最值得先看的。
 
 中文名没有天然顺序，所以按**英文名首字母**分组排列；想按方法论找，走 [[方法/index|三柱四流]]。
 
@@ -25,6 +25,7 @@ date: 2026-08-14
 <a href="缓冲库存"><b>缓冲库存</b><span>Buffer Stock</span></a>
 <a href="按单生产"><b>按单生产</b><span>Build-to-Order</span></a>
 <a href="BIM"><b>BIM</b><span>Building Information Modeling</span></a>
+<a href="业务本体"><b>业务本体</b><span>Business Ontology</span></a>
 <a href="业财一体化"><b>业财一体化</b><span>Business-Finance Integration</span></a>
 <a href="资本线性化"><b>资本线性化</b><span>Capital Linearity</span></a>
 <a href="Catchball"><b>Catchball</b><span>Catchball</span></a>
@@ -74,6 +75,7 @@ date: 2026-08-14
 <a href="5个为什么"><b>5个为什么</b><span>Five Whys</span></a>
 <a href="固定位置停线系统"><b>固定位置停线系统</b><span>Fixed-Position Stop System</span></a>
 <a href="流水生产"><b>流水生产</b><span>Flow Production</span></a>
+<a href="前沿部署工程师"><b>前沿部署工程师</b><span>Forward Deployed Engineer</span></a>
 <a href="四个M"><b>四个M</b><span>Four Ms</span></a>
 <a href="履约流"><b>履约流</b><span>Fulfillment Stream</span></a>
 <a href="未来状态图"><b>未来状态图</b><span>Future-State Map</span></a>
