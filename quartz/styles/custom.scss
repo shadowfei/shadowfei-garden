@@ -1989,3 +1989,123 @@ $letter-flap: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' view
     min-width: 0;
   }
 }
+
+// 台账书卡展开后，第一条永远是「读拆书笔记」——笔记才是读者真正要看的东西，
+// 资产清单是给自己盘家底的。
+.book-detail .book-note-link {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  margin-bottom: 1rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--book-line);
+  border-left: 3px solid var(--book-orange);
+  border-radius: 3px;
+  background: var(--light);
+  text-decoration: none !important;
+  transition: border-color 0.18s ease, background 0.18s ease;
+
+  &:hover { border-color: var(--book-forest); border-left-color: var(--book-orange); }
+  &:hover .bnl-go i { transform: translateX(3px); }
+
+  .bnl-kind { color: var(--book-blue); font: 700 0.63rem/1 ui-monospace, Consolas, monospace; letter-spacing: 0.1em; }
+  .bnl-title { flex: 1; min-width: 0; color: var(--dark); font-family: $serif; font-size: 0.92rem; line-height: 1.4; }
+  .bnl-go { color: var(--book-orange); font-size: 0.72rem; font-weight: 700; white-space: nowrap; }
+  .bnl-go i { display: inline-block; font-style: normal; transition: transform 0.18s ease; }
+}
+
+@media all and ($mobile) {
+  .book-detail .book-note-link { flex-wrap: wrap; gap: 0.35rem 0.6rem; }
+  .book-detail .book-note-link .bnl-title { flex: 1 0 100%; order: 2; }
+  .book-detail .book-note-link .bnl-go { order: 3; }
+}
+
+// ---------- 拆书笔记索引 ----------
+// 用竖排列表而不是卡片网格：标题是整句钩子（20~30 字），网格会把它挤成三四行。
+.note-index {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin: 1.75rem 0 2.5rem;
+
+  .note-row {
+    display: grid;
+    grid-template-columns: 5.5rem minmax(0, 1fr) auto;
+    gap: 0 1.25rem;
+    align-items: start;
+    padding: 1.05rem 1.15rem;
+    border: 1px solid var(--book-line);
+    border-radius: 4px;
+    background: var(--light);
+    color: var(--darkgray);
+    text-decoration: none !important;
+    transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+
+    &:hover {
+      border-color: var(--book-forest);
+      box-shadow: 0 8px 22px rgba(40, 51, 41, 0.08);
+      transform: translateY(-2px);
+    }
+    &:focus-visible { outline: 3px solid rgba(189, 106, 59, 0.38); outline-offset: 2px; }
+    &:hover .note-go i { transform: translateX(3px); }
+  }
+
+  .note-id {
+    padding-top: 0.15rem;
+    color: var(--book-blue);
+    font: 700 0.68rem/1 ui-monospace, Consolas, monospace;
+    letter-spacing: 0.08em;
+  }
+  .note-body { display: block; min-width: 0; }
+  .note-title {
+    display: block;
+    margin-bottom: 0.3rem;
+    color: var(--dark);
+    font-family: $serif;
+    font-size: 1.05rem;
+    line-height: 1.4;
+  }
+  .note-src {
+    display: block;
+    margin-bottom: 0.45rem;
+    color: var(--book-forest);
+    font-size: 0.73rem;
+    line-height: 1.5;
+  }
+  .note-copy {
+    display: block;
+    color: var(--gray);
+    font-size: 0.78rem;
+    line-height: 1.6;
+  }
+  .note-tags {
+    display: block;
+    margin-top: 0.5rem;
+    color: var(--gray);
+    font: 0.68rem/1.4 ui-monospace, Consolas, monospace;
+    opacity: 0.75;
+  }
+  .note-go {
+    align-self: center;
+    color: var(--book-orange);
+    font-size: 0.75rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .note-go i { display: inline-block; font-style: normal; transition: transform 0.18s ease; }
+}
+
+@media all and ($mobile) {
+  .note-index .note-row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+    padding: 0.9rem;
+  }
+  .note-index .note-go { align-self: start; padding-top: 0.35rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .note-index .note-row { transition: none; }
+  .note-index .note-row:hover { transform: none; }
+  .note-index .note-go i { transition: none; }
+}

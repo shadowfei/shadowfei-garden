@@ -31,6 +31,7 @@ date: 2026-08-24
 </div>
 </summary>
 <div class="book-detail">
+<a class="book-note-link" href="读书笔记/001-欢迎问题收获成功"><span class="bnl-kind">NOTE</span><span class="bnl-title">一家利润暴跌 80% 的公司，凭什么还照发 6 个月奖金？</span><span class="bnl-go">读拆书笔记 <i>→</i></span></a>
 <section class="asset-block models">
 <h3><span>MODEL</span>模型图 · 3</h3><ul><li>方针管理展开图｜原书模型忠实重绘</li><li>评估系统汇总｜原书模型忠实重绘</li><li>ROA价值树｜原书模型忠实重绘</li></ul>
 </section>
@@ -49,7 +50,7 @@ date: 2026-08-24
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000013</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000001</code> 《欢迎问题，收获成功》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/001-%E6%AC%A2%E8%BF%8E%E9%97%AE%E9%A2%98%E6%94%B6%E8%8E%B7%E6%88%90%E5%8A%9F/">读书笔记 ↗</a>
+<span class="product-label">单书产品</span><span><code>PACK-000001</code> 《欢迎问题，收获成功》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="案例集/001-欢迎问题收获成功/">案例集 ↗</a>
 </footer>
 </div>
 </details>
@@ -72,6 +73,7 @@ date: 2026-08-24
 </div>
 </summary>
 <div class="book-detail">
+<a class="book-note-link" href="读书笔记/002-丰田参与方程式"><span class="bnl-kind">NOTE</span><span class="bnl-title">全厂停线一小时，社长走了一英里，就为说声“谢谢”</span><span class="bnl-go">读拆书笔记 <i>→</i></span></a>
 <section class="asset-block models">
 <h3><span>MODEL</span>模型图 · 6</h3><ul><li>参与方程式GTS6E3DNA｜费老师整合图</li><li>文化链｜原书模型忠实重绘</li><li>8步TBP对应PDCA｜原书模型忠实重绘</li><li>多层级差距分解｜原书模型忠实重绘</li><li>读A3倒推｜原书模型忠实重绘</li><li>两种差距｜费老师整合图</li></ul>
 </section>
@@ -90,7 +92,7 @@ date: 2026-08-24
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000014</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000002</code> 《丰田参与方程式》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/001-%E6%AC%A2%E8%BF%8E%E9%97%AE%E9%A2%98%E6%94%B6%E8%8E%B7%E6%88%90%E5%8A%9F/">读书笔记 ↗</a>
+<span class="product-label">单书产品</span><span><code>PACK-000002</code> 《丰田参与方程式》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="案例集/002-丰田参与方程式/">案例集 ↗</a>
 </footer>
 </div>
 </details>
@@ -113,6 +115,7 @@ date: 2026-08-24
 </div>
 </summary>
 <div class="book-detail">
+<a class="book-note-link" href="读书笔记/003-创建精益文化"><span class="bnl-kind">NOTE</span><span class="bnl-title">花两年做成的精益样板间，两年后回去看，什么都没剩下</span><span class="bnl-go">读拆书笔记 <i>→</i></span></a>
 <section class="asset-block models">
 <h3><span>MODEL</span>模型图 · 4</h3><ul><li>精益管理四要素汽车隐喻｜原书模型忠实重绘</li><li>精益管理闭环｜原书模型忠实重绘</li><li>稳定与改善循环｜原书模型忠实重绘</li><li>领导者标准作业跨层重叠｜原书模型忠实重绘</li></ul>
 </section>
@@ -131,7 +134,7 @@ date: 2026-08-24
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000015</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000003</code> 《创建精益文化》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/001-%E6%AC%A2%E8%BF%8E%E9%97%AE%E9%A2%98%E6%94%B6%E8%8E%B7%E6%88%90%E5%8A%9F/">读书笔记 ↗</a>
+<span class="product-label">单书产品</span><span><code>PACK-000003</code> 《创建精益文化》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="案例集/003-创建精益文化/">案例集 ↗</a>
 </footer>
 </div>
 </details>
@@ -154,6 +157,7 @@ date: 2026-08-24
 </div>
 </summary>
 <div class="book-detail">
+<a class="book-note-link" href="读书笔记/004-日常管理-执行战略"><span class="bnl-kind">NOTE</span><span class="bnl-title">一块板子、每天二十分钟，把年初定的目标变成今天就能干的事</span><span class="bnl-go">读拆书笔记 <i>→</i></span></a>
 <section class="asset-block models">
 <h3><span>MODEL</span>模型图 · 2</h3><ul><li>三大要素块｜费老师整合图</li><li>援助链时限机制｜费老师整合图</li></ul>
 </section>
@@ -173,6 +177,7 @@ date: 2026-08-24
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000016</code></span>
 <span class="product-label">单书产品</span><span><code>PACK-000004</code> 《日常管理：执行战略——每天解决问题、培养人》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span>
+<a class="note-link" href="案例集/004-日常管理-执行战略/">案例集 ↗</a>
 </footer>
 </div>
 </details>
@@ -195,6 +200,7 @@ date: 2026-08-24
 </div>
 </summary>
 <div class="book-detail">
+<a class="book-note-link" href="读书笔记/005-丰田式dantotsu质量改善"><span class="bnl-kind">NOTE</span><span class="bnl-title">缺陷降 98%，靠的不是新设备，是车间里一个红箱子</span><span class="bnl-go">读拆书笔记 <i>→</i></span></a>
 <section class="asset-block models">
 <h3><span>MODEL</span>模型图 · 1</h3><ul><li>Dantotsu质量改善路径｜费老师整合图</li></ul>
 </section>
@@ -213,7 +219,7 @@ date: 2026-08-24
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000017</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000005</code> 《丰田式Dantotsu质量改善》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/004-%E6%97%A5%E5%B8%B8%E7%AE%A1%E7%90%86-%E6%89%A7%E8%A1%8C%E6%88%98%E7%95%A5/">读书笔记 ↗</a>
+<span class="product-label">单书产品</span><span><code>PACK-000005</code> 《丰田式Dantotsu质量改善》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="案例集/005-丰田式dantotsu质量改善/">案例集 ↗</a>
 </footer>
 </div>
 </details>
@@ -236,6 +242,7 @@ date: 2026-08-24
 </div>
 </summary>
 <div class="book-detail">
+<a class="book-note-link" href="读书笔记/006-丰田持续改善之道"><span class="bnl-kind">NOTE</span><span class="bnl-title">墙上的板子还在，人已经不看了——改善成果为什么留不住</span><span class="bnl-go">读拆书笔记 <i>→</i></span></a>
 <section class="asset-block models">
 <h3><span>MODEL</span>模型图 · 4</h3><ul><li>丰田模式4P｜原书模型忠实重绘</li><li>PDCA流程与人才双轨｜原书模型忠实重绘</li><li>真北与目标状态阶梯｜原书模型忠实重绘</li><li>对抗组织熵增｜原书模型忠实重绘</li></ul>
 </section>
@@ -255,6 +262,7 @@ date: 2026-08-24
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000018</code></span>
 <span class="product-label">单书产品</span><span><code>PACK-000006</code> 《丰田持续改善之道：战略与运营卓越的连接》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span>
+<a class="note-link" href="案例集/006-丰田持续改善之道/">案例集 ↗</a>
 </footer>
 </div>
 </details>
@@ -277,6 +285,7 @@ date: 2026-08-24
 </div>
 </summary>
 <div class="book-detail">
+<a class="book-note-link" href="读书笔记/007-创建有效管理体系"><span class="bnl-kind">NOTE</span><span class="bnl-title">工具一样没少，为什么装在一起还是不转？</span><span class="bnl-go">读拆书笔记 <i>→</i></span></a>
 <section class="asset-block models">
 <h3><span>MODEL</span>模型图 · 3</h3><ul><li>管理系统四维</li><li>TWI与改善套路整合</li><li>复杂性情境中的TWI与改善套路</li></ul>
 </section>
@@ -295,7 +304,7 @@ date: 2026-08-24
 </section>
 <footer class="product-line">
 <span class="registry-ref"><span>资产编号</span><code>BOOK-000026</code></span>
-<span class="product-label">单书产品</span><span><code>PACK-000013</code> 《创建有效管理体系》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="https://shadowfei.github.io/shadowfei-garden/%E6%8B%86%E4%B9%A6/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/006-%E4%B8%B0%E7%94%B0%E6%8C%81%E7%BB%AD%E6%94%B9%E5%96%84%E4%B9%8B%E9%81%93/">读书笔记 ↗</a>
+<span class="product-label">单书产品</span><span><code>PACK-000013</code> 《创建有效管理体系》课件与工具包<span class="product-arrow">→</span><code>SKU-000002</code> 单本拆书课件与工具包</span><a class="note-link" href="案例集/007-创建有效管理体系/">案例集 ↗</a>
 </footer>
 </div>
 </details>
@@ -303,7 +312,8 @@ date: 2026-08-24
 <section class="public-portals">
 <header><p class="eyebrow">OPEN LIBRARY · 公开内容</p><h2>已经能公开拿到的</h2><p>不看数量，直接进入内容。每个入口都通往已发布的独立页面。</p></header>
 <div class="public-portal-grid">
-<div class="public-portal is-pending"><span class="portal-kind">NOTE</span><strong class="portal-title">读书笔记</strong><span class="portal-copy">公众号发布并完成脱敏后，同步到每本书卡片。</span><span class="portal-state">等待首篇公开</span></div>
+<a class="public-portal" href="读书笔记/"><span class="portal-kind">NOTE</span><strong class="portal-title">读书笔记</strong><span class="portal-copy">每本书一篇，读厚拆薄，落到当月能动手的动作上。</span><span class="portal-action">7 篇已公开 <i>→</i></span></a>
+<a class="public-portal" href="案例集/"><span class="portal-kind">CASE</span><strong class="portal-title">拆书案例集</strong><span class="portal-copy">彩蛋篇，书里的案例照原书摘录，四段齐、页码可核。</span><span class="portal-action">42 个案例 <i>→</i></span></a>
 <a class="public-portal" href="../图表/"><span class="portal-kind">MODEL</span><strong class="portal-title">模型图</strong><span class="portal-copy">中英双语重绘，把书中的关键结构一眼看懂。</span><span class="portal-action">马上看 <i>→</i></span></a>
 <a class="public-portal" href="../工具/"><span class="portal-kind">TOOL</span><strong class="portal-title">工具与表单</strong><span class="portal-copy">按编号查看表单名称、用途、关联术语与出处。</span><span class="portal-action">马上看 <i>→</i></span></a>
 <a class="public-portal" href="../案例/"><span class="portal-kind">CASE</span><strong class="portal-title">费老师实操案例</strong><span class="portal-copy">从真实现场出发，看方法怎样落到具体问题。</span><span class="portal-action">马上看 <i>→</i></span></a>
