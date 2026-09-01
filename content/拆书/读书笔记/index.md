@@ -15,7 +15,7 @@ date: 2026-08-24
 
 <div class="note-index">
 
-<a class="note-row" href="001-欢迎问题收获成功">
+<a class="note-row" href="拆书/读书笔记/001-欢迎问题收获成功">
 <span class="note-id">第001本</span>
 <span class="note-body">
 <strong class="note-title">一家利润暴跌 80% 的公司，凭什么还照发 6 个月奖金？</strong>
@@ -26,7 +26,7 @@ date: 2026-08-24
 <span class="note-go">读全文 <i>→</i></span>
 </a>
 
-<a class="note-row" href="002-丰田参与方程式">
+<a class="note-row" href="拆书/读书笔记/002-丰田参与方程式">
 <span class="note-id">第002本</span>
 <span class="note-body">
 <strong class="note-title">全厂停线一小时，社长走了一英里，就为说声"谢谢"</strong>
@@ -37,7 +37,7 @@ date: 2026-08-24
 <span class="note-go">读全文 <i>→</i></span>
 </a>
 
-<a class="note-row" href="003-创建精益文化">
+<a class="note-row" href="拆书/读书笔记/003-创建精益文化">
 <span class="note-id">第003本</span>
 <span class="note-body">
 <strong class="note-title">花两年做成的精益样板间，两年后回去看，什么都没剩下</strong>
@@ -48,7 +48,7 @@ date: 2026-08-24
 <span class="note-go">读全文 <i>→</i></span>
 </a>
 
-<a class="note-row" href="004-日常管理-执行战略">
+<a class="note-row" href="拆书/读书笔记/004-日常管理-执行战略">
 <span class="note-id">第004本</span>
 <span class="note-body">
 <strong class="note-title">一块板子、每天二十分钟，把年初定的目标变成今天就能干的事</strong>
@@ -59,7 +59,7 @@ date: 2026-08-24
 <span class="note-go">读全文 <i>→</i></span>
 </a>
 
-<a class="note-row" href="005-丰田式dantotsu质量改善">
+<a class="note-row" href="拆书/读书笔记/005-丰田式dantotsu质量改善">
 <span class="note-id">第005本</span>
 <span class="note-body">
 <strong class="note-title">缺陷降 98%，靠的不是新设备，是车间里一个红箱子</strong>
@@ -70,7 +70,7 @@ date: 2026-08-24
 <span class="note-go">读全文 <i>→</i></span>
 </a>
 
-<a class="note-row" href="006-丰田持续改善之道">
+<a class="note-row" href="拆书/读书笔记/006-丰田持续改善之道">
 <span class="note-id">第006本</span>
 <span class="note-body">
 <strong class="note-title">墙上的板子还在，人已经不看了——改善成果为什么留不住</strong>
@@ -81,7 +81,7 @@ date: 2026-08-24
 <span class="note-go">读全文 <i>→</i></span>
 </a>
 
-<a class="note-row" href="007-创建有效管理体系">
+<a class="note-row" href="拆书/读书笔记/007-创建有效管理体系">
 <span class="note-id">第007本</span>
 <span class="note-body">
 <strong class="note-title">工具一样没少，为什么装在一起还是不转？</strong>

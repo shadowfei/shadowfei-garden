@@ -15,7 +15,7 @@ date: 2026-08-25
 
 <div class="note-index">
 
-<a class="note-row" href="001-欢迎问题收获成功">
+<a class="note-row" href="拆书/案例集/001-欢迎问题收获成功">
 <span class="note-id">第001本</span>
 <span class="note-body">
 <strong class="note-title">同一批工人，同一座工厂：通用关掉的厂，丰田为什么盘活了</strong>
@@ -26,7 +26,7 @@ date: 2026-08-25
 <span class="note-go">看案例 <i>→</i></span>
 </a>
 
-<a class="note-row" href="002-丰田参与方程式">
+<a class="note-row" href="拆书/案例集/002-丰田参与方程式">
 <span class="note-id">第002本</span>
 <span class="note-body">
 <strong class="note-title">那个 2 秒的提案，被日本班组加倍成了 4 秒</strong>
@@ -37,7 +37,7 @@ date: 2026-08-25
 <span class="note-go">看案例 <i>→</i></span>
 </a>
 
-<a class="note-row" href="003-创建精益文化">
+<a class="note-row" href="拆书/案例集/003-创建精益文化">
 <span class="note-id">第003本</span>
 <span class="note-body">
 <strong class="note-title">涂绿的 28 台、跪地补装配的主管：十个案例全摘</strong>
@@ -48,7 +48,7 @@ date: 2026-08-25
 <span class="note-go">看案例 <i>→</i></span>
 </a>
 
-<a class="note-row" href="004-日常管理-执行战略">
+<a class="note-row" href="拆书/案例集/004-日常管理-执行战略">
 <span class="note-id">第004本</span>
 <span class="note-body">
 <strong class="note-title">创始人突然去世，接手时 50% 的库存已经过时</strong>
@@ -59,7 +59,7 @@ date: 2026-08-25
 <span class="note-go">看案例 <i>→</i></span>
 </a>
 
-<a class="note-row" href="005-丰田式dantotsu质量改善">
+<a class="note-row" href="拆书/案例集/005-丰田式dantotsu质量改善">
 <span class="note-id">第005本</span>
 <span class="note-body">
 <strong class="note-title">没扩厂房、没加人，他把出货做到了 5.5 倍</strong>
@@ -70,7 +70,7 @@ date: 2026-08-25
 <span class="note-go">看案例 <i>→</i></span>
 </a>
 
-<a class="note-row" href="006-丰田持续改善之道">
+<a class="note-row" href="拆书/案例集/006-丰田持续改善之道">
 <span class="note-id">第006本</span>
 <span class="note-body">
 <strong class="note-title">一块白板 6 万美元，撬动了 50 亿的公司</strong>
@@ -81,7 +81,7 @@ date: 2026-08-25
 <span class="note-go">看案例 <i>→</i></span>
 </a>
 
-<a class="note-row" href="007-创建有效管理体系">
+<a class="note-row" href="拆书/案例集/007-创建有效管理体系">
 <span class="note-id">第007本</span>
 <span class="note-body">
 <strong class="note-title">新方法一忙起来就散架，他们给它留了一个出口</strong>

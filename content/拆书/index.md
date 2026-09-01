@@ -312,8 +312,8 @@ date: 2026-08-24
 <section class="public-portals">
 <header><p class="eyebrow">OPEN LIBRARY · 公开内容</p><h2>已经能公开拿到的</h2><p>不看数量，直接进入内容。每个入口都通往已发布的独立页面。</p></header>
 <div class="public-portal-grid">
-<a class="public-portal" href="读书笔记/"><span class="portal-kind">NOTE</span><strong class="portal-title">读书笔记</strong><span class="portal-copy">每本书一篇，读厚拆薄，落到当月能动手的动作上。</span><span class="portal-action">7 篇已公开 <i>→</i></span></a>
-<a class="public-portal" href="案例集/"><span class="portal-kind">CASE</span><strong class="portal-title">拆书案例集</strong><span class="portal-copy">彩蛋篇，书里的案例照原书摘录，四段齐、页码可核。</span><span class="portal-action">42 个案例 <i>→</i></span></a>
+<a class="public-portal" href="拆书/读书笔记/"><span class="portal-kind">NOTE</span><strong class="portal-title">读书笔记</strong><span class="portal-copy">每本书一篇，读厚拆薄，落到当月能动手的动作上。</span><span class="portal-action">7 篇已公开 <i>→</i></span></a>
+<a class="public-portal" href="拆书/案例集/"><span class="portal-kind">CASE</span><strong class="portal-title">拆书案例集</strong><span class="portal-copy">彩蛋篇，书里的案例照原书摘录，四段齐、页码可核。</span><span class="portal-action">42 个案例 <i>→</i></span></a>
 <a class="public-portal" href="../图表/"><span class="portal-kind">MODEL</span><strong class="portal-title">模型图</strong><span class="portal-copy">中英双语重绘，把书中的关键结构一眼看懂。</span><span class="portal-action">马上看 <i>→</i></span></a>
 <a class="public-portal" href="../工具/"><span class="portal-kind">TOOL</span><strong class="portal-title">工具与表单</strong><span class="portal-copy">按编号查看表单名称、用途、关联术语与出处。</span><span class="portal-action">马上看 <i>→</i></span></a>
 <a class="public-portal" href="../案例/"><span class="portal-kind">CASE</span><strong class="portal-title">费老师实操案例</strong><span class="portal-copy">从真实现场出发，看方法怎样落到具体问题。</span><span class="portal-action">马上看 <i>→</i></span></a>

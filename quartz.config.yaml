@@ -303,9 +303,9 @@ plugins:
     enabled: true
     options:
       links:
-        术语库: /lean/术语/
-        表单库: /工具/
-        图解精益: /图表/
+        术语库: /shadowfei-garden/lean/术语/
+        表单库: /shadowfei-garden/工具/
+        图解精益: /shadowfei-garden/图表/
         GitHub: https://github.com/shadowfei
         品牌站: https://shadowfei.github.io
   # 右栏留给板块导航，不放最近笔记（她的原话：不要「最近的笔记」）
